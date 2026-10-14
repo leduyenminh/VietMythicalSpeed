@@ -1,0 +1,16 @@
+{
+  "rates": { "thien": 0.03, "dia": 0.185 },
+  "softPityStart": 0,
+  "softPityStep": 0.06,
+  "hardPity": 100,
+  "tenPullMinRarity": 2,
+  "featuredShare": 0.5,
+  "guaranteeFeaturedAfterLoss": true,
+  "featuredDiaShare": 0.5,
+  "sparkCost": 200,
+  "costPerPull": 150,
+  "dupeFragments": { "thien": 100, "dia": 30, "nhan": 10 },
+  "awakenFragmentCosts": [50, 80, 120, 160, 200],
+  "awakenCoinCosts": [2000, 4000, 8000, 12000, 20000],
+  "maxAwaken": 5
+}

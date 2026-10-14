@@ -1,0 +1,832 @@
+{
+  "realms": [
+    {
+      "id": "vanlac",
+      "color": "#D7263D",
+      "glyph": "雒",
+      "sortOrder": 0,
+      "name": {
+        "vi": "Vạn Lạc",
+        "en": "Van Lac",
+        "zh": "Vạn Lạc",
+        "ja": "Vạn Lạc",
+        "ko": "Vạn Lạc",
+        "es": "Vạn Lạc",
+        "de": "Vạn Lạc",
+        "fi": "Vạn Lạc"
+      },
+      "title": {
+        "vi": "Quê hương của Tốc Sứ",
+        "en": "Home of the Speed Envoys",
+        "zh": "速使的故乡",
+        "ja": "速使のふるさと",
+        "ko": "Tốc Sứ의 고향",
+        "es": "Hogar de los Tốc Sứ",
+        "de": "Heimat der Tốc Sứ",
+        "fi": "Tốc Sứ -lähettiläiden koti"
+      },
+      "desc": {
+        "vi": "Miền đất của trống đồng và rồng mây, nơi nhạc mạch chảy dưới từng dòng sông. Tốc Sứ cưỡi linh thuyền theo tiếng nhạc, cùng các Hoa Tiêu canh giữ mùa màng và lễ hội.",
+        "en": "Land of bronze drums and cloud dragons, where music-veins run beneath every river. Speed Envoys ride spirit vessels along the songs, with Navigators who guard the harvests and the festivals.",
+        "zh": "铜鼓与云龙之地，每条河流之下都奔涌着乐脉。速使驾驭灵舟沿着乐曲飞驰，Hoa Tiêu 们守护着丰收与节庆。",
+        "ja": "銅鼓と雲龍の地。あらゆる川の下を楽脈が流れている。速使は霊舟に乗って歌に沿って駆け、Hoa Tiêu たちは実りと祭りを守っている。",
+        "ko": "청동북과 구름 용의 땅. 모든 강 아래로 악맥이 흐른다. Tốc Sứ는 영혼의 배를 타고 노래를 따라 달리고, Hoa Tiêu들은 수확과 축제를 지킨다.",
+        "es": "Tierra de tambores de bronce y dragones de nube, donde las venas musicales corren bajo cada río. Los Tốc Sứ cabalgan barcos espirituales siguiendo las canciones, junto a los Hoa Tiêu que protegen las cosechas y las fiestas.",
+        "de": "Land der Bronzetrommeln und Wolkendrachen, in dem unter jedem Fluss Musikadern fließen. Die Tốc Sứ reiten auf Geisterbooten den Liedern entlang, gemeinsam mit den Hoa Tiêu, die Ernten und Feste behüten.",
+        "fi": "Pronssirumpujen ja pilvilohikäärmeiden maa, jossa musiikkisuonet virtaavat jokaisen joen alla. Tốc Sứ -lähettiläät ratsastavat henkiveneillä laulujen mukana yhdessä Hoa Tiêu -oppaiden kanssa, jotka suojelevat satoja ja juhlia."
+      },
+      "lore": [
+        {
+          "id": "five_gates",
+          "kind": "place",
+          "name": {
+            "vi": "Ngũ Quan",
+            "en": "The Five Gates",
+            "zh": "五关",
+            "ja": "五関",
+            "ko": "오관",
+            "es": "Las Cinco Puertas",
+            "de": "Die Fünf Tore",
+            "fi": "Viisi porttia"
+          },
+          "text": {
+            "vi": "Năm cổng đá cổ ở rìa Vạn Lạc đóng kín suốt nghìn năm. Khi nhạc mạch dâng tràn, cả năm cổng cùng mở, đưa Tốc Sứ tới những cõi xa.",
+            "en": "Five ancient stone gates on the edges of Van Lac stayed sealed for a thousand years. When the music-veins swelled, all five opened at once, carrying Envoys to faraway realms.",
+            "zh": "Vạn Lạc 边境的五座古老石门封闭了一千年。当乐脉高涨，五关同时开启，把速使带往遥远的国度。",
+            "ja": "Vạn Lạc の果てにある五つの古い石門は、千年のあいだ閉ざされていた。楽脈があふれた時、五つの門がいっせいに開き、速使を遠い国々へと運んだ。",
+            "ko": "Vạn Lạc의 끝자락에 있는 다섯 개의 오래된 돌문은 천 년 동안 닫혀 있었다. 악맥이 넘쳐흐르자 다섯 문이 한꺼번에 열려 Tốc Sứ들을 먼 나라로 데려갔다.",
+            "es": "Cinco antiguas puertas de piedra en los confines de Vạn Lạc permanecieron selladas durante mil años. Cuando las venas musicales crecieron, las cinco se abrieron a la vez y llevaron a los Tốc Sứ a reinos lejanos.",
+            "de": "Fünf uralte Steintore an den Rändern von Vạn Lạc blieben tausend Jahre lang versiegelt. Als die Musikadern anschwollen, öffneten sich alle fünf zugleich und trugen die Tốc Sứ in ferne Reiche.",
+            "fi": "Vạn Lạcin laidoilla olevat viisi muinaista kiviporttia pysyivät sinetöityinä tuhat vuotta. Kun musiikkisuonet tulvivat, kaikki viisi aukesivat yhtä aikaa ja kuljettivat lähettiläät kaukaisiin valtakuntiin."
+          }
+        },
+        {
+          "id": "tam_quan",
+          "kind": "architecture",
+          "name": {
+            "vi": "Cổng Tam Quan",
+            "en": "Three-Entrance Gate",
+            "zh": "三关门",
+            "ja": "三関門",
+            "ko": "삼관문",
+            "es": "Puerta de las Tres Entradas",
+            "de": "Tor der drei Durchgänge",
+            "fi": "Kolmen kulkuaukon portti"
+          },
+          "text": {
+            "vi": "Cổng ba lối với mái cong vút dẫn vào đình làng. Tốc Sứ đi qua lối giữa khi khởi hành để xin phép thần làng.",
+            "en": "A three-way gate with soaring curved eaves leading into the village hall. Envoys pass through the middle way when they set out, to ask the village spirit's leave.",
+            "zh": "通往村社亭的三道门，飞檐高高翘起。速使出发时会从中门走过，向村中神灵告别。",
+            "ja": "反り上がった屋根を持つ三つの入口の門で、村の集会所へと続く。速使は旅立ちの時、村の神に許しを請うため真ん中の道を通る。",
+            "ko": "치솟은 처마를 가진 세 갈래 문으로, 마을 회당으로 이어진다. Tốc Sứ는 길을 떠날 때 마을 신령에게 허락을 구하려 가운데 길로 지나간다.",
+            "es": "Una puerta de tres pasos con aleros curvos y elevados que conduce a la casa comunal. Los Tốc Sứ cruzan por el paso central al partir, para pedir permiso al espíritu de la aldea.",
+            "de": "Ein dreifaches Tor mit hoch geschwungenen Dachtraufen, das zum Gemeindehaus des Dorfes führt. Beim Aufbruch gehen die Tốc Sứ durch den mittleren Durchgang, um den Dorfgeist um Erlaubnis zu bitten.",
+            "fi": "Kolmiaukkoinen portti, jonka räystäät kaartuvat korkealle, johtaa kylän yhteiseen taloon. Lähettiläät kulkevat lähtiessään keskimmäisestä aukosta pyytääkseen kylän hengeltä lupaa."
+          }
+        },
+        {
+          "id": "bronze_drum",
+          "kind": "artifact",
+          "name": {
+            "vi": "Trống Đồng",
+            "en": "Bronze Drum",
+            "zh": "铜鼓",
+            "ja": "銅鼓",
+            "ko": "청동북",
+            "es": "Tambor de bronce",
+            "de": "Bronzetrommel",
+            "fi": "Pronssirumpu"
+          },
+          "text": {
+            "vi": "Mặt trống khắc mặt trời mười bốn tia và đàn chim Lạc. Mỗi nhịp trống đánh thức một đoạn nhạc mạch.",
+            "en": "Its face is carved with a fourteen-rayed sun and flocks of Lac birds. Every beat wakes a stretch of the music-veins.",
+            "zh": "鼓面刻着十四道光芒的太阳和成群的雒鸟。每一声鼓响都会唤醒一段乐脉。",
+            "ja": "鼓面には十四の光を放つ太陽と雒鳥の群れが刻まれている。打つたびに楽脈のひと区切りが目を覚ます。",
+            "ko": "북면에는 열네 줄기 빛을 내는 태양과 락새 떼가 새겨져 있다. 북이 울릴 때마다 악맥 한 자락이 깨어난다.",
+            "es": "Su cara lleva grabado un sol de catorce rayos y bandadas de aves Lạc. Cada golpe despierta un tramo de las venas musicales.",
+            "de": "Auf ihrem Fell prangen eine Sonne mit vierzehn Strahlen und Schwärme von Lạc-Vögeln. Jeder Schlag weckt ein Stück der Musikadern.",
+            "fi": "Sen kalvoon on kaiverrettu neljätoistasäteinen aurinko ja Lạc-lintujen parvia. Jokainen lyönti herättää palan musiikkisuonia."
+          }
+        },
+        {
+          "id": "dragon_fairy",
+          "kind": "myth",
+          "name": {
+            "vi": "Con Rồng Cháu Tiên",
+            "en": "Children of Dragon and Fairy",
+            "zh": "龙子仙孙",
+            "ja": "龍の子、仙女の孫",
+            "ko": "용의 자손, 선녀의 후예",
+            "es": "Hijos del Dragón y el Hada",
+            "de": "Kinder von Drache und Fee",
+            "fi": "Lohikäärmeen ja keijun lapset"
+          },
+          "text": {
+            "vi": "Người Vạn Lạc tin mình là con cháu của Rồng biển và Tiên núi, nên nước và mây luôn dẫn lối cho họ.",
+            "en": "The people of Van Lac hold that they descend from a sea dragon and a mountain fairy, which is why water and cloud always show them the way.",
+            "zh": "Vạn Lạc 的人们相信自己是海龙与山仙的后代，所以水与云总会为他们指路。",
+            "ja": "Vạn Lạc の人々は海の龍と山の仙女の子孫だと信じている。だから水と雲がいつも道を示してくれるのだ。",
+            "ko": "Vạn Lạc 사람들은 바다의 용과 산의 선녀의 후손이라고 믿는다. 그래서 물과 구름이 언제나 길을 알려 준다.",
+            "es": "El pueblo de Vạn Lạc cree descender de un dragón marino y un hada de la montaña; por eso el agua y las nubes siempre le muestran el camino.",
+            "de": "Die Menschen von Vạn Lạc glauben, von einem Meeresdrachen und einer Bergfee abzustammen. Darum weisen ihnen Wasser und Wolken stets den Weg.",
+            "fi": "Vạn Lạcin kansa uskoo polveutuvansa merilohikäärmeestä ja vuorikeijusta. Siksi vesi ja pilvet näyttävät heille aina tien."
+          }
+        },
+        {
+          "id": "mid_autumn",
+          "kind": "custom",
+          "name": {
+            "vi": "Hội Đèn Trung Thu",
+            "en": "Mid-Autumn Lanterns",
+            "zh": "中秋灯会",
+            "ja": "中秋の灯籠",
+            "ko": "중추절 등불",
+            "es": "Faroles de Medio Otoño",
+            "de": "Laternen zur Herbstmitte",
+            "fi": "Keskisyksyn lyhdyt"
+          },
+          "text": {
+            "vi": "Đêm trăng tròn tháng Tám, trẻ con rước đèn ông sao và đèn cá chép, còn Tốc Sứ đua dọc sông đèn cho đến sáng.",
+            "en": "On the full moon of the eighth month, children parade star and carp lanterns while Envoys race along the lantern river until dawn.",
+            "zh": "八月十五月圆之夜，孩子们提着星星灯和鲤鱼灯游行，速使们则沿着灯河竞速直到天明。",
+            "ja": "八月の満月の夜、子どもたちは星や鯉の灯籠を手に練り歩き、速使たちは夜明けまで灯籠の川を駆け抜ける。",
+            "ko": "팔월 보름달이 뜨는 밤, 아이들은 별 등과 잉어 등을 들고 행진하고, Tốc Sứ들은 동이 틀 때까지 등불의 강을 따라 달린다.",
+            "es": "En la luna llena del octavo mes, los niños desfilan con faroles de estrella y de carpa mientras los Tốc Sứ corren por el río de faroles hasta el amanecer.",
+            "de": "Beim Vollmond des achten Monats ziehen die Kinder mit Stern- und Karpfenlaternen umher, während die Tốc Sứ bis zum Morgengrauen den Laternenfluss entlangrasen.",
+            "fi": "Kahdeksannen kuun täydenkuun yönä lapset kulkevat kulkueessa tähti- ja karppilyhtyjen kanssa, ja lähettiläät kilpailevat lyhtyjen joella aamunkoittoon asti."
+          }
+        }
+      ]
+    },
+    {
+      "id": "yunque",
+      "color": "#3FC9A0",
+      "glyph": "雲",
+      "sortOrder": 1,
+      "name": {
+        "vi": "Vân Khuyết",
+        "en": "Yunque",
+        "zh": "云阙",
+        "ja": "雲闕",
+        "ko": "운궐",
+        "es": "Yunque",
+        "de": "Yunque",
+        "fi": "Yunque"
+      },
+      "title": {
+        "vi": "Cõi Biển Mây",
+        "en": "Realm of the Cloud Sea",
+        "zh": "云海之境",
+        "ja": "雲海の国",
+        "ko": "구름 바다의 나라",
+        "es": "Reino del Mar de Nubes",
+        "de": "Reich des Wolkenmeers",
+        "fi": "Pilvimeren valtakunta"
+      },
+      "desc": {
+        "vi": "Những đỉnh đá nổi trên biển mây vô tận, nối nhau bằng cầu treo và lầu gác mái bay. Học giả mài mực bên đàn cổ cầm, và mỗi ngọn núi giữ một cuộn sách về các linh vật.",
+        "en": "Stone peaks float above an endless sea of clouds, linked by hanging bridges and pavilions with flying eaves. Scholars grind ink beside their zithers, and every peak keeps a scroll on the spirit beasts.",
+        "zh": "石峰浮于无尽云海之上，由吊桥和飞檐楼阁相连。学者们在古琴旁研墨，每座山峰都珍藏着一卷记载灵兽的书卷。",
+        "ja": "果てしない雲海の上に石の峰々が浮かび、吊り橋と反り屋根の楼閣で結ばれている。学者は琴のそばで墨をすり、どの峰にも霊獣を記した巻物が納められている。",
+        "ko": "끝없는 구름 바다 위에 돌 봉우리들이 떠 있고, 흔들다리와 날렵한 처마의 누각으로 이어져 있다. 학자들은 거문고 옆에서 먹을 갈고, 봉우리마다 영물에 관한 두루마리가 보관되어 있다.",
+        "es": "Picos de piedra flotan sobre un mar de nubes infinito, unidos por puentes colgantes y pabellones de aleros voladores. Los eruditos muelen tinta junto a sus cítaras, y cada pico guarda un rollo sobre las bestias espirituales.",
+        "de": "Steingipfel schweben über einem endlosen Wolkenmeer, verbunden durch Hängebrücken und Pavillons mit geschwungenen Dächern. Gelehrte reiben Tusche neben ihren Zithern, und jeder Gipfel hütet eine Schriftrolle über die Geistertiere.",
+        "fi": "Kivihuiput leijuvat loputtoman pilvimeren yllä, ja niitä yhdistävät riippusillat ja kaarevakattoiset paviljongit. Oppineet hiovat mustetta sitroidensa vieressä, ja jokainen huippu vaalii kääröä henkieläimistä."
+      },
+      "lore": [
+        {
+          "id": "moon_gate",
+          "kind": "architecture",
+          "name": {
+            "vi": "Cổng Trăng",
+            "en": "Moon Gate",
+            "zh": "月门",
+            "ja": "月門",
+            "ko": "월문",
+            "es": "Puerta Lunar",
+            "de": "Mondtor",
+            "fi": "Kuuportti"
+          },
+          "text": {
+            "vi": "Lối đi tròn như vầng trăng khoét giữa tường vườn. Người Vân Khuyết tin rằng bước qua cổng trăng thì nỗi buồn ở lại phía sau.",
+            "en": "A doorway as round as the full moon, cut through a garden wall. The folk of Yunque believe that whoever steps through leaves their sorrows on the other side.",
+            "zh": "开在园墙上、圆如满月的门洞。云阙的人们相信，穿过月门的人会把忧愁留在另一边。",
+            "ja": "庭の塀にくり抜かれた満月のように丸い出入口。雲闕の人々は、月門をくぐった者は悲しみを向こう側に置いていけると信じている。",
+            "ko": "정원 담장을 둥근 보름달처럼 뚫어 만든 문. 운궐 사람들은 월문을 지나는 사람은 슬픔을 저편에 두고 온다고 믿는다.",
+            "es": "Un umbral redondo como la luna llena, abierto en el muro de un jardín. La gente de Yunque cree que quien la cruza deja sus penas al otro lado.",
+            "de": "Eine Pforte, rund wie der Vollmond, in eine Gartenmauer geschnitten. Die Leute von Yunque glauben, wer hindurchgeht, lässt seine Sorgen auf der anderen Seite zurück.",
+            "fi": "Täysikuun pyöreä aukko puutarhan muurissa. Yunquen asukkaat uskovat, että sen läpi kulkeva jättää surunsa toiselle puolelle."
+          }
+        },
+        {
+          "id": "scroll_atlas",
+          "kind": "artifact",
+          "name": {
+            "vi": "Bách Quyển Đồ",
+            "en": "Hundred-Scroll Atlas",
+            "zh": "百卷图",
+            "ja": "百巻図",
+            "ko": "백권도",
+            "es": "Atlas de los Cien Rollos",
+            "de": "Atlas der hundert Rollen",
+            "fi": "Sadan käärön kartasto"
+          },
+          "text": {
+            "vi": "Bộ trục cuốn ghi tên mọi linh vật trên thế gian. Ai gọi đúng tên một linh vật thì có thể kết bạn với nó.",
+            "en": "A set of hanging scrolls that records the name of every spirit beast. Whoever speaks a spirit's true name may befriend it.",
+            "zh": "一套记录世间所有灵兽名字的挂轴。能叫出灵兽真名的人，就能与它结为朋友。",
+            "ja": "あらゆる霊獣の名を記した掛け軸の一揃い。霊獣の真の名を呼べた者は、その霊獣と友になれる。",
+            "ko": "세상 모든 영물의 이름을 기록한 족자 한 벌. 영물의 참이름을 부를 수 있는 사람은 그와 친구가 될 수 있다.",
+            "es": "Una colección de rollos colgantes que registra el nombre de cada bestia espiritual. Quien pronuncia el verdadero nombre de un espíritu puede hacerse su amigo.",
+            "de": "Eine Reihe von Hängerollen, die den Namen jedes Geistertiers verzeichnet. Wer den wahren Namen eines Geistes ausspricht, kann sein Freund werden.",
+            "fi": "Riippukääröjen sarja, johon on kirjattu jokaisen henkieläimen nimi. Joka lausuu hengen todellisen nimen, voi ystävystyä sen kanssa."
+          }
+        },
+        {
+          "id": "white_sage_beast",
+          "kind": "myth",
+          "name": {
+            "vi": "Bạch Trạch",
+            "en": "The White Sage-Beast",
+            "zh": "白泽",
+            "ja": "白沢",
+            "ko": "백택",
+            "es": "La Bestia Sabia Blanca",
+            "de": "Das Weiße Weisheitstier",
+            "fi": "Valkoinen viisauden peto"
+          },
+          "text": {
+            "vi": "Linh thú lông trắng biết tiếng muôn loài, từng dạy vị vua đầu tiên của biển mây cách hòa giải với yêu ma.",
+            "en": "A white-furred beast that speaks every creature's tongue. It taught the first sovereign of the cloud sea how to make peace with demons.",
+            "zh": "白毛的神兽，通晓万物之言。它曾教导云海的第一位君主如何与妖魔和解。",
+            "ja": "万物の言葉を話す白い毛並みの霊獣。雲海の最初の君主に、妖魔と和解する方法を教えたという。",
+            "ko": "모든 생물의 말을 하는 흰 털의 영물. 구름 바다의 첫 군주에게 요괴와 화해하는 법을 가르쳤다고 한다.",
+            "es": "Una bestia de pelaje blanco que habla la lengua de todas las criaturas. Enseñó al primer soberano del mar de nubes a hacer las paces con los demonios.",
+            "de": "Ein Tier mit weißem Fell, das die Sprache aller Geschöpfe spricht. Es lehrte den ersten Herrscher des Wolkenmeers, Frieden mit den Dämonen zu schließen.",
+            "fi": "Valkoturkkinen peto, joka puhuu kaikkien olentojen kieltä. Se opetti pilvimeren ensimmäiselle hallitsijalle, miten tehdä sovinto demonien kanssa."
+          }
+        },
+        {
+          "id": "monsoon_kites",
+          "kind": "custom",
+          "name": {
+            "vi": "Thả Diều Gió Mùa",
+            "en": "Monsoon Kites",
+            "zh": "季风纸鸢",
+            "ja": "季節風の凧",
+            "ko": "계절풍 연",
+            "es": "Cometas del monzón",
+            "de": "Monsundrachen",
+            "fi": "Monsuunileijat"
+          },
+          "text": {
+            "vi": "Khi gió mùa đổi hướng, cả cõi thả diều giấy vẽ rồng và phượng. Con diều bay cao nhất sẽ mang lời ước của mọi người tới cầu vồng.",
+            "en": "When the monsoon turns, the whole realm flies paper kites painted with dragons and phoenixes. The highest kite carries everyone's wishes to the rainbow.",
+            "zh": "季风转向时，整个国度都会放飞画着龙凤的纸鸢。飞得最高的那只会把所有人的愿望带到彩虹上。",
+            "ja": "季節風の向きが変わると、国じゅうで龍や鳳凰を描いた紙凧が揚がる。いちばん高く揚がった凧が、皆の願いを虹へ届けるのだ。",
+            "ko": "계절풍의 방향이 바뀌면 온 나라가 용과 봉황을 그린 종이연을 날린다. 가장 높이 오른 연이 모두의 소원을 무지개까지 실어 간다.",
+            "es": "Cuando cambia el monzón, todo el reino eleva cometas de papel pintadas con dragones y fénix. La que vuela más alto lleva los deseos de todos hasta el arcoíris.",
+            "de": "Wenn der Monsun dreht, lässt das ganze Reich Papierdrachen steigen, bemalt mit Drachen und Phönixen. Der höchste trägt die Wünsche aller bis zum Regenbogen.",
+            "fi": "Kun monsuuni kääntyy, koko valtakunta lennättää lohikäärmein ja feenikslinnuin maalattuja paperileijoja. Korkeimmalle nouseva leija vie kaikkien toiveet sateenkaareen."
+          }
+        }
+      ]
+    },
+    {
+      "id": "hanayume",
+      "color": "#FF6F91",
+      "glyph": "花",
+      "sortOrder": 2,
+      "name": {
+        "vi": "Hanayume",
+        "en": "Hanayume",
+        "zh": "花梦",
+        "ja": "花夢",
+        "ko": "하나유메",
+        "es": "Hanayume",
+        "de": "Hanayume",
+        "fi": "Hanayume"
+      },
+      "title": {
+        "vi": "Quần đảo Hoa Mộng",
+        "en": "Isles of the Flower Dream",
+        "zh": "花梦群岛",
+        "ja": "花夢の島々",
+        "ko": "꽃꿈의 섬들",
+        "es": "Islas del Sueño Florido",
+        "de": "Inseln des Blütentraums",
+        "fi": "Kukkaunelman saaret"
+      },
+      "desc": {
+        "vi": "Quần đảo nơi hoa anh đào rơi quanh năm và những cổng son nối nhau lên tận đỉnh núi. Quạ thần giữ trống trên núi cao, còn đồ vật đủ trăm tuổi bỗng biết cười nói.",
+        "en": "Islands where cherry petals fall all year and vermilion gates climb in a row to the mountaintops. Crow spirits keep the drums on the high peaks, and objects that reach a hundred years old wake up and start to talk.",
+        "zh": "樱花终年飘落的群岛，朱红的鸟居一座接一座直上山顶。鸦天狗守护着高山上的大鼓，而满一百岁的器物会醒来开口说话。",
+        "ja": "一年じゅう桜が舞い散り、朱色の門が山頂まで連なる島々。山の高みでは烏天狗が太鼓を守り、百年を経た道具たちは目を覚ましておしゃべりを始める。",
+        "ko": "일 년 내내 벚꽃이 흩날리고 주홍빛 문이 산꼭대기까지 줄지어 오르는 섬들. 높은 산에서는 까마귀 텐구가 북을 지키고, 백 년을 묵은 물건들은 깨어나 말을 하기 시작한다.",
+        "es": "Islas donde los pétalos de cerezo caen todo el año y las puertas bermellón suben en fila hasta las cumbres. Los espíritus cuervo guardan los tambores en lo alto, y los objetos que cumplen cien años despiertan y empiezan a hablar.",
+        "de": "Inseln, auf denen das ganze Jahr Kirschblüten fallen und zinnoberrote Tore sich in einer Reihe bis zu den Gipfeln hinaufziehen. Krähengeister hüten die Trommeln auf den Höhen, und Dinge, die hundert Jahre alt werden, erwachen und fangen an zu sprechen.",
+        "fi": "Saaria, joilla kirsikankukat varisevat ympäri vuoden ja sinooperinpunaiset portit nousevat rivissä vuorenhuipuille. Varishenget vartioivat rumpuja korkeilla huipuilla, ja sadan vuoden ikään ehtineet esineet heräävät ja alkavat puhua."
+      },
+      "lore": [
+        {
+          "id": "thousand_gates",
+          "kind": "architecture",
+          "name": {
+            "vi": "Thiên Môn Son",
+            "en": "The Thousand Vermilion Gates",
+            "zh": "千本朱门",
+            "ja": "千本の朱門",
+            "ko": "천 개의 주홍 문",
+            "es": "Las Mil Puertas Bermellón",
+            "de": "Die tausend Zinnobertore",
+            "fi": "Tuhat sinooperiporttia"
+          },
+          "text": {
+            "vi": "Hàng nghìn cổng gỗ sơn son dựng sát nhau thành đường hầm lên núi. Mỗi cổng là lời cảm tạ của một người từng được thần linh giúp đỡ.",
+            "en": "Thousands of vermilion-lacquered gates stand shoulder to shoulder, forming a tunnel up the mountain. Each gate is the thanks of someone a spirit once helped.",
+            "zh": "成千上万座朱漆木门肩并肩立着，组成一条通往山上的隧道。每一座门都是曾受神灵相助之人的谢礼。",
+            "ja": "何千もの朱塗りの門が肩を寄せ合って並び、山へ続くトンネルをなしている。どの門も、かつて神に助けられた誰かの感謝のしるしだ。",
+            "ko": "수천 개의 주칠한 문이 어깨를 맞대고 서서 산으로 향하는 터널을 이룬다. 문 하나하나가 신령의 도움을 받은 누군가의 감사 인사다.",
+            "es": "Miles de puertas lacadas en bermellón se alzan hombro con hombro y forman un túnel montaña arriba. Cada puerta es el agradecimiento de alguien a quien un espíritu ayudó.",
+            "de": "Tausende zinnoberrot lackierte Tore stehen Schulter an Schulter und bilden einen Tunnel den Berg hinauf. Jedes Tor ist der Dank eines Menschen, dem einst ein Geist geholfen hat.",
+            "fi": "Tuhannet sinooperinpunaisiksi lakatut portit seisovat olka olkaa vasten ja muodostavat tunnelin vuorelle. Jokainen portti on jonkun kiitos hengelle, joka joskus auttoi häntä."
+          }
+        },
+        {
+          "id": "crow_taiko",
+          "kind": "artifact",
+          "name": {
+            "vi": "Trống Taiko Quạ Thần",
+            "en": "The Crow-Spirit Taiko",
+            "zh": "鸦神太鼓",
+            "ja": "烏天狗の大太鼓",
+            "ko": "까마귀 신령의 태고",
+            "es": "El taiko de los espíritus cuervo",
+            "de": "Die Taiko der Krähengeister",
+            "fi": "Varishenkien taiko"
+          },
+          "text": {
+            "vi": "Những chiếc trống lớn bọc da, chỉ được đánh vào đêm hội. Tiếng trống vang tới đâu, hoa nở tới đó.",
+            "en": "Great hide-covered drums, struck only on festival nights. Wherever their thunder carries, the blossoms open.",
+            "zh": "蒙着兽皮的巨大太鼓，只在祭典之夜敲响。鼓声传到哪里，花就开到哪里。",
+            "ja": "皮を張った大きな太鼓で、祭りの夜にだけ打ち鳴らされる。その響きが届くところで、花が開く。",
+            "ko": "가죽을 씌운 커다란 북으로, 축제의 밤에만 울린다. 그 울림이 닿는 곳마다 꽃이 핀다.",
+            "es": "Grandes tambores de cuero que solo suenan en las noches de fiesta. Allá donde llega su trueno, se abren las flores.",
+            "de": "Große, mit Fell bespannte Trommeln, die nur in Festnächten geschlagen werden. Wohin ihr Donner reicht, öffnen sich die Blüten.",
+            "fi": "Suuria nahkakalvoisia rumpuja, joita lyödään vain juhlaöinä. Minne niiden jylinä kantaa, sinne kukat aukeavat."
+          }
+        },
+        {
+          "id": "hundred_year_objects",
+          "kind": "myth",
+          "name": {
+            "vi": "Đồ Vật Trăm Năm",
+            "en": "The Hundred-Year Objects",
+            "zh": "百年器物",
+            "ja": "百年の道具",
+            "ko": "백 년 묵은 물건",
+            "es": "Los objetos centenarios",
+            "de": "Die hundertjährigen Dinge",
+            "fi": "Satavuotiaat esineet"
+          },
+          "text": {
+            "vi": "Ô giấy, đèn lồng hay ấm trà được giữ gìn đủ trăm năm sẽ có linh hồn. Chúng tinh nghịch nhưng không bao giờ quên người chủ tốt bụng.",
+            "en": "A paper umbrella, a lantern or a teapot cared for a hundred years gains a soul. They are mischievous, but never forget a kind owner.",
+            "zh": "被珍惜了一百年的纸伞、灯笼或茶壶会生出灵魂。它们爱恶作剧，却永远不会忘记善待它们的主人。",
+            "ja": "百年大切にされた紙傘や提灯や急須には魂が宿る。いたずら好きだが、優しい持ち主のことは決して忘れない。",
+            "ko": "백 년 동안 아낌받은 종이우산, 등롱, 찻주전자에는 혼이 깃든다. 장난을 좋아하지만, 다정한 주인은 결코 잊지 않는다.",
+            "es": "Un paraguas de papel, un farol o una tetera cuidados durante cien años obtienen un alma. Son traviesos, pero nunca olvidan a un dueño amable.",
+            "de": "Ein Papierschirm, eine Laterne oder eine Teekanne, die hundert Jahre lang gepflegt wurden, bekommen eine Seele. Sie sind schelmisch, vergessen aber nie einen freundlichen Besitzer.",
+            "fi": "Paperivarjo, lyhty tai teekannu, jota on vaalittu sata vuotta, saa sielun. Ne ovat kujeilevia, mutta eivät koskaan unohda ystävällistä omistajaa."
+          }
+        },
+        {
+          "id": "floating_lanterns",
+          "kind": "custom",
+          "name": {
+            "vi": "Đêm Thả Đèn Nước",
+            "en": "Floating Lantern Night",
+            "zh": "放水灯之夜",
+            "ja": "灯籠流しの夜",
+            "ko": "물등 띄우는 밤",
+            "es": "La noche de los faroles flotantes",
+            "de": "Nacht der schwimmenden Laternen",
+            "fi": "Kelluvien lyhtyjen yö"
+          },
+          "text": {
+            "vi": "Cuối hè, dân đảo thả đèn giấy xuống biển để tiễn linh hồn tổ tiên trở về. Tốc Sứ đua theo dải đèn trôi để dẫn đường.",
+            "en": "At summer's end, the islanders set paper lanterns on the sea to send their ancestors home. Envoys race along the drifting lights to show the way.",
+            "zh": "夏末，岛民把纸灯放入大海，送祖先的灵魂回家。速使们沿着漂流的灯火竞速，为他们引路。",
+            "ja": "夏の終わり、島の人々は先祖の魂を送るため紙の灯籠を海へ流す。速使たちは流れる灯りに沿って駆け、道を照らす。",
+            "ko": "여름이 끝날 무렵, 섬사람들은 조상의 혼을 배웅하려 종이 등을 바다에 띄운다. Tốc Sứ들은 떠가는 불빛을 따라 달리며 길을 밝혀 준다.",
+            "es": "Al final del verano, los isleños sueltan faroles de papel en el mar para despedir a sus antepasados. Los Tốc Sứ corren junto a las luces a la deriva para mostrarles el camino.",
+            "de": "Am Ende des Sommers setzen die Inselbewohner Papierlaternen aufs Meer, um ihre Ahnen heimzuschicken. Die Tốc Sứ rasen an den treibenden Lichtern entlang und weisen ihnen den Weg.",
+            "fi": "Kesän lopulla saarelaiset laskevat paperilyhtyjä mereen saattaakseen esi-isänsä kotiin. Lähettiläät kiitävät ajelehtivien valojen rinnalla näyttäen tietä."
+          }
+        }
+      ]
+    },
+    {
+      "id": "dalmaru",
+      "color": "#6F8BFF",
+      "glyph": "달",
+      "sortOrder": 3,
+      "name": {
+        "vi": "Dalmaru",
+        "en": "Dalmaru",
+        "zh": "月岭",
+        "ja": "ダルマル",
+        "ko": "달마루",
+        "es": "Dalmaru",
+        "de": "Dalmaru",
+        "fi": "Dalmaru"
+      },
+      "title": {
+        "vi": "Cao nguyên Sườn Trăng",
+        "en": "Highlands of the Moon Ridge",
+        "zh": "月脊高原",
+        "ja": "月の尾根の高原",
+        "ko": "달마루 고원",
+        "es": "Tierras altas de la Cresta Lunar",
+        "de": "Hochland des Mondkamms",
+        "fi": "Kuuharjanteen ylänkö"
+      },
+      "desc": {
+        "vi": "Những ngôi làng mái ngói cong nép dưới rặng thông, nơi yêu tinh dokkaebi đốt lửa xanh và gõ chùy ra vàng. Dàn trống bốn nhạc khí vang suốt mùa gặt.",
+        "en": "Villages of curved tile roofs nestle under pine ridges, where dokkaebi goblins light blue fires and knock gold out of their clubs. The four-drum ensemble plays all through the harvest.",
+        "zh": "弯曲瓦顶的村落依偎在松岭之下，独脚鬼（dokkaebi）在这里点起蓝色鬼火，用棒槌敲出金子。收获季节里，四鼓合奏响个不停。",
+        "ja": "反った瓦屋根の村々が松の尾根のふもとに寄り添う。ここではトッケビたちが青い火をともし、棍棒をたたいて金を出す。収穫の季節には四つの打楽器の合奏が鳴りやまない。",
+        "ko": "곡선 기와지붕의 마을들이 소나무 능선 아래 옹기종기 모여 있다. 이곳에서는 도깨비들이 푸른 불을 밝히고 방망이를 두드려 금을 쏟아낸다. 수확철 내내 네 악기의 풍물 소리가 그치지 않는다.",
+        "es": "Aldeas de tejados curvos se acurrucan bajo crestas de pinos, donde los duendes dokkaebi encienden fuegos azules y sacan oro a golpes de sus mazas. El conjunto de cuatro tambores suena durante toda la cosecha.",
+        "de": "Dörfer mit geschwungenen Ziegeldächern schmiegen sich unter Kiefernkämme, wo Dokkaebi-Kobolde blaue Feuer entzünden und Gold aus ihren Keulen klopfen. Das Ensemble der vier Trommeln spielt die ganze Ernte hindurch.",
+        "fi": "Kaarevakattoiset kylät painautuvat mäntyharjanteiden alle. Siellä dokkaebi-peikot sytyttävät sinisiä tulia ja kopauttavat nuijistaan kultaa. Neljän rummun yhtye soi koko sadonkorjuun ajan."
+      },
+      "lore": [
+        {
+          "id": "hanok",
+          "kind": "architecture",
+          "name": {
+            "vi": "Nhà Mái Ngói Hanok",
+            "en": "Hanok Tile Houses",
+            "zh": "韩屋瓦房",
+            "ja": "韓屋の瓦屋根",
+            "ko": "기와 한옥",
+            "es": "Casas hanok de teja",
+            "de": "Hanok-Ziegelhäuser",
+            "fi": "Hanok-tiilitalot"
+          },
+          "text": {
+            "vi": "Nhà gỗ mái ngói cong như cánh hạc, sàn sưởi bằng hơi ấm từ bếp chạy dưới nền. Cửa dán giấy hanji hắt ánh đèn vàng ra sân.",
+            "en": "Wooden houses with tile roofs curved like a crane's wings, warmed by kitchen heat running beneath the floor. Doors of hanji paper spill golden lamplight into the courtyard.",
+            "zh": "木屋的瓦顶弯如鹤翼，灶火的暖气从地板下流过。韩纸糊的门把金色灯光洒进庭院。",
+            "ja": "鶴の翼のように反った瓦屋根の木造家屋で、床下を流れるかまどの熱で暖まる。韓紙を張った戸が、金色の灯りを中庭にこぼす。",
+            "ko": "학의 날개처럼 휘어진 기와지붕의 나무집으로, 부뚜막의 온기가 바닥 아래로 흐르며 집을 데운다. 한지를 바른 문이 금빛 등불을 마당에 쏟아낸다.",
+            "es": "Casas de madera con tejados curvos como alas de grulla, caldeadas por el calor de la cocina que corre bajo el suelo. Las puertas de papel hanji derraman luz dorada sobre el patio.",
+            "de": "Holzhäuser mit Ziegeldächern, geschwungen wie Kranichflügel, gewärmt von der Herdhitze, die unter dem Boden entlangzieht. Türen aus Hanji-Papier lassen goldenes Lampenlicht in den Hof fallen.",
+            "fi": "Puutaloja, joiden tiilikatot kaartuvat kuin kurjen siivet ja joita lämmittää lattian alla kulkeva lieden lämpö. Hanji-paperista tehdyt ovet valuttavat kultaista lampunvaloa pihalle."
+          }
+        },
+        {
+          "id": "goblin_club",
+          "kind": "artifact",
+          "name": {
+            "vi": "Chùy Dokkaebi",
+            "en": "The Dokkaebi Club",
+            "zh": "独脚鬼的棒槌",
+            "ja": "トッケビの棍棒",
+            "ko": "도깨비방망이",
+            "es": "La maza dokkaebi",
+            "de": "Die Dokkaebi-Keule",
+            "fi": "Dokkaebin nuija"
+          },
+          "text": {
+            "vi": "Gõ một cái, chùy hiện ra vàng bạc; gõ hai cái, hiện ra nhịp trống. Yêu tinh hay đem chùy ra đánh cược với người trong trò vật tay.",
+            "en": "Knock it once and gold and silver tumble out; knock twice and out comes a drumbeat. Goblins often wager their clubs against people in arm-wrestling bouts.",
+            "zh": "敲一下，金银滚滚而出；敲两下，就敲出鼓点。独脚鬼常拿棒槌和人比腕力打赌。",
+            "ja": "一度たたけば金銀が転がり出て、二度たたけば太鼓の拍子が飛び出す。トッケビはよく腕相撲の賭けに棍棒を差し出す。",
+            "ko": "한 번 두드리면 금은보화가 쏟아지고, 두 번 두드리면 북장단이 튀어나온다. 도깨비들은 종종 팔씨름 내기에 방망이를 건다.",
+            "es": "Golpéala una vez y salen rodando oro y plata; dos veces, y sale un ritmo de tambor. Los duendes suelen apostar sus mazas contra la gente en pulsos.",
+            "de": "Klopf einmal, und Gold und Silber purzeln heraus; klopf zweimal, und heraus kommt ein Trommelschlag. Kobolde setzen ihre Keulen oft beim Armdrücken gegen Menschen als Wetteinsatz.",
+            "fi": "Kopauta kerran, niin kultaa ja hopeaa vierii esiin; kopauta kahdesti, niin esiin tulee rummunlyönti. Peikot lyövät usein nuijistaan vetoa ihmisten kanssa kädenväännössä."
+          }
+        },
+        {
+          "id": "sun_moon_siblings",
+          "kind": "myth",
+          "name": {
+            "vi": "Anh Em Mặt Trời Mặt Trăng",
+            "en": "The Sun and Moon Siblings",
+            "zh": "日月兄妹",
+            "ja": "太陽と月の兄妹",
+            "ko": "해와 달이 된 오누이",
+            "es": "Los hermanos Sol y Luna",
+            "de": "Die Geschwister Sonne und Mond",
+            "fi": "Aurinko- ja kuusisarukset"
+          },
+          "text": {
+            "vi": "Hai anh em trốn con hổ đói bằng cách leo sợi dây từ trời xuống, rồi hóa thành mặt trời và mặt trăng. Người em sợ bóng tối nên được làm mặt trời.",
+            "en": "Two siblings fled a hungry tiger by climbing a rope let down from heaven and became the sun and the moon. The younger feared the dark, so she was given the sun.",
+            "zh": "兄妹俩顺着天上垂下的绳子爬上天，躲过了饥饿的老虎，变成了太阳和月亮。妹妹怕黑，所以当了太阳。",
+            "ja": "飢えた虎から逃げた兄妹は、天から下りてきた綱をよじ登り、太陽と月になった。妹は暗闇を怖がったので、太陽を任された。",
+            "ko": "배고픈 호랑이를 피해 하늘에서 내려온 동아줄을 타고 올라간 오누이는 해와 달이 되었다. 동생은 어둠을 무서워해서 해를 맡았다.",
+            "es": "Dos hermanos huyeron de un tigre hambriento trepando por una cuerda que bajó del cielo y se convirtieron en el sol y la luna. La menor temía la oscuridad, así que le dieron el sol.",
+            "de": "Zwei Geschwister flohen vor einem hungrigen Tiger, indem sie an einem vom Himmel herabgelassenen Seil emporkletterten, und wurden Sonne und Mond. Die Jüngere fürchtete die Dunkelheit, also bekam sie die Sonne.",
+            "fi": "Kaksi sisarusta pakeni nälkäistä tiikeriä kiipeämällä taivaasta lasketun köyden ylös ja muuttui auringoksi ja kuuksi. Nuorempi pelkäsi pimeää, joten hän sai auringon."
+          }
+        },
+        {
+          "id": "guardian_posts",
+          "kind": "custom",
+          "name": {
+            "vi": "Cột Thần Làng",
+            "en": "Village Guardian Posts",
+            "zh": "村口守护柱",
+            "ja": "村の守り柱",
+            "ko": "마을 수호 장승",
+            "es": "Postes guardianes de la aldea",
+            "de": "Wächterpfähle des Dorfes",
+            "fi": "Kylän vartijapaalut"
+          },
+          "text": {
+            "vi": "Hai cột gỗ khắc mặt thần đứng ở cổng làng, một nam một nữ, để xua bệnh tật và chỉ đường cho khách lạ.",
+            "en": "Two carved wooden posts with guardian faces stand at the village entrance, one male and one female, to ward off sickness and show strangers the way.",
+            "zh": "村口立着两根刻有神面的木柱，一男一女，驱赶疾病，也为陌生人指路。",
+            "ja": "村の入口には神の顔を彫った二本の木柱が立つ。一本は男、一本は女で、病を追い払い、旅人に道を示す。",
+            "ko": "마을 어귀에는 신의 얼굴을 새긴 나무 기둥 두 개가 선다. 하나는 남자, 하나는 여자로, 병을 쫓고 낯선 이에게 길을 알려 준다.",
+            "es": "Dos postes de madera tallados con rostros guardianes custodian la entrada de la aldea, uno masculino y otro femenino, para ahuyentar la enfermedad y orientar a los forasteros.",
+            "de": "Zwei geschnitzte Holzpfähle mit Wächtergesichtern stehen am Dorfeingang, ein männlicher und ein weiblicher. Sie halten Krankheiten fern und weisen Fremden den Weg.",
+            "fi": "Kylän sisäänkäynnillä seisoo kaksi puista paalua, joihin on veistetty vartijakasvot, toinen miehen ja toinen naisen. Ne karkottavat sairauksia ja neuvovat tietä vieraille."
+          }
+        }
+      ]
+    },
+    {
+      "id": "nebelreich",
+      "color": "#FFB45A",
+      "glyph": "♜",
+      "sortOrder": 4,
+      "name": {
+        "vi": "Nebelreich",
+        "en": "Nebelreich",
+        "zh": "雾境",
+        "ja": "ネーベルライヒ",
+        "ko": "네벨라이히",
+        "es": "Nebelreich",
+        "de": "Nebelreich",
+        "fi": "Nebelreich"
+      },
+      "title": {
+        "vi": "Vương quốc Sương Mù",
+        "en": "Kingdom of the Mists",
+        "zh": "迷雾王国",
+        "ja": "霧の王国",
+        "ko": "안개의 왕국",
+        "es": "Reino de las Brumas",
+        "de": "Königreich der Nebel",
+        "fi": "Usvien kuningaskunta"
+      },
+      "desc": {
+        "vi": "Rừng thông đen và những thị trấn nhà khung gỗ dọc dòng sông uốn khúc, lâu đài chót vót trên vách đá. Tháp đồng hồ điểm giờ bằng những hình nhân nhảy múa, còn tiên nước hát trên tảng đá giữa dòng.",
+        "en": "Dark fir forests and towns of timber-framed houses line a winding river, with castles perched high on its crags. Clock towers strike the hours with dancing figures, and water sprites sing from a rock mid-stream.",
+        "zh": "幽暗的冷杉林和木构架房屋的小镇沿着蜿蜒的河流排开，城堡高踞在峭壁之上。钟楼用跳舞的木偶报时，水妖在河中的岩石上歌唱。",
+        "ja": "暗いモミの森と木組みの家の町が、曲がりくねった川沿いに並び、断崖の上には城がそびえる。時計塔は踊る人形で時を告げ、川の中ほどの岩では水の精が歌っている。",
+        "ko": "어두운 전나무 숲과 목조 골조 집들의 마을이 굽이치는 강을 따라 늘어서 있고, 절벽 위에는 성이 높이 솟아 있다. 시계탑은 춤추는 인형으로 시간을 알리고, 강 한가운데 바위에서는 물의 정령이 노래한다.",
+        "es": "Oscuros bosques de abetos y pueblos de casas con entramado de madera bordean un río sinuoso, con castillos encaramados en sus riscos. Las torres de reloj dan las horas con figuras que bailan, y los espíritus del agua cantan desde una roca en mitad de la corriente.",
+        "de": "Dunkle Tannenwälder und Städtchen aus Fachwerkhäusern säumen einen gewundenen Fluss, auf dessen Felsen hoch oben Burgen thronen. Uhrtürme schlagen die Stunden mit tanzenden Figuren, und Wassergeister singen von einem Felsen mitten im Strom.",
+        "fi": "Tummat kuusimetsät ja ristikkotalojen kaupungit reunustavat mutkittelevaa jokea, ja linnat kohoavat korkealla sen jyrkänteillä. Kellotornit lyövät tunnit tanssivin hahmoin, ja vedenhenget laulavat kiveltä keskellä virtaa."
+      },
+      "lore": [
+        {
+          "id": "timber_frame",
+          "kind": "architecture",
+          "name": {
+            "vi": "Nhà Khung Gỗ",
+            "en": "Timber-Frame Houses",
+            "zh": "木构架房屋",
+            "ja": "木組みの家",
+            "ko": "목조 골조 집",
+            "es": "Casas de entramado",
+            "de": "Fachwerkhäuser",
+            "fi": "Ristikkotalot"
+          },
+          "text": {
+            "vi": "Tường vôi trắng đan dầm gỗ sẫm thành hình chữ X, mái dốc để tuyết trượt xuống. Mỗi nhà treo một tấm biển sắt rèn của nghề mình.",
+            "en": "White plaster walls criss-crossed with dark beams, under roofs steep enough to shed the snow. Every house hangs a wrought-iron sign of its trade.",
+            "zh": "白色灰墙上交错着深色木梁，屋顶陡得能让积雪滑落。每家都挂着一块表明行当的铁艺招牌。",
+            "ja": "白い漆喰の壁に黒い梁が交差し、雪が滑り落ちるほど急な屋根がかかる。どの家にも、商いを示す鍛鉄の看板が下がっている。",
+            "ko": "하얀 회벽에 짙은 나무 들보가 엇갈려 지나가고, 눈이 미끄러져 내릴 만큼 가파른 지붕이 덮여 있다. 집집마다 가업을 알리는 연철 간판이 걸려 있다.",
+            "es": "Muros de yeso blanco cruzados por vigas oscuras, bajo tejados tan empinados que la nieve resbala. Cada casa cuelga un letrero de hierro forjado con su oficio.",
+            "de": "Weiße Putzwände, kreuz und quer durchzogen von dunklen Balken, unter Dächern, steil genug, dass der Schnee abrutscht. An jedem Haus hängt ein schmiedeeisernes Schild seines Handwerks.",
+            "fi": "Valkoisia rappausseiniä ristikkäin kulkevine tummine palkkeineen, ja katot niin jyrkkiä, että lumi liukuu niiltä. Jokaisessa talossa riippuu takorautainen kyltti sen ammatista."
+          }
+        },
+        {
+          "id": "figure_clock",
+          "kind": "artifact",
+          "name": {
+            "vi": "Tháp Đồng Hồ Hình Nhân",
+            "en": "The Figure Clock",
+            "zh": "人偶钟",
+            "ja": "からくり人形時計",
+            "ko": "인형 시계",
+            "es": "El reloj de figuras",
+            "de": "Die Figurenuhr",
+            "fi": "Hahmokello"
+          },
+          "text": {
+            "vi": "Mỗi giờ, hiệp sĩ, thợ làm bánh và chú gà trống bằng gỗ diễu qua mặt đồng hồ. Người thợ cả của tháp nói đồng hồ chạy theo nhịp tim của cả thị trấn.",
+            "en": "Every hour, a wooden knight, a baker and a rooster parade across the clock face. Its master clockmaker says the clock keeps time with the town's heartbeat.",
+            "zh": "每到整点，木头骑士、面包师和公鸡就会从钟面前列队走过。钟楼的老钟匠说，这座钟和小镇的心跳同步。",
+            "ja": "毎正時、木の騎士とパン職人と雄鶏が文字盤の前を行進する。塔の時計職人の親方は、この時計は町の鼓動と一緒に時を刻むのだと言う。",
+            "ko": "매 정시마다 나무 기사, 제빵사, 수탉이 시계판 앞을 행진한다. 탑의 시계장인은 이 시계가 마을의 심장 박동과 함께 간다고 말한다.",
+            "es": "Cada hora, un caballero, un panadero y un gallo de madera desfilan ante la esfera. Su maestro relojero dice que el reloj marca el tiempo al compás del corazón del pueblo.",
+            "de": "Zu jeder vollen Stunde ziehen ein hölzerner Ritter, ein Bäcker und ein Hahn am Zifferblatt vorbei. Ihr Uhrmachermeister sagt, die Uhr schlage im Takt des Stadtherzens.",
+            "fi": "Joka tasatunti puinen ritari, leipuri ja kukko marssivat kellotaulun ohi. Kellon mestarikelloseppä sanoo sen käyvän kaupungin sydämen tahdissa."
+          }
+        },
+        {
+          "id": "rock_singer",
+          "kind": "myth",
+          "name": {
+            "vi": "Tiên Nước Trên Đá",
+            "en": "The Singer on the Rock",
+            "zh": "岩上的歌者",
+            "ja": "岩の上の歌い手",
+            "ko": "바위 위의 가수",
+            "es": "La cantora de la roca",
+            "de": "Die Sängerin auf dem Felsen",
+            "fi": "Laulaja kiven päällä"
+          },
+          "text": {
+            "vi": "Một tiên nước tóc bạc ngồi trên tảng đá ở khúc sông hẹp nhất, hát hay đến mức người lái thuyền quên cả mái chèo. Ai đáp lại bằng một bài hay hơn sẽ được nàng chỉ lối đi an toàn.",
+            "en": "A silver-haired water sprite sits on a rock at the river's narrowest bend, singing so sweetly that boatmen forget their oars. Whoever answers with a better song is shown the safe channel.",
+            "zh": "银发的水妖坐在河道最窄处的岩石上，歌声甜美得让船夫忘了划桨。谁能回唱一首更美的歌，她就为谁指出安全的航道。",
+            "ja": "川がいちばん細く曲がる所の岩に、銀髪の水の精が座っている。その歌はあまりに甘く、船頭は櫂をこぐのを忘れてしまう。もっと美しい歌で応えた者には、安全な水路を教えてくれる。",
+            "ko": "강이 가장 좁게 굽는 곳의 바위에 은발의 물의 정령이 앉아, 뱃사공이 노 젓는 것도 잊을 만큼 달콤하게 노래한다. 더 아름다운 노래로 답하는 사람에게는 안전한 물길을 알려 준다.",
+            "es": "Un espíritu del agua de cabello plateado se sienta en una roca en el recodo más estrecho del río y canta tan dulce que los barqueros olvidan los remos. A quien responde con una canción mejor, le muestra el paso seguro.",
+            "de": "Ein silberhaariger Wassergeist sitzt an der engsten Biegung des Flusses auf einem Felsen und singt so süß, dass die Schiffer ihre Ruder vergessen. Wer mit einem schöneren Lied antwortet, dem zeigt sie die sichere Fahrrinne.",
+            "fi": "Hopeahiuksinen vedenhenki istuu kivellä joen kapeimmassa mutkassa ja laulaa niin suloisesti, että lautturit unohtavat aironsa. Sille, joka vastaa vielä kauniimmalla laululla, hän näyttää turvallisen väylän."
+          }
+        },
+        {
+          "id": "winter_market",
+          "kind": "custom",
+          "name": {
+            "vi": "Chợ Đêm Mùa Đông",
+            "en": "The Winter Market",
+            "zh": "冬日市集",
+            "ja": "冬の市",
+            "ko": "겨울 장터",
+            "es": "El mercado de invierno",
+            "de": "Der Wintermarkt",
+            "fi": "Talvitori"
+          },
+          "text": {
+            "vi": "Khi tuyết đầu mùa rơi, quảng trường mở chợ đêm với đồ chơi gỗ, bánh gừng hình trái tim và rượu vang nóng. Đèn lồng sáng đến tận đêm sang năm mới.",
+            "en": "When the first snow falls, the square fills with a night market of wooden toys, heart-shaped gingerbread and spiced hot wine. The lanterns stay lit until the year turns.",
+            "zh": "初雪落下时，广场上会摆满夜市：木头玩具、心形姜饼和热香料酒。灯笼一直亮到新年。",
+            "ja": "初雪が降ると、広場は夜市でいっぱいになる。木のおもちゃ、ハート形のジンジャーブレッド、香辛料入りのホットワイン。灯りは年が明けるまで消えない。",
+            "ko": "첫눈이 내리면 광장에 밤 장터가 열린다. 나무 장난감, 하트 모양 진저브레드, 향신료를 넣은 따뜻한 와인. 등불은 해가 바뀔 때까지 꺼지지 않는다.",
+            "es": "Cuando cae la primera nieve, la plaza se llena de un mercado nocturno de juguetes de madera, pan de jengibre en forma de corazón y vino caliente con especias. Los faroles siguen encendidos hasta que cambia el año.",
+            "de": "Wenn der erste Schnee fällt, füllt sich der Platz mit einem Nachtmarkt voller Holzspielzeug, Lebkuchenherzen und heißem Gewürzwein. Die Laternen brennen, bis das Jahr sich wendet.",
+            "fi": "Kun ensilumi sataa, tori täyttyy yömarkkinoista: puuleluja, sydämenmuotoisia piparkakkuja ja kuumaa maustettua viiniä. Lyhdyt palavat vuoden vaihtumiseen asti."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lumikaari",
+      "color": "#7FE8FF",
+      "glyph": "❄",
+      "sortOrder": 5,
+      "name": {
+        "vi": "Lumikaari",
+        "en": "Lumikaari",
+        "zh": "卢米卡里",
+        "ja": "ルミカーリ",
+        "ko": "루미카리",
+        "es": "Lumikaari",
+        "de": "Lumikaari",
+        "fi": "Lumikaari"
+      },
+      "title": {
+        "vi": "Miền Cầu Tuyết",
+        "en": "Land of the Snow Arc",
+        "zh": "雪弧之地",
+        "ja": "雪の弧の地",
+        "ko": "눈 무지개의 땅",
+        "es": "Tierra del Arco de Nieve",
+        "de": "Land des Schneebogens",
+        "fi": "Lumikaaren maa"
+      },
+      "desc": {
+        "vi": "Nghìn hồ nước lấp lánh giữa rừng bạch dương, nơi mặt trời không lặn vào mùa hè và cực quang múa suốt đêm đông. Người dân hát những bài ca dài đến mức có thể hát cả thế giới thành hình.",
+        "en": "A thousand lakes glitter among birch forests, where the summer sun never sets and the aurora dances all winter night. Its people sing songs so long they could sing the world into shape.",
+        "zh": "千湖在白桦林间闪烁，夏日太阳永不落下，冬夜极光整晚起舞。这里的人们唱的歌长得能把世界唱成形状。",
+        "ja": "白樺の森のあいだに千の湖がきらめき、夏は太陽が沈まず、冬の夜はオーロラが一晩じゅう踊る。ここの人々は、世界をかたちづくれるほど長い歌を歌う。",
+        "ko": "자작나무 숲 사이로 천 개의 호수가 반짝이고, 여름에는 해가 지지 않으며 겨울밤에는 오로라가 밤새 춤춘다. 이곳 사람들은 세상을 빚어낼 만큼 긴 노래를 부른다.",
+        "es": "Mil lagos brillan entre bosques de abedules, donde el sol del verano nunca se pone y la aurora baila toda la noche de invierno. Su gente canta canciones tan largas que podrían dar forma al mundo.",
+        "de": "Tausend Seen glitzern zwischen Birkenwäldern, wo die Sommersonne nie untergeht und das Polarlicht die ganze Winternacht tanzt. Die Menschen dort singen Lieder, so lang, dass sie die Welt in Form singen könnten.",
+        "fi": "Tuhat järveä kimaltelee koivumetsien keskellä, missä kesäaurinko ei laske ja revontulet tanssivat koko talviyön. Sen kansa laulaa niin pitkiä lauluja, että ne voisivat laulaa maailman muotoonsa."
+      },
+      "lore": [
+        {
+          "id": "fire_fox",
+          "kind": "myth",
+          "name": {
+            "vi": "Cáo Lửa",
+            "en": "The Fire Fox",
+            "zh": "火狐",
+            "ja": "炎の狐",
+            "ko": "불여우",
+            "es": "El Zorro de Fuego",
+            "de": "Der Feuerfuchs",
+            "fi": "Tulikettu"
+          },
+          "text": {
+            "vi": "Cực quang là những tia lửa tung lên từ đuôi một con cáo lửa chạy qua đồi tuyết. Cáo Lửa và Hồ Ly chín đuôi của Vạn Lạc là chị em họ xa.",
+            "en": "The aurora is the spray of sparks from a fire fox's tail as it runs over the snowy fells. The Fire Fox and Van Lac's nine-tailed fox are distant cousins.",
+            "zh": "极光是火狐奔过雪原时尾巴扫起的火花。火狐和 Vạn Lạc 的九尾狐是远房表姐妹。",
+            "ja": "オーロラは、雪の丘を駆ける炎の狐が尾で巻き上げた火花だ。炎の狐と Vạn Lạc の九尾の狐は遠いいとこ同士である。",
+            "ko": "오로라는 눈 덮인 언덕을 달리는 불여우의 꼬리가 흩뿌린 불꽃이다. 불여우와 Vạn Lạc의 구미호는 먼 사촌지간이다.",
+            "es": "La aurora es la lluvia de chispas que levanta la cola de un zorro de fuego al correr por las colinas nevadas. El Zorro de Fuego y la zorra de nueve colas de Vạn Lạc son primos lejanos.",
+            "de": "Das Polarlicht ist der Funkenregen vom Schweif eines Feuerfuchses, der über die verschneiten Fjells läuft. Der Feuerfuchs und der neunschwänzige Fuchs von Vạn Lạc sind entfernte Verwandte.",
+            "fi": "Revontulet ovat kipinöitä, joita tuliketun häntä pöllyttää sen juostessa lumisten tunturien yli. Tulikettu ja Vạn Lạcin yhdeksänhäntäinen kettu ovat kaukaisia serkkuja."
+          }
+        },
+        {
+          "id": "kantele",
+          "kind": "artifact",
+          "name": {
+            "vi": "Đàn Kantele",
+            "en": "The Kantele",
+            "zh": "康特勒琴",
+            "ja": "カンテレ",
+            "ko": "칸텔레",
+            "es": "El kantele",
+            "de": "Die Kantele",
+            "fi": "Kantele"
+          },
+          "text": {
+            "vi": "Cây đàn dây đầu tiên được làm từ xương hàm một con cá chó khổng lồ. Khi đàn cất tiếng, cả rừng cây và suối nước đều lặng im lắng nghe.",
+            "en": "The first of these zithers was carved from the jawbone of a giant pike. When it is played, the forests and rivers fall silent to listen.",
+            "zh": "第一把这样的弦琴是用巨大狗鱼的颌骨做成的。它一响起，森林和河流都会安静下来倾听。",
+            "ja": "最初のこの弦楽器は、巨大なカワカマスの顎の骨から作られた。それが奏でられると、森も川も静まり返って耳を傾ける。",
+            "ko": "최초의 이 현악기는 거대한 강꼬치고기의 턱뼈로 만들어졌다. 연주가 시작되면 숲과 강이 모두 숨죽여 귀를 기울인다.",
+            "es": "La primera de estas cítaras se talló con la mandíbula de un lucio gigante. Cuando suena, los bosques y los ríos callan para escuchar.",
+            "de": "Die erste dieser Zithern wurde aus dem Kieferknochen eines riesigen Hechts geschnitzt. Wenn sie erklingt, verstummen Wälder und Flüsse, um zu lauschen.",
+            "fi": "Ensimmäinen kantele veistettiin jättiläishauen leukaluusta. Kun sitä soitetaan, metsät ja joet hiljenevät kuuntelemaan."
+          }
+        },
+        {
+          "id": "lakeside_sauna",
+          "kind": "architecture",
+          "name": {
+            "vi": "Nhà Xông Hơi Ven Hồ",
+            "en": "The Lakeside Sauna",
+            "zh": "湖畔桑拿",
+            "ja": "湖畔のサウナ",
+            "ko": "호숫가 사우나",
+            "es": "La sauna junto al lago",
+            "de": "Die Sauna am See",
+            "fi": "Rantasauna"
+          },
+          "text": {
+            "vi": "Căn nhà gỗ nhỏ bên hồ, nơi một tiểu thần hiền lành giữ lửa. Xông hơi xong, người ta nhảy xuống hố băng rồi trồi lên cười vang.",
+            "en": "A little log house by the lake where a gentle spirit tends the fire. After the steam, people plunge into a hole in the ice and come out laughing.",
+            "zh": "湖边的小木屋里，一位温和的小神守着炉火。蒸完桑拿，人们跳进冰窟窿，再笑着爬出来。",
+            "ja": "湖のほとりの小さな丸太小屋で、優しい小さな精霊が火の番をしている。蒸気を浴びたら氷の穴に飛び込み、笑いながら上がってくる。",
+            "ko": "호숫가의 작은 통나무집에서 온화한 작은 신령이 불을 지킨다. 땀을 빼고 나면 사람들은 얼음 구멍에 뛰어들었다가 깔깔 웃으며 나온다.",
+            "es": "Una casita de troncos junto al lago donde un espíritu bondadoso cuida el fuego. Tras el vapor, la gente se lanza a un agujero en el hielo y sale riendo.",
+            "de": "Ein kleines Blockhaus am See, in dem ein sanfter Geist das Feuer hütet. Nach dem Dampf springen die Leute in ein Eisloch und kommen lachend wieder heraus.",
+            "fi": "Pieni hirsimökki järven rannalla, jossa lempeä henki vaalii tulta. Löylyjen jälkeen ihmiset pulahtavat avantoon ja nousevat sieltä nauraen."
+          }
+        },
+        {
+          "id": "wish_mill",
+          "kind": "artifact",
+          "name": {
+            "vi": "Cối Xay Điều Ước",
+            "en": "The Wish-Mill",
+            "zh": "如愿磨",
+            "ja": "願いの臼",
+            "ko": "소원 맷돌",
+            "es": "El molino de los deseos",
+            "de": "Die Wunschmühle",
+            "fi": "Toivemylly"
+          },
+          "text": {
+            "vi": "Người thợ rèn đã rèn vòm trời cũng rèn nên chiếc cối tự xay ra lúa, muối và vàng. Nó vỡ trong một cuộc tranh giành, và các mảnh vỡ vẫn nằm đâu đó dưới đáy hồ.",
+            "en": "The smith who forged the dome of the sky also forged a mill that grinds out grain, salt and gold on its own. It broke in a quarrel, and its pieces still lie somewhere at the bottom of the lakes.",
+            "zh": "锻造天穹的铁匠也锻造了一台会自己磨出谷物、盐和金子的磨。它在一场争夺中碎裂，碎片至今仍沉在某个湖底。",
+            "ja": "天の円蓋を鍛えた鍛冶師は、ひとりでに穀物と塩と金をひき出す臼も鍛えた。臼は奪い合いの末に壊れ、そのかけらは今もどこかの湖の底に眠っている。",
+            "ko": "하늘의 둥근 지붕을 벼려 낸 대장장이는 저절로 곡식과 소금과 금을 갈아 내는 맷돌도 만들었다. 맷돌은 다툼 끝에 깨졌고, 그 조각들은 지금도 어느 호수 바닥에 잠들어 있다.",
+            "es": "El herrero que forjó la cúpula del cielo también forjó un molino que muele grano, sal y oro por sí solo. Se rompió en una disputa, y sus pedazos aún yacen en el fondo de algún lago.",
+            "de": "Der Schmied, der das Himmelsgewölbe schmiedete, schmiedete auch eine Mühle, die von selbst Korn, Salz und Gold mahlt. Sie zerbrach in einem Streit, und ihre Stücke liegen noch heute irgendwo auf dem Grund der Seen.",
+            "fi": "Seppä, joka takoi taivaankannen, takoi myös myllyn, joka jauhaa itsestään viljaa, suolaa ja kultaa. Se hajosi riidassa, ja sen palaset lepäävät yhä jonkin järven pohjassa."
+          }
+        }
+      ]
+    }
+  ]
+}

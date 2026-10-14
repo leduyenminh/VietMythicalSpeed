@@ -1,0 +1,2639 @@
+{
+  "goldToJadeRate": 1,
+  "maxPassDays": 180,
+  "vessels": ["thuyen_rong", "dieu_sao", "xe_lan", "be_quy"],
+  "products": [
+    {
+      "id": "gold_60",
+      "kind": "gold",
+      "gold": 60,
+      "bonus": 0,
+      "firstBonus": 60,
+      "priceUsd": 0.99,
+      "steamItemId": "101",
+      "steamPrices": [{ "currency": "USD", "cents": 99 }, { "currency": "EUR", "cents": 99 }, { "currency": "GBP", "cents": 89 }],
+      "sortOrder": 10,
+      "name": {
+        "vi": "60 Nén Vàng",
+        "en": "60 Gold Ingots",
+        "zh": "60 Nén Vàng",
+        "ja": "60 Nén Vàng",
+        "ko": "Nén Vàng 60개",
+        "es": "60 Nén Vàng",
+        "de": "60 Nén Vàng",
+        "fi": "60 Nén Vàng"
+      }
+    },
+    {
+      "id": "gold_300",
+      "kind": "gold",
+      "gold": 300,
+      "bonus": 30,
+      "firstBonus": 300,
+      "priceUsd": 4.99,
+      "steamItemId": "102",
+      "steamPrices": [{ "currency": "USD", "cents": 499 }, { "currency": "EUR", "cents": 499 }, { "currency": "GBP", "cents": 449 }],
+      "sortOrder": 20,
+      "name": {
+        "vi": "300 Nén Vàng",
+        "en": "300 Gold Ingots",
+        "zh": "300 Nén Vàng",
+        "ja": "300 Nén Vàng",
+        "ko": "Nén Vàng 300개",
+        "es": "300 Nén Vàng",
+        "de": "300 Nén Vàng",
+        "fi": "300 Nén Vàng"
+      }
+    },
+    {
+      "id": "gold_980",
+      "kind": "gold",
+      "gold": 980,
+      "bonus": 110,
+      "firstBonus": 980,
+      "priceUsd": 14.99,
+      "steamItemId": "103",
+      "steamPrices": [{ "currency": "USD", "cents": 1499 }, { "currency": "EUR", "cents": 1499 }, { "currency": "GBP", "cents": 1349 }],
+      "sortOrder": 30,
+      "name": {
+        "vi": "980 Nén Vàng",
+        "en": "980 Gold Ingots",
+        "zh": "980 Nén Vàng",
+        "ja": "980 Nén Vàng",
+        "ko": "Nén Vàng 980개",
+        "es": "980 Nén Vàng",
+        "de": "980 Nén Vàng",
+        "fi": "980 Nén Vàng"
+      }
+    },
+    {
+      "id": "gold_1980",
+      "kind": "gold",
+      "gold": 1980,
+      "bonus": 260,
+      "firstBonus": 1980,
+      "priceUsd": 29.99,
+      "steamItemId": "104",
+      "steamPrices": [{ "currency": "USD", "cents": 2999 }, { "currency": "EUR", "cents": 2999 }, { "currency": "GBP", "cents": 2699 }],
+      "sortOrder": 40,
+      "name": {
+        "vi": "1980 Nén Vàng",
+        "en": "1980 Gold Ingots",
+        "zh": "1980 Nén Vàng",
+        "ja": "1980 Nén Vàng",
+        "ko": "Nén Vàng 1980개",
+        "es": "1980 Nén Vàng",
+        "de": "1980 Nén Vàng",
+        "fi": "1980 Nén Vàng"
+      }
+    },
+    {
+      "id": "gold_3280",
+      "kind": "gold",
+      "gold": 3280,
+      "bonus": 600,
+      "firstBonus": 3280,
+      "priceUsd": 49.99,
+      "steamItemId": "105",
+      "steamPrices": [{ "currency": "USD", "cents": 4999 }, { "currency": "EUR", "cents": 4999 }, { "currency": "GBP", "cents": 4499 }],
+      "sortOrder": 50,
+      "name": {
+        "vi": "3280 Nén Vàng",
+        "en": "3280 Gold Ingots",
+        "zh": "3280 Nén Vàng",
+        "ja": "3280 Nén Vàng",
+        "ko": "Nén Vàng 3280개",
+        "es": "3280 Nén Vàng",
+        "de": "3280 Nén Vàng",
+        "fi": "3280 Nén Vàng"
+      }
+    },
+    {
+      "id": "gold_6480",
+      "kind": "gold",
+      "gold": 6480,
+      "bonus": 1600,
+      "firstBonus": 6480,
+      "priceUsd": 99.99,
+      "steamItemId": "106",
+      "steamPrices": [{ "currency": "USD", "cents": 9999 }, { "currency": "EUR", "cents": 9999 }, { "currency": "GBP", "cents": 8999 }],
+      "sortOrder": 60,
+      "name": {
+        "vi": "6480 Nén Vàng",
+        "en": "6480 Gold Ingots",
+        "zh": "6480 Nén Vàng",
+        "ja": "6480 Nén Vàng",
+        "ko": "Nén Vàng 6480개",
+        "es": "6480 Nén Vàng",
+        "de": "6480 Nén Vàng",
+        "fi": "6480 Nén Vàng"
+      }
+    },
+    {
+      "id": "lantern_pass",
+      "kind": "pass",
+      "gold": 300,
+      "passDays": 30,
+      "passDailyJade": 90,
+      "priceUsd": 4.99,
+      "steamItemId": "201",
+      "steamPrices": [{ "currency": "USD", "cents": 499 }, { "currency": "EUR", "cents": 499 }, { "currency": "GBP", "cents": 449 }],
+      "sortOrder": 5,
+      "name": {
+        "vi": "Thẻ Đèn Lồng (30 ngày)",
+        "en": "Lantern Pass (30 days)",
+        "zh": "灯笼通行证（30 天）",
+        "ja": "灯籠パス（30日）",
+        "ko": "등불 패스 (30일)",
+        "es": "Pase del Farol (30 días)",
+        "de": "Laternenpass (30 Tage)",
+        "fi": "Lyhtypassi (30 päivää)"
+      },
+      "desc": {
+        "vi": "Nhận ngay 300 Nén Vàng, rồi 90 Ngọc Bích mỗi ngày trong 30 ngày khi nhận quà đăng nhập.",
+        "en": "300 Gold Ingots now, then 90 jade every day for 30 days with your login reward.",
+        "zh": "立即获得 300 Nén Vàng，之后 30 天每天随登录奖励领取 90 碧玉。",
+        "ja": "今すぐ 300 Nén Vàng、その後30日間ログインボーナスと一緒に毎日翡翠90個。",
+        "ko": "지금 Nén Vàng 300개, 이후 30일 동안 로그인 보상과 함께 매일 비취 90개.",
+        "es": "300 Nén Vàng al instante y luego 90 de jade cada día durante 30 días con tu recompensa de conexión.",
+        "de": "Sofort 300 Nén Vàng, danach 30 Tage lang täglich 90 Jade mit deiner Login-Belohnung.",
+        "fi": "Heti 300 Nén Vàng, sitten 90 jadea päivittäin 30 päivän ajan kirjautumispalkkion mukana."
+      }
+    },
+    {
+      "id": "starter_pack",
+      "kind": "bundle",
+      "gold": 120,
+      "limit": 1,
+      "priceUsd": 1.99,
+      "steamItemId": "301",
+      "steamPrices": [{ "currency": "USD", "cents": 199 }, { "currency": "EUR", "cents": 199 }, { "currency": "GBP", "cents": 179 }],
+      "sortOrder": 1,
+      "rewards": [{ "type": "tickets", "amount": 10 }, { "type": "item", "itemId": "frame_starter" }],
+      "name": {
+        "vi": "Gói Tân Sứ Giả",
+        "en": "New Envoy Pack",
+        "zh": "新速使礼包",
+        "ja": "新米速使パック",
+        "ko": "새내기 Tốc Sứ 패키지",
+        "es": "Pack de Tốc Sứ Novato",
+        "de": "Paket für neue Tốc Sứ",
+        "fi": "Uuden lähettilään paketti"
+      },
+      "desc": {
+        "vi": "Một lần duy nhất: 120 Nén Vàng, 10 Nén Nhang và khung ảnh Tân Sứ Giả.",
+        "en": "Once per account: 120 Gold Ingots, 10 incense and the New Envoy avatar frame.",
+        "zh": "每个账号限购一次：120 Nén Vàng、10 支香和“新速使”头像框。",
+        "ja": "1アカウント1回限り：120 Nén Vàng、お香10本、アイコンフレーム「新米速使」。",
+        "ko": "계정당 1회: Nén Vàng 120개, 향 10개, '새내기 Tốc Sứ' 프로필 테두리.",
+        "es": "Una vez por cuenta: 120 Nén Vàng, 10 inciensos y el marco de avatar Tốc Sứ Novato.",
+        "de": "Einmal pro Konto: 120 Nén Vàng, 10 Räucherstäbchen und der Avatarrahmen „Neue Tốc Sứ“.",
+        "fi": "Kerran tiliä kohden: 120 Nén Vàng, 10 suitsuketta ja Uusi lähettiläs -avatarkehys."
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "frame_basic",
+      "category": "avatarFrame",
+      "basic": true,
+      "sortOrder": 0,
+      "name": {
+        "vi": "Khung Cơ Bản",
+        "en": "Basic Frame",
+        "zh": "基础头像框",
+        "ja": "ベーシックフレーム",
+        "ko": "기본 테두리",
+        "es": "Marco básico",
+        "de": "Einfacher Rahmen",
+        "fi": "Peruskehys"
+      },
+      "style": { "shape": "ring", "colorA": "#FFFFFF", "colorB": "#4FB0FF", "colorC": "#9FD3FF" }
+    },
+    {
+      "id": "frame_lotus",
+      "category": "avatarFrame",
+      "rarity": 2,
+      "price": { "currency": "gold", "amount": 300 },
+      "sortOrder": 10,
+      "name": {
+        "vi": "Sen Hồng",
+        "en": "Pink Lotus",
+        "zh": "粉荷",
+        "ja": "桃色の蓮",
+        "ko": "분홍 연꽃",
+        "es": "Loto rosa",
+        "de": "Rosa Lotus",
+        "fi": "Vaaleanpunainen lootus"
+      },
+      "desc": {
+        "vi": "Cánh sen hồng nở quanh ảnh đại diện.",
+        "en": "Pink lotus petals bloom around your avatar.",
+        "zh": "粉色荷花在你的头像四周绽放。",
+        "ja": "アイコンのまわりに桃色の蓮の花びらが咲く。",
+        "ko": "프로필 둘레에 분홍 연꽃잎이 피어난다.",
+        "es": "Pétalos de loto rosa florecen alrededor de tu avatar.",
+        "de": "Rosa Lotusblätter blühen rund um deinen Avatar.",
+        "fi": "Vaaleanpunaiset lootuksen terälehdet kukkivat avatarisi ympärillä."
+      },
+      "style": { "shape": "petal", "colorA": "#FF8FB1", "colorB": "#FFF0F5", "colorC": "#FFC2D4" }
+    },
+    {
+      "id": "frame_jade_cloud",
+      "category": "avatarFrame",
+      "rarity": 1,
+      "price": { "currency": "coins", "amount": 25000 },
+      "sortOrder": 20,
+      "name": {
+        "vi": "Mây Ngọc",
+        "en": "Jade Cloud",
+        "zh": "碧玉祥云",
+        "ja": "翡翠の雲",
+        "ko": "비취 구름",
+        "es": "Nube de jade",
+        "de": "Jadewolke",
+        "fi": "Jadepilvi"
+      },
+      "desc": {
+        "vi": "Vân mây ngọc bích của các đền cổ.",
+        "en": "Jade cloud scrolls from old temple eaves.",
+        "zh": "取自古庙飞檐的碧玉云纹。",
+        "ja": "古寺の軒から取った翡翠の雲文様。",
+        "ko": "옛 사원 처마에서 따온 비취 구름무늬.",
+        "es": "Volutas de nube de jade de los aleros de un viejo templo.",
+        "de": "Jade-Wolkenranken von alten Tempeltraufen.",
+        "fi": "Jadepilvikiehkuroita vanhan temppelin räystäiltä."
+      },
+      "style": { "shape": "cloud", "colorA": "#2BB39A", "colorB": "#E6FFF8", "colorC": "#7CF3D8" }
+    },
+    {
+      "id": "frame_full_moon",
+      "category": "avatarFrame",
+      "rarity": 2,
+      "price": { "currency": "gold", "amount": 400 },
+      "sortOrder": 30,
+      "name": {
+        "vi": "Trăng Rằm",
+        "en": "Full Moon",
+        "zh": "满月",
+        "ja": "満月",
+        "ko": "보름달",
+        "es": "Luna llena",
+        "de": "Vollmond",
+        "fi": "Täysikuu"
+      },
+      "desc": {
+        "vi": "Hai vòng trăng bạc của đêm Trung Thu.",
+        "en": "Twin silver rings of a Mid-Autumn moon.",
+        "zh": "中秋明月的两道银环。",
+        "ja": "中秋の月の二重の銀の輪。",
+        "ko": "중추절 달의 두 겹 은빛 고리.",
+        "es": "Los dos anillos de plata de la luna de Medio Otoño.",
+        "de": "Die zwei Silberringe des Herbstmitte-Mondes.",
+        "fi": "Keskisyksyn kuun kaksi hopearengasta."
+      },
+      "style": { "shape": "double", "colorA": "#C9D6FF", "colorB": "#FFFFFF", "colorC": "#9FB4FF" }
+    },
+    {
+      "id": "frame_dragon_scale",
+      "category": "avatarFrame",
+      "rarity": 2,
+      "price": { "currency": "gold", "amount": 480 },
+      "sortOrder": 40,
+      "name": {
+        "vi": "Vảy Rồng",
+        "en": "Dragon Scales",
+        "zh": "龙鳞",
+        "ja": "龍のうろこ",
+        "ko": "용 비늘",
+        "es": "Escamas de dragón",
+        "de": "Drachenschuppen",
+        "fi": "Lohikäärmeen suomut"
+      },
+      "desc": {
+        "vi": "Vảy son viền vàng của thuyền rồng.",
+        "en": "Red-and-gold scales of a dragon boat.",
+        "zh": "龙舟上红金相间的鳞片。",
+        "ja": "龍舟の赤と金のうろこ。",
+        "ko": "용선의 붉고 금빛 나는 비늘.",
+        "es": "Escamas rojas y doradas de un barco dragón.",
+        "de": "Rot-goldene Schuppen eines Drachenboots.",
+        "fi": "Lohikäärmeveneen punakultaiset suomut."
+      },
+      "style": { "shape": "scale", "colorA": "#B3261E", "colorB": "#F2C94C", "colorC": "#FF7A45" }
+    },
+    {
+      "id": "frame_phoenix",
+      "category": "avatarFrame",
+      "rarity": 3,
+      "price": { "currency": "gold", "amount": 680 },
+      "sortOrder": 50,
+      "name": {
+        "vi": "Lửa Phượng",
+        "en": "Phoenix Flame",
+        "zh": "凤凰之焰",
+        "ja": "鳳凰の炎",
+        "ko": "봉황의 불꽃",
+        "es": "Llama del fénix",
+        "de": "Phönixflamme",
+        "fi": "Feeniksin liekki"
+      },
+      "desc": {
+        "vi": "Lửa phượng hoàng bập bùng không tắt.",
+        "en": "A phoenix fire that never goes out.",
+        "zh": "永不熄灭的凤凰之火。",
+        "ja": "決して消えない鳳凰の火。",
+        "ko": "결코 꺼지지 않는 봉황의 불.",
+        "es": "Un fuego de fénix que nunca se apaga.",
+        "de": "Ein Phönixfeuer, das nie erlischt.",
+        "fi": "Feeniksin tuli, joka ei koskaan sammu."
+      },
+      "style": { "shape": "flame", "colorA": "#FF8C1A", "colorB": "#FFE08A", "colorC": "#FF5A1F" }
+    },
+    {
+      "id": "frame_welcome",
+      "category": "avatarFrame",
+      "rarity": 1,
+      "hidden": true,
+      "sortOrder": 90,
+      "name": {
+        "vi": "Lữ Khách",
+        "en": "Wayfarer",
+        "zh": "旅人",
+        "ja": "旅人",
+        "ko": "나그네",
+        "es": "Viajero",
+        "de": "Wanderer",
+        "fi": "Vaeltaja"
+      },
+      "desc": {
+        "vi": "Quà chào mừng Sứ Giả mới.",
+        "en": "A welcome gift for new Envoys.",
+        "zh": "送给新速使的见面礼。",
+        "ja": "新しい速使への歓迎の贈り物。",
+        "ko": "새로 온 Tốc Sứ를 위한 환영 선물.",
+        "es": "Un regalo de bienvenida para los nuevos Tốc Sứ.",
+        "de": "Ein Willkommensgeschenk für neue Tốc Sứ.",
+        "fi": "Tervetuliaislahja uusille lähettiläille."
+      },
+      "style": { "shape": "double", "colorA": "#4FB0FF", "colorB": "#FFD23F", "colorC": "#9FD3FF" }
+    },
+    {
+      "id": "frame_starter",
+      "category": "avatarFrame",
+      "rarity": 2,
+      "hidden": true,
+      "sortOrder": 91,
+      "name": {
+        "vi": "Tân Sứ Giả",
+        "en": "New Envoy",
+        "zh": "新速使",
+        "ja": "新米速使",
+        "ko": "새내기 Tốc Sứ",
+        "es": "Tốc Sứ Novato",
+        "de": "Neue Tốc Sứ",
+        "fi": "Uusi lähettiläs"
+      },
+      "desc": {
+        "vi": "Chỉ có trong Gói Tân Sứ Giả.",
+        "en": "Only in the New Envoy Pack.",
+        "zh": "仅限“新速使礼包”。",
+        "ja": "新米速使パック限定。",
+        "ko": "새내기 Tốc Sứ 패키지 전용.",
+        "es": "Solo en el Pack de Tốc Sứ Novato.",
+        "de": "Nur im Paket für neue Tốc Sứ.",
+        "fi": "Vain Uuden lähettilään paketissa."
+      },
+      "style": { "shape": "petal", "colorA": "#FFD23F", "colorB": "#FFFFFF", "colorC": "#FFB347" }
+    },
+    {
+      "id": "plate_basic",
+      "category": "profileFrame",
+      "basic": true,
+      "sortOrder": 0,
+      "name": {
+        "vi": "Bảng Tên Cơ Bản",
+        "en": "Basic Nameplate",
+        "zh": "基础名牌",
+        "ja": "ベーシックネームプレート",
+        "ko": "기본 명패",
+        "es": "Placa básica",
+        "de": "Einfaches Namensschild",
+        "fi": "Perusnimikyltti"
+      },
+      "style": { "pattern": "plain", "colorA": "#FFFFFF", "colorB": "#E6F0FF", "colorC": "#1E2A44" }
+    },
+    {
+      "id": "plate_silk",
+      "category": "profileFrame",
+      "rarity": 1,
+      "price": { "currency": "gold", "amount": 300 },
+      "sortOrder": 10,
+      "name": {
+        "vi": "Lụa Hà Đông",
+        "en": "Ha Dong Silk",
+        "zh": "Hà Đông 丝绸",
+        "ja": "Hà Đông の絹",
+        "ko": "Hà Đông 비단",
+        "es": "Seda de Hà Đông",
+        "de": "Seide aus Hà Đông",
+        "fi": "Hà Đôngin silkki"
+      },
+      "desc": {
+        "vi": "Sóng lụa mềm như áo dài.",
+        "en": "Soft silk waves, like an ao dai.",
+        "zh": "柔软的丝绸波纹，宛如一袭 áo dài。",
+        "ja": "áo dài のようにやわらかな絹の波。",
+        "ko": "áo dài처럼 부드러운 비단 물결.",
+        "es": "Suaves ondas de seda, como un áo dài.",
+        "de": "Weiche Seidenwellen wie ein Áo dài.",
+        "fi": "Pehmeitä silkkiaaltoja kuin áo dài."
+      },
+      "style": { "pattern": "wave", "colorA": "#FDE2F3", "colorB": "#E8D3FF", "colorC": "#7A2E6E" }
+    },
+    {
+      "id": "plate_bamboo",
+      "category": "profileFrame",
+      "rarity": 1,
+      "price": { "currency": "coins", "amount": 30000 },
+      "sortOrder": 20,
+      "name": {
+        "vi": "Rừng Trúc",
+        "en": "Bamboo Grove",
+        "zh": "竹林",
+        "ja": "竹林",
+        "ko": "대나무 숲",
+        "es": "Bosque de bambú",
+        "de": "Bambushain",
+        "fi": "Bambulehto"
+      },
+      "desc": {
+        "vi": "Phên trúc xanh mát của làng quê.",
+        "en": "Cool green bamboo lattice from the village.",
+        "zh": "来自村庄的清凉翠竹格纹。",
+        "ja": "村の涼しげな緑の竹格子。",
+        "ko": "마을의 시원한 초록 대나무 격자.",
+        "es": "Fresca celosía de bambú verde de la aldea.",
+        "de": "Kühles grünes Bambusgitter aus dem Dorf.",
+        "fi": "Viileää vihreää bamburistikkoa kylästä."
+      },
+      "style": { "pattern": "lattice", "colorA": "#CFF2C2", "colorB": "#7FBF6A", "colorC": "#1F4A1B" }
+    },
+    {
+      "id": "plate_lacquer",
+      "category": "profileFrame",
+      "rarity": 2,
+      "price": { "currency": "gold", "amount": 480 },
+      "sortOrder": 30,
+      "name": {
+        "vi": "Sơn Mài",
+        "en": "Lacquerware",
+        "zh": "漆器",
+        "ja": "漆器",
+        "ko": "칠기",
+        "es": "Laca",
+        "de": "Lackarbeit",
+        "fi": "Lakkatyö"
+      },
+      "desc": {
+        "vi": "Nền son đỏ thẫm, chữ thếp vàng.",
+        "en": "Deep red lacquer with gilded letters.",
+        "zh": "深红漆面配烫金文字。",
+        "ja": "深紅の漆に金の文字。",
+        "ko": "진홍빛 옻칠에 금박 글자.",
+        "es": "Laca roja intensa con letras doradas.",
+        "de": "Tiefroter Lack mit vergoldeten Buchstaben.",
+        "fi": "Syvänpunaista lakkaa kullatuin kirjaimin."
+      },
+      "style": { "pattern": "hatch", "colorA": "#8E1B1B", "colorB": "#3A0A0A", "colorC": "#F2C94C" }
+    },
+    {
+      "id": "plate_dong_son",
+      "category": "profileFrame",
+      "rarity": 3,
+      "price": { "currency": "gold", "amount": 680 },
+      "sortOrder": 40,
+      "name": {
+        "vi": "Trống Đồng",
+        "en": "Bronze Drum",
+        "zh": "铜鼓",
+        "ja": "銅鼓",
+        "ko": "청동북",
+        "es": "Tambor de bronce",
+        "de": "Bronzetrommel",
+        "fi": "Pronssirumpu"
+      },
+      "desc": {
+        "vi": "Vòng hoa văn trống đồng Đông Sơn.",
+        "en": "Rings from a Dong Son bronze drum.",
+        "zh": "东山铜鼓上的同心环纹。",
+        "ja": "ドンソン銅鼓の同心円。",
+        "ko": "동선 청동북의 동심원 무늬.",
+        "es": "Anillos de un tambor de bronce de Đông Sơn.",
+        "de": "Ringe einer Bronzetrommel aus Đông Sơn.",
+        "fi": "Renkaita Đông Sơnin pronssirummusta."
+      },
+      "style": { "pattern": "drum", "colorA": "#C08A3E", "colorB": "#6E4A1C", "colorC": "#FFE3A3" }
+    },
+    {
+      "id": "plate_imperial",
+      "category": "profileFrame",
+      "rarity": 3,
+      "price": { "currency": "gold", "amount": 980 },
+      "sortOrder": 50,
+      "name": {
+        "vi": "Hoàng Thành",
+        "en": "Imperial Gold",
+        "zh": "皇城金",
+        "ja": "皇城の金",
+        "ko": "황성의 금빛",
+        "es": "Oro imperial",
+        "de": "Kaisergold",
+        "fi": "Keisarillinen kulta"
+      },
+      "desc": {
+        "vi": "Ánh vàng điện ngọc của Hoàng Thành.",
+        "en": "The golden glow of the Imperial Citadel.",
+        "zh": "皇城的金色光辉。",
+        "ja": "皇城の黄金の輝き。",
+        "ko": "황성의 황금빛 광채.",
+        "es": "El brillo dorado de la Ciudadela Imperial.",
+        "de": "Das goldene Leuchten der Kaiserzitadelle.",
+        "fi": "Keisarillisen linnoituksen kultainen hehku."
+      },
+      "style": { "pattern": "stars", "colorA": "#FFE08A", "colorB": "#D4A017", "colorC": "#5A1600" }
+    },
+    {
+      "id": "bubble_basic",
+      "category": "bubbleFrame",
+      "basic": true,
+      "sortOrder": 0,
+      "name": {
+        "vi": "Bóng Thoại Cơ Bản",
+        "en": "Basic Bubble",
+        "zh": "基础气泡",
+        "ja": "ベーシック吹き出し",
+        "ko": "기본 말풍선",
+        "es": "Burbuja básica",
+        "de": "Einfache Sprechblase",
+        "fi": "Peruspuhekupla"
+      },
+      "style": { "shape": "skew", "colorA": "#FFFFFF", "colorB": "#FFFFFF", "colorC": "#1E2A44" }
+    },
+    {
+      "id": "bubble_lotus",
+      "category": "bubbleFrame",
+      "rarity": 1,
+      "price": { "currency": "gold", "amount": 200 },
+      "sortOrder": 10,
+      "name": {
+        "vi": "Thoại Sen",
+        "en": "Lotus Bubble",
+        "zh": "荷香气泡",
+        "ja": "蓮の吹き出し",
+        "ko": "연꽃 말풍선",
+        "es": "Burbuja de loto",
+        "de": "Lotus-Sprechblase",
+        "fi": "Lootuskupla"
+      },
+      "desc": {
+        "vi": "Lời Hoa Tiêu thơm hương sen.",
+        "en": "Navigator lines with a hint of lotus.",
+        "zh": "Hoa Tiêu 的台词带着一缕荷香。",
+        "ja": "Hoa Tiêu のセリフにほのかな蓮の香り。",
+        "ko": "Hoa Tiêu의 대사에 은은한 연꽃 향기.",
+        "es": "Frases de tu Hoa Tiêu con un toque de loto.",
+        "de": "Sätze deiner Hoa Tiêu mit einem Hauch von Lotus.",
+        "fi": "Hoa Tiêun repliikit lootuksen tuoksulla."
+      },
+      "style": { "shape": "round", "colorA": "#FFF0F5", "colorB": "#FF8FB1", "colorC": "#8A2846" }
+    },
+    {
+      "id": "bubble_scroll",
+      "category": "bubbleFrame",
+      "rarity": 1,
+      "price": { "currency": "coins", "amount": 15000 },
+      "sortOrder": 20,
+      "name": {
+        "vi": "Giấy Dó",
+        "en": "Do Paper Scroll",
+        "zh": "Dó 纸卷",
+        "ja": "Dó 紙の巻物",
+        "ko": "Dó 종이 두루마리",
+        "es": "Pergamino de papel dó",
+        "de": "Rolle aus Dó-Papier",
+        "fi": "Dó-paperikäärö"
+      },
+      "desc": {
+        "vi": "Như thư viết tay trên giấy dó.",
+        "en": "Like a letter written on do paper.",
+        "zh": "像写在 dó 纸上的一封信。",
+        "ja": "dó 紙に書いた手紙のよう。",
+        "ko": "dó 종이에 쓴 편지처럼.",
+        "es": "Como una carta escrita en papel dó.",
+        "de": "Wie ein Brief auf Dó-Papier.",
+        "fi": "Kuin dó-paperille kirjoitettu kirje."
+      },
+      "style": { "shape": "none", "colorA": "#F6EAD0", "colorB": "#A8794A", "colorC": "#4A3420" }
+    },
+    {
+      "id": "bubble_lantern",
+      "category": "bubbleFrame",
+      "rarity": 2,
+      "price": { "currency": "gold", "amount": 300 },
+      "sortOrder": 30,
+      "name": {
+        "vi": "Đèn Lồng",
+        "en": "Lantern",
+        "zh": "灯笼",
+        "ja": "灯籠",
+        "ko": "등불",
+        "es": "Farol",
+        "de": "Laterne",
+        "fi": "Lyhty"
+      },
+      "desc": {
+        "vi": "Ấm áp như đèn lồng phố Hội.",
+        "en": "Warm as a Hoi An lantern.",
+        "zh": "温暖如会安的灯笼。",
+        "ja": "ホイアンの灯籠のように温かい。",
+        "ko": "호이안의 등불처럼 따뜻하게.",
+        "es": "Cálida como un farol de Hội An.",
+        "de": "Warm wie eine Laterne aus Hội An.",
+        "fi": "Lämmin kuin Hội Anin lyhty."
+      },
+      "style": { "shape": "round", "colorA": "#FFE8C2", "colorB": "#E2463C", "colorC": "#7A1E00" }
+    },
+    {
+      "id": "bubble_jade",
+      "category": "bubbleFrame",
+      "rarity": 2,
+      "price": { "currency": "gold", "amount": 300 },
+      "sortOrder": 40,
+      "name": {
+        "vi": "Ngọc Bích",
+        "en": "Jadeite",
+        "zh": "翡翠",
+        "ja": "翡翠",
+        "ko": "비취옥",
+        "es": "Jadeíta",
+        "de": "Jadeit",
+        "fi": "Jadeiitti"
+      },
+      "desc": {
+        "vi": "Trong trẻo như ngọc.",
+        "en": "Clear as jade.",
+        "zh": "清透如玉。",
+        "ja": "玉のように澄んでいる。",
+        "ko": "옥처럼 맑게.",
+        "es": "Clara como el jade.",
+        "de": "Klar wie Jade.",
+        "fi": "Kirkas kuin jade."
+      },
+      "style": { "shape": "skew", "colorA": "#E6FFF8", "colorB": "#2BB39A", "colorC": "#0E5E4F" }
+    },
+    {
+      "id": "bubble_night",
+      "category": "bubbleFrame",
+      "rarity": 2,
+      "price": { "currency": "gold", "amount": 380 },
+      "sortOrder": 50,
+      "name": {
+        "vi": "Đêm Sao",
+        "en": "Starry Night",
+        "zh": "星夜",
+        "ja": "星降る夜",
+        "ko": "별밤",
+        "es": "Noche estrellada",
+        "de": "Sternennacht",
+        "fi": "Tähtiyö"
+      },
+      "desc": {
+        "vi": "Thì thầm dưới bầu trời sao.",
+        "en": "Whispers under a starry sky.",
+        "zh": "星空下的低语。",
+        "ja": "星空の下のささやき。",
+        "ko": "별하늘 아래의 속삭임.",
+        "es": "Susurros bajo un cielo estrellado.",
+        "de": "Flüstern unter einem Sternenhimmel.",
+        "fi": "Kuiskauksia tähtitaivaan alla."
+      },
+      "style": { "shape": "round", "colorA": "#1B2550", "colorB": "#9FB4FF", "colorC": "#FFFFFF" }
+    },
+    {
+      "id": "exhaust_basic",
+      "category": "exhaust",
+      "basic": true,
+      "sortOrder": 0,
+      "name": {
+        "vi": "Linh Khí",
+        "en": "Spirit Trail",
+        "zh": "灵光尾迹",
+        "ja": "霊光の軌跡",
+        "ko": "영혼의 궤적",
+        "es": "Estela espiritual",
+        "de": "Geisterspur",
+        "fi": "Henkivana"
+      },
+      "style": { "colorA": "", "colorB": "", "width": 0.45, "length": 0.28, "cell": "", "embers": 0 }
+    },
+    {
+      "id": "exhaust_firefly",
+      "category": "exhaust",
+      "rarity": 1,
+      "price": { "currency": "coins", "amount": 20000 },
+      "sortOrder": 10,
+      "name": {
+        "vi": "Đom Đóm",
+        "en": "Fireflies",
+        "zh": "萤火虫",
+        "ja": "ホタル",
+        "ko": "반딧불이",
+        "es": "Luciérnagas",
+        "de": "Glühwürmchen",
+        "fi": "Tulikärpäset"
+      },
+      "desc": {
+        "vi": "Một đàn đom đóm bay theo sau.",
+        "en": "A swarm of fireflies follows you.",
+        "zh": "一群萤火虫跟在你身后。",
+        "ja": "ホタルの群れがあとをついてくる。",
+        "ko": "반딧불이 떼가 뒤를 따라온다.",
+        "es": "Un enjambre de luciérnagas te sigue.",
+        "de": "Ein Schwarm Glühwürmchen folgt dir.",
+        "fi": "Tulikärpäsparvi seuraa sinua."
+      },
+      "style": { "colorA": "#B6FF7A", "colorB": "#2F7D4F", "width": 0.4, "length": 0.3, "cell": "Dot", "embers": 12 }
+    },
+    {
+      "id": "exhaust_lotus",
+      "category": "exhaust",
+      "rarity": 2,
+      "price": { "currency": "gold", "amount": 480 },
+      "sortOrder": 20,
+      "name": {
+        "vi": "Mưa Sen",
+        "en": "Lotus Rain",
+        "zh": "荷花雨",
+        "ja": "蓮の雨",
+        "ko": "연꽃비",
+        "es": "Lluvia de loto",
+        "de": "Lotusregen",
+        "fi": "Lootussade"
+      },
+      "desc": {
+        "vi": "Cánh sen rơi trên đường đua.",
+        "en": "Lotus petals drift over the road.",
+        "zh": "荷花瓣飘落在赛道上。",
+        "ja": "蓮の花びらがコースに舞う。",
+        "ko": "연꽃잎이 길 위로 흩날린다.",
+        "es": "Pétalos de loto flotan sobre el camino.",
+        "de": "Lotusblätter schweben über die Straße.",
+        "fi": "Lootuksen terälehdet leijailevat tien yllä."
+      },
+      "style": { "colorA": "#FF8FB1", "colorB": "#FFFFFF", "width": 0.5, "length": 0.35, "cell": "Petal", "embers": 10 }
+    },
+    {
+      "id": "exhaust_thunder",
+      "category": "exhaust",
+      "rarity": 2,
+      "price": { "currency": "gold", "amount": 580 },
+      "sortOrder": 30,
+      "name": {
+        "vi": "Sấm Sét",
+        "en": "Thunder",
+        "zh": "雷霆",
+        "ja": "雷",
+        "ko": "천둥",
+        "es": "Trueno",
+        "de": "Donner",
+        "fi": "Ukkonen"
+      },
+      "desc": {
+        "vi": "Tia chớp xanh xé gió.",
+        "en": "Blue lightning splits the wind.",
+        "zh": "蓝色闪电劈开疾风。",
+        "ja": "青い稲妻が風を切り裂く。",
+        "ko": "푸른 번개가 바람을 가른다.",
+        "es": "Un rayo azul parte el viento.",
+        "de": "Blauer Blitz spaltet den Wind.",
+        "fi": "Sininen salama halkaisee tuulen."
+      },
+      "style": { "colorA": "#7CF3FF", "colorB": "#2E5BFF", "width": 0.35, "length": 0.5, "cell": "Sparkle", "embers": 14 }
+    },
+    {
+      "id": "exhaust_phoenix",
+      "category": "exhaust",
+      "rarity": 3,
+      "price": { "currency": "gold", "amount": 680 },
+      "sortOrder": 40,
+      "name": {
+        "vi": "Lửa Phượng Hoàng",
+        "en": "Phoenix Fire",
+        "zh": "凤凰火",
+        "ja": "鳳凰の火",
+        "ko": "봉황의 불",
+        "es": "Fuego de fénix",
+        "de": "Phönixfeuer",
+        "fi": "Feeniksin tuli"
+      },
+      "desc": {
+        "vi": "Đuôi lửa rực như cánh phượng.",
+        "en": "A blazing tail like phoenix wings.",
+        "zh": "如凤凰展翼般燃烧的尾焰。",
+        "ja": "鳳凰の翼のように燃え上がる尾。",
+        "ko": "봉황의 날개처럼 타오르는 꼬리.",
+        "es": "Una cola en llamas como las alas del fénix.",
+        "de": "Ein lodernder Schweif wie Phönixflügel.",
+        "fi": "Leimuava häntä kuin feeniksin siivet."
+      },
+      "style": { "colorA": "#FFB347", "colorB": "#FF3D1F", "width": 0.6, "length": 0.4, "cell": "Flame", "embers": 18 }
+    },
+    {
+      "id": "exhaust_moonbeam",
+      "category": "exhaust",
+      "rarity": 3,
+      "price": { "currency": "gold", "amount": 780 },
+      "sortOrder": 50,
+      "name": {
+        "vi": "Ánh Trăng",
+        "en": "Moonbeam",
+        "zh": "月光",
+        "ja": "月光",
+        "ko": "달빛",
+        "es": "Rayo de luna",
+        "de": "Mondstrahl",
+        "fi": "Kuunsäde"
+      },
+      "desc": {
+        "vi": "Vệt trăng bạc và những mảnh trăng khuyết.",
+        "en": "A silver moon trail with crescent sparks.",
+        "zh": "洒满新月火花的银色月光尾迹。",
+        "ja": "三日月の火花を散らす銀の月の軌跡。",
+        "ko": "초승달 불꽃이 흩날리는 은빛 달의 궤적.",
+        "es": "Una estela lunar plateada con chispas de media luna.",
+        "de": "Eine silberne Mondspur mit Sichelfunken.",
+        "fi": "Hopeinen kuuvana sirppikipinöineen."
+      },
+      "style": { "colorA": "#FFFFFF", "colorB": "#9FB4FF", "width": 0.7, "length": 0.55, "cell": "Crescent", "embers": 6 }
+    },
+    {
+      "id": "exhaust_lantern",
+      "category": "exhaust",
+      "rarity": 3,
+      "price": { "currency": "gold", "amount": 880 },
+      "sortOrder": 60,
+      "name": {
+        "vi": "Hoa Đăng",
+        "en": "Floating Lanterns",
+        "zh": "浮灯",
+        "ja": "浮かぶ灯籠",
+        "ko": "떠도는 등불",
+        "es": "Faroles flotantes",
+        "de": "Schwebende Laternen",
+        "fi": "Kelluvat lyhdyt"
+      },
+      "desc": {
+        "vi": "Thả hoa đăng dọc dòng nhạc.",
+        "en": "Floating lanterns along the music.",
+        "zh": "随着音乐漂浮的灯笼。",
+        "ja": "音楽に沿って浮かぶ灯籠。",
+        "ko": "음악을 따라 떠가는 등불.",
+        "es": "Faroles que flotan siguiendo la música.",
+        "de": "Schwebende Laternen entlang der Musik.",
+        "fi": "Musiikin mukana kelluvia lyhtyjä."
+      },
+      "style": { "colorA": "#FFD24A", "colorB": "#FF7A45", "width": 0.45, "length": 0.3, "cell": "Lantern", "embers": 8 }
+    },
+    {
+      "id": "skin_vang_anh_ao_dai",
+      "category": "navigatorSkin",
+      "target": "vang_anh",
+      "rarity": 2,
+      "price": { "currency": "gold", "amount": 1280 },
+      "sortOrder": 10,
+      "name": {
+        "vi": "Vàng Anh · Áo Dài Tết",
+        "en": "Vang Anh · Tet Ao Dai",
+        "zh": "Vàng Anh · Tết áo dài",
+        "ja": "Vàng Anh・Tết の áo dài",
+        "ko": "Vàng Anh · Tết áo dài",
+        "es": "Vàng Anh · Áo dài de Tết",
+        "de": "Vàng Anh · Tết-Áo-dài",
+        "fi": "Vàng Anh · Tết-áo dài"
+      },
+      "desc": {
+        "vi": "Áo dài đỏ thắm đón xuân.",
+        "en": "A crimson ao dai to welcome spring.",
+        "zh": "迎接春天的绯红 áo dài。",
+        "ja": "春を迎える深紅の áo dài。",
+        "ko": "봄을 맞이하는 진홍빛 áo dài.",
+        "es": "Un áo dài carmesí para recibir la primavera.",
+        "de": "Ein karminroter Áo dài, um den Frühling zu begrüßen.",
+        "fi": "Karmiininpunainen áo dài kevään tervetulleeksi toivottamiseen."
+      },
+      "style": { "colorA": "#E2463C", "colorB": "#FFD23F", "colorC": "#3A2A1A" }
+    },
+    {
+      "id": "skin_cuoi_moon",
+      "category": "navigatorSkin",
+      "target": "cuoi",
+      "rarity": 2,
+      "price": { "currency": "gold", "amount": 1280 },
+      "sortOrder": 20,
+      "name": {
+        "vi": "Cuội · Đêm Trăng Rằm",
+        "en": "Cuoi · Full Moon Night",
+        "zh": "Cuội · 月圆之夜",
+        "ja": "Cuội・満月の夜",
+        "ko": "Cuội · 보름달 밤",
+        "es": "Cuội · Noche de Luna Llena",
+        "de": "Cuội · Vollmondnacht",
+        "fi": "Cuội · Täydenkuun yö"
+      },
+      "desc": {
+        "vi": "Áo bạc dưới gốc cây đa.",
+        "en": "Silver robes under the banyan tree.",
+        "zh": "榕树下的银色长袍。",
+        "ja": "ガジュマルの下の銀の衣。",
+        "ko": "반얀나무 아래의 은빛 옷.",
+        "es": "Túnica plateada bajo el baniano.",
+        "de": "Silberne Gewänder unter dem Banyanbaum.",
+        "fi": "Hopeiset kaavut banjaanipuun alla."
+      },
+      "style": { "colorA": "#C9D6FF", "colorB": "#FFD23F", "colorC": "#2A2A40" }
+    },
+    {
+      "id": "skin_lan_nhi_lion",
+      "category": "navigatorSkin",
+      "target": "lan_nhi",
+      "rarity": 2,
+      "price": { "currency": "gold", "amount": 1480 },
+      "sortOrder": 30,
+      "name": {
+        "vi": "Lân Nhi · Múa Lân",
+        "en": "Lan Nhi · Lion Dance",
+        "zh": "Lân Nhi · 舞狮",
+        "ja": "Lân Nhi・獅子舞",
+        "ko": "Lân Nhi · 사자춤",
+        "es": "Lân Nhi · Danza del León",
+        "de": "Lân Nhi · Löwentanz",
+        "fi": "Lân Nhi · Leijonatanssi"
+      },
+      "desc": {
+        "vi": "Trống rộn ràng, lân vàng nhảy múa.",
+        "en": "Drums roll, the golden lion dances.",
+        "zh": "鼓声隆隆，金狮起舞。",
+        "ja": "太鼓が鳴り、金の獅子が舞う。",
+        "ko": "북이 울리고, 금빛 사자가 춤춘다.",
+        "es": "Redoblan los tambores, baila el león dorado.",
+        "de": "Trommeln wirbeln, der goldene Löwe tanzt.",
+        "fi": "Rummut pärisevät, kultainen leijona tanssii."
+      },
+      "style": { "colorA": "#FFD23F", "colorB": "#E2463C", "colorC": "#7A1E00" }
+    },
+    {
+      "id": "skin_bach_hac_snow",
+      "category": "navigatorSkin",
+      "target": "bach_hac",
+      "rarity": 2,
+      "price": { "currency": "jade", "amount": 1600 },
+      "sortOrder": 40,
+      "name": {
+        "vi": "Bạch Hạc · Hạc Tuyết",
+        "en": "Bach Hac · Snow Crane",
+        "zh": "Bạch Hạc · 雪鹤",
+        "ja": "Bạch Hạc・雪の鶴",
+        "ko": "Bạch Hạc · 눈의 학",
+        "es": "Bạch Hạc · Grulla de Nieve",
+        "de": "Bạch Hạc · Schneekranich",
+        "fi": "Bạch Hạc · Lumikurki"
+      },
+      "desc": {
+        "vi": "Trắng như tuyết, đỉnh đầu son đỏ.",
+        "en": "Snow white with a red crown.",
+        "zh": "雪白羽衣，一点丹顶。",
+        "ja": "雪のような白に赤い冠。",
+        "ko": "눈처럼 흰 깃에 붉은 정수리.",
+        "es": "Blanco nieve con corona roja.",
+        "de": "Schneeweiß mit roter Krone.",
+        "fi": "Lumivalkoinen punaisella kruunulla."
+      },
+      "style": { "colorA": "#FFFFFF", "colorB": "#E2463C", "colorC": "#1E2A44" }
+    },
+    {
+      "id": "skin_thanh_van_storm",
+      "category": "navigatorSkin",
+      "target": "thanh_van",
+      "rarity": 3,
+      "price": { "currency": "gold", "amount": 1980 },
+      "sortOrder": 50,
+      "name": {
+        "vi": "Thanh Vân · Long Vân Bão Tố",
+        "en": "Thanh Van · Storm Dragon",
+        "zh": "Thanh Vân · 风暴之龙",
+        "ja": "Thanh Vân・嵐の龍",
+        "ko": "Thanh Vân · 폭풍의 용",
+        "es": "Thanh Vân · Dragón de la Tormenta",
+        "de": "Thanh Vân · Sturmdrache",
+        "fi": "Thanh Vân · Myrskylohikäärme"
+      },
+      "desc": {
+        "vi": "Rồng xanh cưỡi mây giông.",
+        "en": "The azure dragon rides the storm clouds.",
+        "zh": "青龙驾驭着风暴云。",
+        "ja": "青龍が嵐の雲に乗る。",
+        "ko": "청룡이 폭풍 구름을 탄다.",
+        "es": "El dragón azur cabalga las nubes de tormenta.",
+        "de": "Der Azurdrache reitet auf den Sturmwolken.",
+        "fi": "Taivaansininen lohikäärme ratsastaa myrskypilvillä."
+      },
+      "style": { "colorA": "#1B2550", "colorB": "#7CF3FF", "colorC": "#0B1020" }
+    },
+    {
+      "id": "skin_nguyet_nga_night",
+      "category": "navigatorSkin",
+      "target": "nguyet_nga",
+      "rarity": 3,
+      "price": { "currency": "gold", "amount": 1980 },
+      "sortOrder": 60,
+      "name": {
+        "vi": "Nguyệt Nga · Dạ Hội Hồ Ly",
+        "en": "Nguyet Nga · Fox Gala",
+        "zh": "Nguyệt Nga · 狐之夜宴",
+        "ja": "Nguyệt Nga・狐の夜会",
+        "ko": "Nguyệt Nga · 여우의 밤 연회",
+        "es": "Nguyệt Nga · Gala de la Zorra",
+        "de": "Nguyệt Nga · Fuchsgala",
+        "fi": "Nguyệt Nga · Kettugaala"
+      },
+      "desc": {
+        "vi": "Dạ phục tím, chín đuôi lấp lánh.",
+        "en": "A violet gown and nine shimmering tails.",
+        "zh": "紫色礼服与九条闪耀的尾巴。",
+        "ja": "紫のドレスと、きらめく九本の尾。",
+        "ko": "보랏빛 드레스와 반짝이는 아홉 꼬리.",
+        "es": "Un vestido violeta y nueve colas resplandecientes.",
+        "de": "Ein violettes Kleid und neun schimmernde Schwänze.",
+        "fi": "Violetti iltapuku ja yhdeksän hohtavaa häntää."
+      },
+      "style": { "colorA": "#2A1240", "colorB": "#C77DFF", "colorC": "#F5F0FF" }
+    },
+    {
+      "id": "emo_smile",
+      "category": "emotion",
+      "basic": true,
+      "sortOrder": 0,
+      "name": {
+        "vi": "Mỉm Cười",
+        "en": "Smile",
+        "zh": "微笑",
+        "ja": "笑顔",
+        "ko": "미소",
+        "es": "Sonrisa",
+        "de": "Lächeln",
+        "fi": "Hymy"
+      },
+      "style": {
+        "face": "smile",
+        "text": {
+          "vi": "Hì hì!",
+          "en": "Hehe!",
+          "zh": "嘿嘿！",
+          "ja": "えへへ！",
+          "ko": "헤헤!",
+          "es": "¡Jeje!",
+          "de": "Hehe!",
+          "fi": "Hehe!"
+        }
+      }
+    },
+    {
+      "id": "emo_wave",
+      "category": "emotion",
+      "basic": true,
+      "sortOrder": 1,
+      "name": {
+        "vi": "Vẫy Tay",
+        "en": "Wave",
+        "zh": "挥手",
+        "ja": "手を振る",
+        "ko": "손 흔들기",
+        "es": "Saludo",
+        "de": "Winken",
+        "fi": "Vilkutus"
+      },
+      "style": {
+        "face": "happy",
+        "text": {
+          "vi": "Chào bạn nhé!",
+          "en": "Hi there!",
+          "zh": "你好呀！",
+          "ja": "やっほー！",
+          "ko": "안녕!",
+          "es": "¡Hola!",
+          "de": "Hallo!",
+          "fi": "Moikka!"
+        }
+      }
+    },
+    {
+      "id": "emo_laugh",
+      "category": "emotion",
+      "rarity": 1,
+      "price": { "currency": "coins", "amount": 8000 },
+      "sortOrder": 10,
+      "name": {
+        "vi": "Cười Lớn",
+        "en": "Laugh",
+        "zh": "大笑",
+        "ja": "大笑い",
+        "ko": "웃음",
+        "es": "Carcajada",
+        "de": "Lachen",
+        "fi": "Nauru"
+      },
+      "style": {
+        "face": "laugh",
+        "text": {
+          "vi": "Ha ha ha!",
+          "en": "Hahaha!",
+          "zh": "哈哈哈！",
+          "ja": "あはは！",
+          "ko": "하하하!",
+          "es": "¡Jajaja!",
+          "de": "Hahaha!",
+          "fi": "Hahaha!"
+        }
+      }
+    },
+    {
+      "id": "emo_wink",
+      "category": "emotion",
+      "rarity": 1,
+      "price": { "currency": "gold", "amount": 120 },
+      "sortOrder": 20,
+      "name": {
+        "vi": "Nháy Mắt",
+        "en": "Wink",
+        "zh": "眨眼",
+        "ja": "ウインク",
+        "ko": "윙크",
+        "es": "Guiño",
+        "de": "Zwinkern",
+        "fi": "Silmänisku"
+      },
+      "style": {
+        "face": "wink",
+        "text": {
+          "vi": "Bí mật nhé~",
+          "en": "It's a secret~",
+          "zh": "这是秘密哦~",
+          "ja": "ナイショだよ~",
+          "ko": "비밀이야~",
+          "es": "Es un secreto~",
+          "de": "Das bleibt unter uns~",
+          "fi": "Se on salaisuus~"
+        }
+      }
+    },
+    {
+      "id": "emo_sleepy",
+      "category": "emotion",
+      "rarity": 1,
+      "price": { "currency": "gold", "amount": 150 },
+      "sortOrder": 30,
+      "name": {
+        "vi": "Buồn Ngủ",
+        "en": "Sleepy",
+        "zh": "犯困",
+        "ja": "眠い",
+        "ko": "졸림",
+        "es": "Sueño",
+        "de": "Müde",
+        "fi": "Unelias"
+      },
+      "style": {
+        "face": "sleepy",
+        "text": {
+          "vi": "Ngáp... đua thêm chặng nữa nhé...",
+          "en": "Yawn... one more race...",
+          "zh": "哈欠……再跑一场……",
+          "ja": "ふわぁ……あと一回だけ……",
+          "ko": "하암…… 한 판만 더……",
+          "es": "Uaaah… una carrera más…",
+          "de": "Gähn… noch ein Rennen…",
+          "fi": "Haukotus… vielä yksi kisa…"
+        }
+      }
+    },
+    {
+      "id": "emo_pout",
+      "category": "emotion",
+      "rarity": 2,
+      "price": { "currency": "gold", "amount": 180 },
+      "sortOrder": 40,
+      "name": {
+        "vi": "Phụng Phịu",
+        "en": "Pout",
+        "zh": "嘟嘴",
+        "ja": "ふくれっ面",
+        "ko": "뾰로통",
+        "es": "Puchero",
+        "de": "Schmollen",
+        "fi": "Mutristus"
+      },
+      "style": {
+        "face": "pout",
+        "text": {
+          "vi": "Hứ! Chờ lâu quá à!",
+          "en": "Hmph! You took forever!",
+          "zh": "哼！你也太慢了！",
+          "ja": "もう！遅すぎ！",
+          "ko": "흥! 너무 오래 걸렸잖아!",
+          "es": "¡Hmph! ¡Cuánto has tardado!",
+          "de": "Pff! Das hat ja ewig gedauert!",
+          "fi": "Hmph! Kestipä sinulla!"
+        }
+      }
+    },
+    {
+      "id": "emo_surprised",
+      "category": "emotion",
+      "rarity": 2,
+      "price": { "currency": "gold", "amount": 180 },
+      "sortOrder": 50,
+      "name": {
+        "vi": "Ngạc Nhiên",
+        "en": "Surprised",
+        "zh": "惊讶",
+        "ja": "びっくり",
+        "ko": "놀람",
+        "es": "Sorpresa",
+        "de": "Überrascht",
+        "fi": "Yllättynyt"
+      },
+      "style": {
+        "face": "surprised",
+        "text": {
+          "vi": "Ơ kìa?!",
+          "en": "Whoa?!",
+          "zh": "哇？！",
+          "ja": "えっ？！",
+          "ko": "헉?!",
+          "es": "¡¿Hala?!",
+          "de": "Wie bitte?!",
+          "fi": "Täh?!"
+        }
+      }
+    },
+    {
+      "id": "emo_heart",
+      "category": "emotion",
+      "rarity": 3,
+      "price": { "currency": "gold", "amount": 300 },
+      "sortOrder": 60,
+      "name": {
+        "vi": "Thương Lắm",
+        "en": "Love",
+        "zh": "喜欢",
+        "ja": "大好き",
+        "ko": "좋아해",
+        "es": "Cariño",
+        "de": "Liebe",
+        "fi": "Rakkaus"
+      },
+      "style": {
+        "face": "heart",
+        "text": {
+          "vi": "Thương bạn nhất luôn!",
+          "en": "You're the best!",
+          "zh": "你最棒了！",
+          "ja": "あなたが一番！",
+          "ko": "네가 최고야!",
+          "es": "¡Eres lo más!",
+          "de": "Du bist die Beste!",
+          "fi": "Olet paras!"
+        }
+      }
+    },
+    {
+      "id": "garage_basic",
+      "category": "garage",
+      "basic": true,
+      "sortOrder": 0,
+      "name": {
+        "vi": "Xưởng Tre",
+        "en": "Bamboo Workshop",
+        "zh": "竹工坊",
+        "ja": "竹の工房",
+        "ko": "대나무 공방",
+        "es": "Taller de bambú",
+        "de": "Bambuswerkstatt",
+        "fi": "Bambupaja"
+      },
+      "style": { "colorA": "#F6EAD0", "colorB": "#C9A877", "colorC": "#7FBF6A", "props": "bamboo" }
+    },
+    {
+      "id": "garage_lotus_pond",
+      "category": "garage",
+      "rarity": 1,
+      "price": { "currency": "gold", "amount": 680 },
+      "sortOrder": 10,
+      "name": {
+        "vi": "Đầm Sen",
+        "en": "Lotus Pond",
+        "zh": "荷塘",
+        "ja": "蓮池",
+        "ko": "연못",
+        "es": "Estanque de lotos",
+        "de": "Lotusteich",
+        "fi": "Lootuslampi"
+      },
+      "desc": {
+        "vi": "Bến thuyền giữa đầm sen tháng sáu.",
+        "en": "A dock in a June lotus pond.",
+        "zh": "六月荷塘里的一座码头。",
+        "ja": "六月の蓮池に浮かぶ船着き場。",
+        "ko": "유월 연못에 떠 있는 나루터.",
+        "es": "Un embarcadero en un estanque de lotos de junio.",
+        "de": "Ein Steg in einem Lotusteich im Juni.",
+        "fi": "Laituri kesäkuun lootuslammessa."
+      },
+      "style": { "colorA": "#CFEFFF", "colorB": "#7FC8A9", "colorC": "#FF8FB1", "props": "lotus" }
+    },
+    {
+      "id": "garage_hoi_an",
+      "category": "garage",
+      "rarity": 2,
+      "price": { "currency": "gold", "amount": 880 },
+      "sortOrder": 20,
+      "name": {
+        "vi": "Phố Hội",
+        "en": "Lantern Street",
+        "zh": "灯笼街",
+        "ja": "灯籠通り",
+        "ko": "등불 거리",
+        "es": "Calle de los faroles",
+        "de": "Laternengasse",
+        "fi": "Lyhtykatu"
+      },
+      "desc": {
+        "vi": "Xưởng đêm dưới hàng đèn lồng phố Hội.",
+        "en": "A night workshop under Hoi An lanterns.",
+        "zh": "会安灯笼下的夜间工坊。",
+        "ja": "ホイアンの灯籠の下の夜の工房。",
+        "ko": "호이안 등불 아래의 밤 공방.",
+        "es": "Un taller nocturno bajo los faroles de Hội An.",
+        "de": "Eine nächtliche Werkstatt unter den Laternen von Hội An.",
+        "fi": "Yöllinen paja Hội Anin lyhtyjen alla."
+      },
+      "style": { "colorA": "#2A1B3D", "colorB": "#5A2E2E", "colorC": "#FFB347", "props": "lanterns" }
+    },
+    {
+      "id": "garage_starry",
+      "category": "garage",
+      "rarity": 2,
+      "price": { "currency": "gold", "amount": 980 },
+      "sortOrder": 30,
+      "name": {
+        "vi": "Đền Sao",
+        "en": "Star Shrine",
+        "zh": "星之神社",
+        "ja": "星の社",
+        "ko": "별의 사당",
+        "es": "Santuario de las estrellas",
+        "de": "Sternenschrein",
+        "fi": "Tähtipyhäkkö"
+      },
+      "desc": {
+        "vi": "Ngôi đền nơi các vì sao đậu xuống.",
+        "en": "A shrine where the stars come to rest.",
+        "zh": "星星前来歇息的神社。",
+        "ja": "星たちが羽を休めに来る社。",
+        "ko": "별들이 쉬어 가는 사당.",
+        "es": "Un santuario donde las estrellas vienen a descansar.",
+        "de": "Ein Schrein, in dem die Sterne rasten.",
+        "fi": "Pyhäkkö, jonne tähdet tulevat lepäämään."
+      },
+      "style": { "colorA": "#0B1020", "colorB": "#1B2550", "colorC": "#9FB4FF", "props": "stars" }
+    },
+    {
+      "id": "garage_palace",
+      "category": "garage",
+      "rarity": 3,
+      "price": { "currency": "gold", "amount": 1280 },
+      "sortOrder": 40,
+      "name": {
+        "vi": "Điện Kính Thiên",
+        "en": "Throne Hall",
+        "zh": "太和殿",
+        "ja": "玉座の間",
+        "ko": "옥좌의 전당",
+        "es": "Salón del trono",
+        "de": "Thronsaal",
+        "fi": "Valtaistuinsali"
+      },
+      "desc": {
+        "vi": "Đỗ linh vật giữa điện son thếp vàng.",
+        "en": "Park your mount in a gilded throne hall.",
+        "zh": "把坐骑停在金碧辉煌的大殿里。",
+        "ja": "金色の玉座の間に愛機をとめよう。",
+        "ko": "금빛 옥좌의 전당에 탈것을 세워 두자.",
+        "es": "Aparca tu montura en un salón del trono dorado.",
+        "de": "Park dein Reittier in einem vergoldeten Thronsaal.",
+        "fi": "Pysäköi ratsusi kullattuun valtaistuinsaliin."
+      },
+      "style": { "colorA": "#8E1B1B", "colorB": "#3A0A0A", "colorC": "#F2C94C", "props": "palace" }
+    },
+    {
+      "id": "kit_rong_jade",
+      "category": "vesselKit",
+      "target": "thuyen_rong",
+      "rarity": 1,
+      "price": { "currency": "coins", "amount": 25000 },
+      "sortOrder": 10,
+      "name": {
+        "vi": "Rồng Ngọc",
+        "en": "Jade Dragon",
+        "zh": "碧玉龙",
+        "ja": "翡翠の龍",
+        "ko": "비취 용",
+        "es": "Dragón de jade",
+        "de": "Jadedrache",
+        "fi": "Jadelohikäärme"
+      },
+      "desc": {
+        "vi": "Thân ngọc bích, viền vàng.",
+        "en": "Jade hull with gold trim.",
+        "zh": "碧玉船身配金色饰边。",
+        "ja": "翡翠の船体に金の縁取り。",
+        "ko": "비취 선체에 금빛 장식.",
+        "es": "Casco de jade con ribetes dorados.",
+        "de": "Jaderumpf mit Goldbesatz.",
+        "fi": "Jaderunko kultareunuksin."
+      },
+      "style": { "colorA": "#2BB39A", "colorB": "#F2C94C", "colorC": "#7CF3D8", "ornament": "none" }
+    },
+    {
+      "id": "kit_rong_gold",
+      "category": "vesselKit",
+      "target": "thuyen_rong",
+      "rarity": 3,
+      "price": { "currency": "gold", "amount": 880 },
+      "sortOrder": 20,
+      "name": {
+        "vi": "Rồng Vàng Son",
+        "en": "Gilded Dragon",
+        "zh": "鎏金龙",
+        "ja": "金箔の龍",
+        "ko": "금박 용",
+        "es": "Dragón dorado",
+        "de": "Vergoldeter Drache",
+        "fi": "Kullattu lohikäärme"
+      },
+      "desc": {
+        "vi": "Thếp vàng, cờ hội tung bay.",
+        "en": "Gold leaf and festival banners.",
+        "zh": "金箔与节庆彩旗。",
+        "ja": "金箔と祭りの幟。",
+        "ko": "금박과 축제 깃발.",
+        "es": "Pan de oro y estandartes de fiesta.",
+        "de": "Blattgold und Festbanner.",
+        "fi": "Lehtikultaa ja juhlaviirejä."
+      },
+      "style": { "colorA": "#D4A017", "colorB": "#8E1B1B", "colorC": "#FFE08A", "ornament": "banners" }
+    },
+    {
+      "id": "kit_dieu_sunset",
+      "category": "vesselKit",
+      "target": "dieu_sao",
+      "rarity": 1,
+      "price": { "currency": "gold", "amount": 580 },
+      "sortOrder": 30,
+      "name": {
+        "vi": "Diều Hoàng Hôn",
+        "en": "Sunset Kite",
+        "zh": "夕阳纸鸢",
+        "ja": "夕焼けの凧",
+        "ko": "노을 연",
+        "es": "Cometa del ocaso",
+        "de": "Abendrot-Drachen",
+        "fi": "Auringonlaskuleija"
+      },
+      "desc": {
+        "vi": "Màu chiều trên đê làng.",
+        "en": "Evening colours over the village dyke.",
+        "zh": "村堤上的黄昏色彩。",
+        "ja": "村の堤に広がる夕暮れの色。",
+        "ko": "마을 둑 위로 번지는 저녁 빛깔.",
+        "es": "Colores del atardecer sobre el dique de la aldea.",
+        "de": "Abendfarben über dem Dorfdeich.",
+        "fi": "Illan värit kylän penkereen yllä."
+      },
+      "style": { "colorA": "#FF8C1A", "colorB": "#FFE08A", "colorC": "#FF5A1F", "ornament": "none" }
+    },
+    {
+      "id": "kit_dieu_night",
+      "category": "vesselKit",
+      "target": "dieu_sao",
+      "rarity": 2,
+      "price": { "currency": "gold", "amount": 680 },
+      "sortOrder": 40,
+      "name": {
+        "vi": "Diều Đêm",
+        "en": "Night Kite",
+        "zh": "夜鸢",
+        "ja": "夜の凧",
+        "ko": "밤의 연",
+        "es": "Cometa nocturna",
+        "de": "Nachtdrachen",
+        "fi": "Yöleija"
+      },
+      "desc": {
+        "vi": "Diều đêm treo đèn, sáo vi vu.",
+        "en": "A night kite with lanterns and a singing flute.",
+        "zh": "挂着灯笼、带着笛声的夜之纸鸢。",
+        "ja": "灯籠と歌う笛を携えた夜の凧。",
+        "ko": "등불과 노래하는 피리를 단 밤의 연.",
+        "es": "Una cometa nocturna con faroles y una flauta que canta.",
+        "de": "Ein Nachtdrachen mit Laternen und einer singenden Flöte.",
+        "fi": "Yöleija lyhtyineen ja laulavine huiluineen."
+      },
+      "style": { "colorA": "#1B2550", "colorB": "#9FB4FF", "colorC": "#FFFFFF", "ornament": "lanterns" }
+    },
+    {
+      "id": "kit_lan_white",
+      "category": "vesselKit",
+      "target": "xe_lan",
+      "rarity": 2,
+      "price": { "currency": "gold", "amount": 780 },
+      "sortOrder": 50,
+      "name": {
+        "vi": "Lân Bạch Kim",
+        "en": "Platinum Qilin",
+        "zh": "白金麒麟",
+        "ja": "プラチナの麒麟",
+        "ko": "백금 기린",
+        "es": "Qilin de platino",
+        "de": "Platin-Qilin",
+        "fi": "Platina-qilin"
+      },
+      "desc": {
+        "vi": "Bạch kim và sừng ngọc.",
+        "en": "Platinum with jade horns.",
+        "zh": "白金配碧玉角。",
+        "ja": "プラチナに翡翠の角。",
+        "ko": "백금에 비취 뿔.",
+        "es": "Platino con cuernos de jade.",
+        "de": "Platin mit Jadehörnern.",
+        "fi": "Platinaa ja jadesarvet."
+      },
+      "style": { "colorA": "#F4F1E8", "colorB": "#C0C7D6", "colorC": "#9FD3FF", "ornament": "horns" }
+    },
+    {
+      "id": "kit_lan_festival",
+      "category": "vesselKit",
+      "target": "xe_lan",
+      "rarity": 3,
+      "price": { "currency": "gold", "amount": 980 },
+      "sortOrder": 60,
+      "name": {
+        "vi": "Lân Hội Xuân",
+        "en": "Spring Festival Qilin",
+        "zh": "春节麒麟",
+        "ja": "春祭りの麒麟",
+        "ko": "봄 축제 기린",
+        "es": "Qilin del Festival de Primavera",
+        "de": "Frühlingsfest-Qilin",
+        "fi": "Kevätjuhlan qilin"
+      },
+      "desc": {
+        "vi": "Rực rỡ như đêm hội xuân.",
+        "en": "As bright as a spring festival night.",
+        "zh": "明亮如春节之夜。",
+        "ja": "春祭りの夜のように華やか。",
+        "ko": "봄 축제의 밤처럼 화려하게.",
+        "es": "Brillante como una noche de Festival de Primavera.",
+        "de": "Strahlend wie eine Frühlingsfestnacht.",
+        "fi": "Yhtä kirkas kuin kevätjuhlan yö."
+      },
+      "style": { "colorA": "#E2463C", "colorB": "#2BB39A", "colorC": "#FFD24A", "ornament": "lanterns" }
+    },
+    {
+      "id": "kit_quy_lotus",
+      "category": "vesselKit",
+      "target": "be_quy",
+      "rarity": 1,
+      "price": { "currency": "coins", "amount": 20000 },
+      "sortOrder": 70,
+      "name": {
+        "vi": "Quy Sen",
+        "en": "Lotus Turtle",
+        "zh": "荷花龟",
+        "ja": "蓮の亀",
+        "ko": "연꽃 거북",
+        "es": "Tortuga de loto",
+        "de": "Lotusschildkröte",
+        "fi": "Lootuskilpikonna"
+      },
+      "desc": {
+        "vi": "Mai rùa hồng phấn, đèn sen.",
+        "en": "A pink shell with lotus lamps.",
+        "zh": "粉色龟壳点缀荷花灯。",
+        "ja": "桃色の甲羅に蓮の灯り。",
+        "ko": "분홍 등껍질에 연꽃 등불.",
+        "es": "Un caparazón rosa con lámparas de loto.",
+        "de": "Ein rosa Panzer mit Lotuslampen.",
+        "fi": "Vaaleanpunainen kilpi lootuslampuin."
+      },
+      "style": { "colorA": "#FF8FB1", "colorB": "#2F7D4F", "colorC": "#FFF0F5", "ornament": "lanterns" }
+    },
+    {
+      "id": "kit_quy_bronze",
+      "category": "vesselKit",
+      "target": "be_quy",
+      "rarity": 2,
+      "price": { "currency": "gold", "amount": 680 },
+      "sortOrder": 80,
+      "name": {
+        "vi": "Quy Đồng",
+        "en": "Bronze Turtle",
+        "zh": "青铜龟",
+        "ja": "青銅の亀",
+        "ko": "청동 거북",
+        "es": "Tortuga de bronce",
+        "de": "Bronzeschildkröte",
+        "fi": "Pronssikilpikonna"
+      },
+      "desc": {
+        "vi": "Đồng đỏ như trống Ngọc Lũ.",
+        "en": "Red bronze like the Ngoc Lu drum.",
+        "zh": "红铜色泽，犹如玉缕铜鼓。",
+        "ja": "ゴックルー銅鼓のような赤銅色。",
+        "ko": "응옥루 청동북 같은 붉은 구릿빛.",
+        "es": "Bronce rojizo como el tambor de Ngọc Lũ.",
+        "de": "Rote Bronze wie die Trommel von Ngọc Lũ.",
+        "fi": "Punaista pronssia kuin Ngọc Lũn rumpu."
+      },
+      "style": { "colorA": "#C08A3E", "colorB": "#6E4A1C", "colorC": "#FFE3A3", "ornament": "banners" }
+    },
+    {
+      "id": "coin_pouch_s",
+      "category": "special",
+      "consumable": true,
+      "price": { "currency": "gold", "amount": 60 },
+      "sortOrder": 10,
+      "name": {
+        "vi": "Túi Xu",
+        "en": "Coin Pouch",
+        "zh": "钱袋",
+        "ja": "コイン袋",
+        "ko": "코인 주머니",
+        "es": "Bolsa de monedas",
+        "de": "Münzbeutel",
+        "fi": "Kolikkopussi"
+      },
+      "desc": {
+        "vi": "6.000 Xu.",
+        "en": "6,000 coins.",
+        "zh": "6,000 铜钱。",
+        "ja": "コイン6,000枚。",
+        "ko": "코인 6,000개.",
+        "es": "6000 monedas.",
+        "de": "6.000 Münzen.",
+        "fi": "6 000 kolikkoa."
+      },
+      "rewards": [{ "type": "coins", "amount": 6000 }]
+    },
+    {
+      "id": "coin_chest",
+      "category": "special",
+      "consumable": true,
+      "price": { "currency": "gold", "amount": 300 },
+      "sortOrder": 20,
+      "name": {
+        "vi": "Rương Xu",
+        "en": "Coin Chest",
+        "zh": "钱箱",
+        "ja": "コイン箱",
+        "ko": "코인 상자",
+        "es": "Cofre de monedas",
+        "de": "Münztruhe",
+        "fi": "Kolikkoarkku"
+      },
+      "desc": {
+        "vi": "33.000 Xu (thêm 10%).",
+        "en": "33,000 coins (10% extra).",
+        "zh": "33,000 铜钱（多送 10%）。",
+        "ja": "コイン33,000枚（10%お得）。",
+        "ko": "코인 33,000개 (10% 추가).",
+        "es": "33 000 monedas (un 10 % extra).",
+        "de": "33.000 Münzen (10 % extra).",
+        "fi": "33 000 kolikkoa (10 % ylimääräistä)."
+      },
+      "rewards": [{ "type": "coins", "amount": 33000 }]
+    },
+    {
+      "id": "incense_1",
+      "category": "special",
+      "consumable": true,
+      "price": { "currency": "gold", "amount": 150 },
+      "sortOrder": 30,
+      "name": {
+        "vi": "Nén Nhang",
+        "en": "Incense Stick",
+        "zh": "一支香",
+        "ja": "お香1本",
+        "ko": "향 한 개비",
+        "es": "Varita de incienso",
+        "de": "Räucherstäbchen",
+        "fi": "Suitsuketikku"
+      },
+      "desc": {
+        "vi": "1 lượt xin xăm.",
+        "en": "One fortune-stick draw.",
+        "zh": "一次求签。",
+        "ja": "おみくじ1回分。",
+        "ko": "뽑기 1회.",
+        "es": "Una tirada de Xin Xăm.",
+        "de": "Eine Xin-Xăm-Ziehung.",
+        "fi": "Yksi Xin Xăm -nosto."
+      },
+      "rewards": [{ "type": "tickets", "amount": 1 }]
+    },
+    {
+      "id": "incense_10",
+      "category": "special",
+      "consumable": true,
+      "price": { "currency": "gold", "amount": 1500 },
+      "sortOrder": 40,
+      "name": {
+        "vi": "Bó Nhang",
+        "en": "Incense Bundle",
+        "zh": "一束香",
+        "ja": "お香の束",
+        "ko": "향 한 묶음",
+        "es": "Manojo de incienso",
+        "de": "Räucherbündel",
+        "fi": "Suitsukenippu"
+      },
+      "desc": {
+        "vi": "10 lượt xin xăm.",
+        "en": "Ten fortune-stick draws.",
+        "zh": "十次求签。",
+        "ja": "おみくじ10回分。",
+        "ko": "뽑기 10회.",
+        "es": "Diez tiradas de Xin Xăm.",
+        "de": "Zehn Xin-Xăm-Ziehungen.",
+        "fi": "Kymmenen Xin Xăm -nostoa."
+      },
+      "rewards": [{ "type": "tickets", "amount": 10 }]
+    },
+    {
+      "id": "frame_moon_gate",
+      "category": "avatarFrame",
+      "rarity": 2,
+      "price": { "currency": "gold", "amount": 480 },
+      "sortOrder": 40,
+      "name": {
+        "vi": "Cổng Trăng",
+        "en": "Moon Gate",
+        "zh": "月门",
+        "ja": "月門",
+        "ko": "월문",
+        "es": "Puerta Lunar",
+        "de": "Mondtor",
+        "fi": "Kuuportti"
+      },
+      "desc": {
+        "vi": "Vòng ngọc tròn như cổng vườn Vân Khuyết.",
+        "en": "A jade circle like a garden gate in Yunque.",
+        "zh": "如云阙园门般的碧玉圆环。",
+        "ja": "雲闕の庭門のような翡翠の円。",
+        "ko": "운궐의 정원 문 같은 비취 원.",
+        "es": "Un círculo de jade como la puerta de un jardín de Yunque.",
+        "de": "Ein Jadekreis wie ein Gartentor in Yunque.",
+        "fi": "Jadekehä kuin puutarhaportti Yunquessa."
+      },
+      "style": { "shape": "double", "colorA": "#3FC9A0", "colorB": "#FFFFFF", "colorC": "#FFD36B" }
+    },
+    {
+      "id": "frame_sakura",
+      "category": "avatarFrame",
+      "rarity": 2,
+      "price": { "currency": "gold", "amount": 580 },
+      "sortOrder": 41,
+      "name": {
+        "vi": "Anh Đào Hanayume",
+        "en": "Hanayume Blossom",
+        "zh": "花梦樱",
+        "ja": "花夢の桜",
+        "ko": "하나유메 벚꽃",
+        "es": "Flor de Hanayume",
+        "de": "Hanayume-Blüte",
+        "fi": "Hanayumen kukka"
+      },
+      "desc": {
+        "vi": "Năm cánh hoa không bao giờ rụng.",
+        "en": "Five petals that never fall.",
+        "zh": "永不凋落的五片花瓣。",
+        "ja": "決して散らない五枚の花びら。",
+        "ko": "결코 지지 않는 다섯 꽃잎.",
+        "es": "Cinco pétalos que nunca caen.",
+        "de": "Fünf Blütenblätter, die nie fallen.",
+        "fi": "Viisi terälehteä, jotka eivät koskaan putoa."
+      },
+      "style": { "shape": "sakura", "colorA": "#FFB3CF", "colorB": "#FFFFFF", "colorC": "#FF6F91" }
+    },
+    {
+      "id": "frame_goblin_fire",
+      "category": "avatarFrame",
+      "rarity": 1,
+      "price": { "currency": "coins", "amount": 30000 },
+      "sortOrder": 42,
+      "name": {
+        "vi": "Lửa Dokkaebi",
+        "en": "Dokkaebi Fire",
+        "zh": "独脚鬼火",
+        "ja": "トッケビの火",
+        "ko": "도깨비불",
+        "es": "Fuego dokkaebi",
+        "de": "Dokkaebi-Feuer",
+        "fi": "Dokkaebin tuli"
+      },
+      "desc": {
+        "vi": "Ngọn lửa xanh nhảy múa của yêu tinh.",
+        "en": "The dancing blue fire of the goblins.",
+        "zh": "精怪们舞动的蓝色火焰。",
+        "ja": "トッケビたちが踊らせる青い炎。",
+        "ko": "도깨비들이 춤추게 하는 푸른 불꽃.",
+        "es": "El fuego azul danzante de los duendes.",
+        "de": "Das tanzende blaue Feuer der Kobolde.",
+        "fi": "Peikkojen tanssiva sininen tuli."
+      },
+      "style": { "shape": "flame", "colorA": "#5FD0FF", "colorB": "#1B2A6B", "colorC": "#9FE8FF" }
+    },
+    {
+      "id": "frame_clockwork",
+      "category": "avatarFrame",
+      "rarity": 3,
+      "price": { "currency": "gold", "amount": 680 },
+      "sortOrder": 43,
+      "name": {
+        "vi": "Bánh Răng Đồng Hồ",
+        "en": "Clockwork",
+        "zh": "钟表齿轮",
+        "ja": "歯車仕掛け",
+        "ko": "태엽 장치",
+        "es": "Mecanismo de relojería",
+        "de": "Uhrwerk",
+        "fi": "Kellokoneisto"
+      },
+      "desc": {
+        "vi": "Bánh răng đồng thau quay theo nhịp tim.",
+        "en": "Brass gears turning with your heartbeat.",
+        "zh": "随你的心跳转动的黄铜齿轮。",
+        "ja": "あなたの鼓動に合わせて回る真鍮の歯車。",
+        "ko": "네 심장 박동에 맞춰 도는 황동 톱니바퀴.",
+        "es": "Engranajes de latón que giran al ritmo de tu corazón.",
+        "de": "Messingzahnräder, die sich mit deinem Herzschlag drehen.",
+        "fi": "Messinkirattaita, jotka pyörivät sydämesi tahdissa."
+      },
+      "style": { "shape": "gear", "colorA": "#E0B062", "colorB": "#5A3A12", "colorC": "#FFE6B8" }
+    },
+    {
+      "id": "frame_aurora",
+      "category": "avatarFrame",
+      "rarity": 3,
+      "price": { "currency": "gold", "amount": 680 },
+      "sortOrder": 44,
+      "name": {
+        "vi": "Bông Tuyết Cực Quang",
+        "en": "Aurora Snowflake",
+        "zh": "极光雪花",
+        "ja": "オーロラの雪の結晶",
+        "ko": "오로라 눈꽃",
+        "es": "Copo de aurora",
+        "de": "Polarlicht-Schneeflocke",
+        "fi": "Revontulilumihiutale"
+      },
+      "desc": {
+        "vi": "Bông tuyết sáu cánh nhuộm màu cực quang.",
+        "en": "A six-pointed snowflake dyed by the aurora.",
+        "zh": "被极光染色的六角雪花。",
+        "ja": "オーロラに染まった六花の雪の結晶。",
+        "ko": "오로라로 물든 육각 눈꽃.",
+        "es": "Un copo de nieve de seis puntas teñido por la aurora.",
+        "de": "Eine sechszackige Schneeflocke, gefärbt vom Polarlicht.",
+        "fi": "Kuusisakarainen lumihiutale revontulten värjäämänä."
+      },
+      "style": { "shape": "snow", "colorA": "#9FFFD8", "colorB": "#B57BFF", "colorC": "#5BFFB0" }
+    },
+    {
+      "id": "frame_five_gates",
+      "category": "avatarFrame",
+      "rarity": 2,
+      "hidden": true,
+      "sortOrder": 92,
+      "name": {
+        "vi": "Ngũ Quan",
+        "en": "The Five Gates",
+        "zh": "五关",
+        "ja": "五関",
+        "ko": "오관",
+        "es": "Las Cinco Puertas",
+        "de": "Die Fünf Tore",
+        "fi": "Viisi porttia"
+      },
+      "desc": {
+        "vi": "Phần thưởng Lễ Hội Ngũ Quan.",
+        "en": "A reward from the Five Gates Festival.",
+        "zh": "五关庆典的奖励。",
+        "ja": "五関の祭りの報酬。",
+        "ko": "오관 축제의 보상.",
+        "es": "Una recompensa del Festival de las Cinco Puertas.",
+        "de": "Eine Belohnung vom Fest der Fünf Tore.",
+        "fi": "Palkinto Viiden portin juhlasta."
+      },
+      "style": { "shape": "double", "colorA": "#FFD36B", "colorB": "#D7263D", "colorC": "#7FE8FF" }
+    },
+    {
+      "id": "plate_ink",
+      "category": "profileFrame",
+      "rarity": 2,
+      "price": { "currency": "gold", "amount": 480 },
+      "sortOrder": 40,
+      "name": {
+        "vi": "Tranh Thủy Mặc",
+        "en": "Ink-Wash Peaks",
+        "zh": "水墨群峰",
+        "ja": "水墨の峰々",
+        "ko": "수묵 봉우리",
+        "es": "Cumbres a la tinta",
+        "de": "Tuschegipfel",
+        "fi": "Tussihuiput"
+      },
+      "desc": {
+        "vi": "Núi xa vẽ bằng một nét mực.",
+        "en": "Distant peaks drawn in a single brushstroke.",
+        "zh": "一笔勾勒的远山。",
+        "ja": "ひと筆で描かれた遠い山々。",
+        "ko": "붓 한 획으로 그린 먼 산.",
+        "es": "Picos lejanos trazados de una sola pincelada.",
+        "de": "Ferne Gipfel, mit einem einzigen Pinselstrich gezeichnet.",
+        "fi": "Kaukaiset huiput yhdellä siveltimenvedolla piirrettyinä."
+      },
+      "style": { "pattern": "ink", "colorA": "#F7F3EA", "colorB": "#DCD4C0", "colorC": "#2A2A35" }
+    },
+    {
+      "id": "plate_isle_waves",
+      "category": "profileFrame",
+      "rarity": 2,
+      "price": { "currency": "gold", "amount": 480 },
+      "sortOrder": 41,
+      "name": {
+        "vi": "Sóng Hanayume",
+        "en": "Hanayume Waves",
+        "zh": "花梦之浪",
+        "ja": "花夢の波",
+        "ko": "하나유메 물결",
+        "es": "Olas de Hanayume",
+        "de": "Hanayume-Wellen",
+        "fi": "Hanayumen aallot"
+      },
+      "desc": {
+        "vi": "Những vòng sóng xếp lớp như vảy cá.",
+        "en": "Rings of waves overlapping like fish scales.",
+        "zh": "像鱼鳞般层层相叠的浪纹。",
+        "ja": "うろこのように重なり合う波の輪。",
+        "ko": "물고기 비늘처럼 겹겹이 겹친 물결무늬.",
+        "es": "Anillos de olas superpuestos como escamas de pez.",
+        "de": "Wellenringe, die sich wie Fischschuppen überlappen.",
+        "fi": "Aaltorenkaita päällekkäin kuin kalan suomut."
+      },
+      "style": { "pattern": "arcs", "colorA": "#1F2F6B", "colorB": "#0E1640", "colorC": "#FFD0E4" }
+    },
+    {
+      "id": "plate_hanji",
+      "category": "profileFrame",
+      "rarity": 1,
+      "price": { "currency": "coins", "amount": 20000 },
+      "sortOrder": 42,
+      "name": {
+        "vi": "Giấy Hanji",
+        "en": "Hanji Paper",
+        "zh": "韩纸",
+        "ja": "韓紙",
+        "ko": "한지",
+        "es": "Papel hanji",
+        "de": "Hanji-Papier",
+        "fi": "Hanji-paperi"
+      },
+      "desc": {
+        "vi": "Khung cửa giấy hắt ánh đèn vàng.",
+        "en": "A paper-screen door glowing with lamplight.",
+        "zh": "透出灯光的纸糊门窗。",
+        "ja": "灯りの透ける紙張りの戸。",
+        "ko": "등불이 비치는 창호지 문.",
+        "es": "Una puerta de papel que brilla con la luz de una lámpara.",
+        "de": "Eine Papierschiebetür, die im Lampenlicht leuchtet.",
+        "fi": "Paperiovi, joka hehkuu lampun valossa."
+      },
+      "style": { "pattern": "lattice", "colorA": "#FFF4DE", "colorB": "#F2DDB6", "colorC": "#6B4A2A" }
+    },
+    {
+      "id": "plate_stained_glass",
+      "category": "profileFrame",
+      "rarity": 3,
+      "price": { "currency": "gold", "amount": 680 },
+      "sortOrder": 43,
+      "name": {
+        "vi": "Kính Màu",
+        "en": "Stained Glass",
+        "zh": "彩色玻璃",
+        "ja": "ステンドグラス",
+        "ko": "스테인드글라스",
+        "es": "Vidriera",
+        "de": "Buntglas",
+        "fi": "Lasimaalaus"
+      },
+      "desc": {
+        "vi": "Những mảnh kính màu ghép trong khung chì.",
+        "en": "Coloured glass set in lead.",
+        "zh": "镶在铅条中的彩色玻璃。",
+        "ja": "鉛の枠にはめた色ガラス。",
+        "ko": "납 틀에 끼운 색유리.",
+        "es": "Vidrio de colores engastado en plomo.",
+        "de": "Farbiges Glas in Bleifassung.",
+        "fi": "Värillistä lasia lyijykehyksissä."
+      },
+      "style": { "pattern": "glass", "colorA": "#2A1B5A", "colorB": "#7A1F4A", "colorC": "#FFD36B" }
+    },
+    {
+      "id": "plate_birch",
+      "category": "profileFrame",
+      "rarity": 2,
+      "price": { "currency": "gold", "amount": 380 },
+      "sortOrder": 44,
+      "name": {
+        "vi": "Vỏ Bạch Dương",
+        "en": "Birch Bark",
+        "zh": "白桦树皮",
+        "ja": "白樺の樹皮",
+        "ko": "자작나무 껍질",
+        "es": "Corteza de abedul",
+        "de": "Birkenrinde",
+        "fi": "Koivuntuohi"
+      },
+      "desc": {
+        "vi": "Vỏ cây trắng điểm vằn đen của rừng Lumikaari.",
+        "en": "White bark with dark marks, from Lumikaari's forests.",
+        "zh": "带着黑色斑纹的白色树皮，来自卢米卡里的森林。",
+        "ja": "ルミカーリの森の、黒い模様の入った白い樹皮。",
+        "ko": "루미카리 숲의, 검은 무늬가 있는 흰 나무껍질.",
+        "es": "Corteza blanca con marcas oscuras, de los bosques de Lumikaari.",
+        "de": "Weiße Rinde mit dunklen Flecken aus den Wäldern von Lumikaari.",
+        "fi": "Valkoista tuohta tummin laikuin Lumikaaren metsistä."
+      },
+      "style": { "pattern": "birch", "colorA": "#FAFAF5", "colorB": "#E3E6E2", "colorC": "#2A2F35" }
+    },
+    {
+      "id": "bubble_sakura",
+      "category": "bubbleFrame",
+      "rarity": 2,
+      "price": { "currency": "gold", "amount": 300 },
+      "sortOrder": 40,
+      "name": {
+        "vi": "Thư Hoa Anh Đào",
+        "en": "Blossom Letter",
+        "zh": "樱花信笺",
+        "ja": "桜の便り",
+        "ko": "벚꽃 편지",
+        "es": "Carta de flores",
+        "de": "Blütenbrief",
+        "fi": "Kukkakirje"
+      },
+      "desc": {
+        "vi": "Lời nhắn thơm mùi hoa.",
+        "en": "A message that smells of blossoms.",
+        "zh": "带着花香的留言。",
+        "ja": "花の香りのするメッセージ。",
+        "ko": "꽃향기가 나는 메시지.",
+        "es": "Un mensaje que huele a flores.",
+        "de": "Eine Nachricht, die nach Blüten duftet.",
+        "fi": "Viesti, joka tuoksuu kukilta."
+      },
+      "style": { "shape": "round", "colorA": "#FFF0F6", "colorB": "#FF8FB8", "colorC": "#7A1F4A" }
+    },
+    {
+      "id": "bubble_celadon",
+      "category": "bubbleFrame",
+      "rarity": 1,
+      "price": { "currency": "coins", "amount": 15000 },
+      "sortOrder": 41,
+      "name": {
+        "vi": "Men Ngọc",
+        "en": "Celadon",
+        "zh": "青瓷",
+        "ja": "青磁",
+        "ko": "청자",
+        "es": "Celadón",
+        "de": "Seladon",
+        "fi": "Seladon"
+      },
+      "desc": {
+        "vi": "Sắc men ngọc mát lành của lò gốm Dalmaru.",
+        "en": "The cool green glaze of Dalmaru's kilns.",
+        "zh": "月岭窑中清凉的青绿釉色。",
+        "ja": "ダルマルの窯の涼やかな青緑の釉。",
+        "ko": "달마루 가마의 서늘한 비색 유약.",
+        "es": "El fresco esmalte verde de los hornos de Dalmaru.",
+        "de": "Die kühle grüne Glasur aus den Brennöfen von Dalmaru.",
+        "fi": "Dalmarun polttouunien viileä vihreä lasite."
+      },
+      "style": { "shape": "skew", "colorA": "#DDF2EA", "colorB": "#7FB8A6", "colorC": "#24504A" }
+    },
+    {
+      "id": "bubble_parchment",
+      "category": "bubbleFrame",
+      "rarity": 2,
+      "price": { "currency": "gold", "amount": 300 },
+      "sortOrder": 42,
+      "name": {
+        "vi": "Giấy Da Cổ",
+        "en": "Old Parchment",
+        "zh": "古羊皮纸",
+        "ja": "古い羊皮紙",
+        "ko": "오래된 양피지",
+        "es": "Pergamino antiguo",
+        "de": "Altes Pergament",
+        "fi": "Vanha pergamentti"
+      },
+      "desc": {
+        "vi": "Lời rao của người đưa tin Nebelreich.",
+        "en": "A herald's notice from Nebelreich.",
+        "zh": "雾境传令官的公告。",
+        "ja": "ネーベルライヒの伝令の布告。",
+        "ko": "네벨라이히 전령의 포고문.",
+        "es": "El aviso de un heraldo de Nebelreich.",
+        "de": "Die Bekanntmachung eines Herolds aus Nebelreich.",
+        "fi": "Nebelreichin airuen kuulutus."
+      },
+      "style": { "shape": "skew", "colorA": "#F2E6C8", "colorB": "#8A5A2A", "colorC": "#3A2410" }
+    },
+    {
+      "id": "bubble_snow",
+      "category": "bubbleFrame",
+      "rarity": 2,
+      "price": { "currency": "gold", "amount": 380 },
+      "sortOrder": 43,
+      "name": {
+        "vi": "Bông Tuyết",
+        "en": "Snowdrift",
+        "zh": "雪堆",
+        "ja": "吹きだまり",
+        "ko": "눈더미",
+        "es": "Ventisquero",
+        "de": "Schneewehe",
+        "fi": "Kinos"
+      },
+      "desc": {
+        "vi": "Lời nói trắng và nhẹ như tuyết đầu mùa.",
+        "en": "Words as white and light as the first snow.",
+        "zh": "像初雪一样洁白轻盈的话语。",
+        "ja": "初雪のように白く軽い言葉。",
+        "ko": "첫눈처럼 희고 가벼운 말.",
+        "es": "Palabras tan blancas y ligeras como la primera nieve.",
+        "de": "Worte, so weiß und leicht wie der erste Schnee.",
+        "fi": "Sanoja yhtä valkoisina ja kevyinä kuin ensilumi."
+      },
+      "style": { "shape": "round", "colorA": "#F4FBFF", "colorB": "#9FE8FF", "colorC": "#1E4466" }
+    },
+    {
+      "id": "exhaust_cloud",
+      "category": "exhaust",
+      "rarity": 2,
+      "price": { "currency": "gold", "amount": 480 },
+      "sortOrder": 40,
+      "name": {
+        "vi": "Mây Bay",
+        "en": "Drifting Clouds",
+        "zh": "流云",
+        "ja": "流れる雲",
+        "ko": "흐르는 구름",
+        "es": "Nubes errantes",
+        "de": "Ziehende Wolken",
+        "fi": "Ajelehtivat pilvet"
+      },
+      "desc": {
+        "vi": "Để lại vệt mây trắng như tiên cưỡi hạc.",
+        "en": "Leaves a trail of white cloud, like an immortal riding a crane.",
+        "zh": "留下一道白云，宛如驾鹤的仙人。",
+        "ja": "鶴に乗る仙人のように、白い雲の軌跡を残す。",
+        "ko": "학을 탄 신선처럼 하얀 구름 자국을 남긴다.",
+        "es": "Deja una estela de nube blanca, como un inmortal a lomos de una grulla.",
+        "de": "Hinterlässt eine weiße Wolkenspur, wie ein Unsterblicher auf einem Kranich.",
+        "fi": "Jättää jälkeensä valkoisen pilvivanan kuin kurjella ratsastava kuolematon."
+      },
+      "style": { "colorA": "#FFFFFF", "colorB": "#8FE8D0", "width": 0.6, "length": 0.35, "cell": "Dot", "embers": 4 }
+    },
+    {
+      "id": "exhaust_sakura",
+      "category": "exhaust",
+      "rarity": 2,
+      "price": { "currency": "gold", "amount": 680 },
+      "sortOrder": 41,
+      "name": {
+        "vi": "Bão Anh Đào",
+        "en": "Blossom Storm",
+        "zh": "樱花风暴",
+        "ja": "桜吹雪",
+        "ko": "벚꽃 폭풍",
+        "es": "Tormenta de flores",
+        "de": "Blütensturm",
+        "fi": "Kukkamyrsky"
+      },
+      "desc": {
+        "vi": "Cánh hoa anh đào cuộn theo sau.",
+        "en": "Cherry petals swirl in your wake.",
+        "zh": "樱花瓣在你身后翻飞。",
+        "ja": "桜の花びらがあなたの後ろで渦を巻く。",
+        "ko": "벚꽃잎이 뒤에서 소용돌이친다.",
+        "es": "Pétalos de cerezo giran a tu paso.",
+        "de": "Kirschblütenblätter wirbeln in deinem Kielwasser.",
+        "fi": "Kirsikankukan terälehdet pyörteilevät perässäsi."
+      },
+      "style": { "colorA": "#FFD0E4", "colorB": "#FF6F91", "width": 0.45, "length": 0.3, "cell": "Petal", "embers": 10 }
+    },
+    {
+      "id": "exhaust_goblin_fire",
+      "category": "exhaust",
+      "rarity": 1,
+      "price": { "currency": "coins", "amount": 25000 },
+      "sortOrder": 42,
+      "name": {
+        "vi": "Lửa Yêu Tinh",
+        "en": "Goblin Fire",
+        "zh": "精怪之火",
+        "ja": "妖の火",
+        "ko": "요괴의 불",
+        "es": "Fuego de duende",
+        "de": "Koboldfeuer",
+        "fi": "Peikkotuli"
+      },
+      "desc": {
+        "vi": "Ngọn lửa xanh không bao giờ nóng.",
+        "en": "A blue flame that never burns.",
+        "zh": "永远不会烫人的蓝色火焰。",
+        "ja": "決して熱くない青い炎。",
+        "ko": "절대 뜨겁지 않은 푸른 불꽃.",
+        "es": "Una llama azul que nunca quema.",
+        "de": "Eine blaue Flamme, die niemals brennt.",
+        "fi": "Sininen liekki, joka ei koskaan polta."
+      },
+      "style": { "colorA": "#9FE8FF", "colorB": "#3F5BFF", "width": 0.42, "length": 0.32, "cell": "Flame", "embers": 6 }
+    },
+    {
+      "id": "exhaust_wisp",
+      "category": "exhaust",
+      "rarity": 2,
+      "price": { "currency": "gold", "amount": 580 },
+      "sortOrder": 43,
+      "name": {
+        "vi": "Ma Trơi Rừng Sương",
+        "en": "Mistwood Wisps",
+        "zh": "雾林磷火",
+        "ja": "霧の森の鬼火",
+        "ko": "안개 숲의 도깨비불",
+        "es": "Fuegos fatuos del bosque brumoso",
+        "de": "Irrlichter des Nebelwalds",
+        "fi": "Usvametsän virvatulet"
+      },
+      "desc": {
+        "vi": "Đốm sáng xanh lục dẫn khách qua rừng.",
+        "en": "Green lights that guide travellers through the forest.",
+        "zh": "为旅人照亮林间小路的绿色光点。",
+        "ja": "森を行く旅人を導く緑の光。",
+        "ko": "숲속 나그네를 이끄는 초록 불빛.",
+        "es": "Luces verdes que guían a los viajeros por el bosque.",
+        "de": "Grüne Lichter, die Reisende durch den Wald führen.",
+        "fi": "Vihreitä valoja, jotka opastavat kulkijoita metsän läpi."
+      },
+      "style": { "colorA": "#C8FFE6", "colorB": "#3FAF7F", "width": 0.38, "length": 0.28, "cell": "Dot", "embers": 8 }
+    },
+    {
+      "id": "exhaust_foxfire",
+      "category": "exhaust",
+      "rarity": 3,
+      "price": { "currency": "gold", "amount": 880 },
+      "sortOrder": 44,
+      "name": {
+        "vi": "Đuôi Cáo Lửa",
+        "en": "Foxfire Trail",
+        "zh": "火狐尾迹",
+        "ja": "炎狐の軌跡",
+        "ko": "불여우의 궤적",
+        "es": "Estela de fuego de zorro",
+        "de": "Fuchsfeuerspur",
+        "fi": "Tuliketun vana"
+      },
+      "desc": {
+        "vi": "Vệt cực quang xanh tím quét theo sau.",
+        "en": "A green-and-violet aurora sweeping behind you.",
+        "zh": "在你身后扫过的绿紫色极光。",
+        "ja": "あなたの後ろをなびく緑と紫のオーロラ。",
+        "ko": "뒤로 휘날리는 초록빛과 보랏빛 오로라.",
+        "es": "Una aurora verde y violeta que barre el aire tras de ti.",
+        "de": "Ein grün-violettes Polarlicht, das hinter dir herweht.",
+        "fi": "Vihreä ja violetti revontuli, joka hulmuaa perässäsi."
+      },
+      "style": { "colorA": "#5BFFB0", "colorB": "#B57BFF", "width": 0.5, "length": 0.42, "cell": "Sparkle", "embers": 12 }
+    },
+    {
+      "id": "garage_cloud_sea",
+      "category": "garage",
+      "rarity": 2,
+      "price": { "currency": "gold", "amount": 880 },
+      "sortOrder": 40,
+      "name": {
+        "vi": "Lầu Biển Mây",
+        "en": "Cloud-Sea Pavilion",
+        "zh": "云海楼阁",
+        "ja": "雲海の楼閣",
+        "ko": "구름 바다 누각",
+        "es": "Pabellón del mar de nubes",
+        "de": "Wolkenmeer-Pavillon",
+        "fi": "Pilvimeren paviljonki"
+      },
+      "desc": {
+        "vi": "Xưởng treo trên đỉnh đá giữa biển mây.",
+        "en": "A workshop perched on a peak above the cloud sea.",
+        "zh": "坐落在云海之上峰顶的工坊。",
+        "ja": "雲海の上、峰の頂に建つ工房。",
+        "ko": "구름 바다 위 봉우리에 자리한 공방.",
+        "es": "Un taller encaramado en un pico sobre el mar de nubes.",
+        "de": "Eine Werkstatt auf einem Gipfel über dem Wolkenmeer.",
+        "fi": "Paja huipulla pilvimeren yllä."
+      },
+      "style": { "colorA": "#CFE9F2", "colorB": "#E9E2F0", "colorC": "#3FC9A0", "props": "cloudsea" }
+    },
+    {
+      "id": "garage_shrine",
+      "category": "garage",
+      "rarity": 2,
+      "price": { "currency": "gold", "amount": 880 },
+      "sortOrder": 41,
+      "name": {
+        "vi": "Vườn Đền Hanayume",
+        "en": "Shrine Garden",
+        "zh": "神社庭院",
+        "ja": "社の庭",
+        "ko": "신사 정원",
+        "es": "Jardín del santuario",
+        "de": "Schreingarten",
+        "fi": "Pyhäkköpuutarha"
+      },
+      "desc": {
+        "vi": "Cổng son, đèn đá và hoa rơi.",
+        "en": "Vermilion gates, stone lanterns and falling petals.",
+        "zh": "朱红鸟居、石灯笼与飘落的花瓣。",
+        "ja": "朱色の門、石灯籠、舞い散る花びら。",
+        "ko": "주홍 문, 석등, 흩날리는 꽃잎.",
+        "es": "Puertas bermellón, faroles de piedra y pétalos que caen.",
+        "de": "Zinnoberrote Tore, Steinlaternen und fallende Blütenblätter.",
+        "fi": "Sinooperinpunaisia portteja, kivilyhtyjä ja putoavia terälehtiä."
+      },
+      "style": { "colorA": "#2A0E3A", "colorB": "#4A2A3A", "colorC": "#E8432E", "props": "shrine" }
+    },
+    {
+      "id": "garage_hanok",
+      "category": "garage",
+      "rarity": 2,
+      "price": { "currency": "gold", "amount": 980 },
+      "sortOrder": 42,
+      "name": {
+        "vi": "Sân Nhà Hanok",
+        "en": "Hanok Courtyard",
+        "zh": "韩屋庭院",
+        "ja": "韓屋の中庭",
+        "ko": "한옥 마당",
+        "es": "Patio hanok",
+        "de": "Hanok-Hof",
+        "fi": "Hanok-piha"
+      },
+      "desc": {
+        "vi": "Cửa giấy hanji sáng đèn dưới mái ngói cong.",
+        "en": "Lamplit hanji doors under a curved tile roof.",
+        "zh": "弯曲瓦檐下亮着灯的韩纸门。",
+        "ja": "反った瓦屋根の下、灯りのともる韓紙の戸。",
+        "ko": "곡선 기와 처마 아래 불 밝힌 한지 문.",
+        "es": "Puertas de hanji iluminadas bajo un tejado curvo.",
+        "de": "Beleuchtete Hanji-Türen unter einem geschwungenen Ziegeldach.",
+        "fi": "Valaistuja hanji-ovia kaarevan tiilikaton alla."
+      },
+      "style": { "colorA": "#F2E6CF", "colorB": "#8C6A4A", "colorC": "#2A3550", "props": "hanok" }
+    },
+    {
+      "id": "garage_clockwork",
+      "category": "garage",
+      "rarity": 3,
+      "price": { "currency": "gold", "amount": 980 },
+      "sortOrder": 43,
+      "name": {
+        "vi": "Xưởng Đồng Hồ",
+        "en": "Clockmaker's Workshop",
+        "zh": "钟表匠工坊",
+        "ja": "時計職人の工房",
+        "ko": "시계공의 공방",
+        "es": "Taller del relojero",
+        "de": "Werkstatt des Uhrmachers",
+        "fi": "Kelloseppien paja"
+      },
+      "desc": {
+        "vi": "Bánh răng quay trên tường gỗ của Nebelreich.",
+        "en": "Gears turning on Nebelreich's timbered walls.",
+        "zh": "雾境木墙上转动的齿轮。",
+        "ja": "ネーベルライヒの木組みの壁で回る歯車。",
+        "ko": "네벨라이히의 목조 벽에서 도는 톱니바퀴.",
+        "es": "Engranajes que giran en los muros de entramado de Nebelreich.",
+        "de": "Zahnräder, die sich an den Fachwerkwänden von Nebelreich drehen.",
+        "fi": "Rattaita pyörimässä Nebelreichin ristikkoseinillä."
+      },
+      "style": { "colorA": "#EFE3C8", "colorB": "#5A3A22", "colorC": "#C9902F", "props": "clockwork" }
+    },
+    {
+      "id": "garage_sauna",
+      "category": "garage",
+      "rarity": 3,
+      "price": { "currency": "gold", "amount": 1280 },
+      "sortOrder": 44,
+      "name": {
+        "vi": "Nhà Gỗ Cực Quang",
+        "en": "Aurora Lodge",
+        "zh": "极光小屋",
+        "ja": "オーロラの小屋",
+        "ko": "오로라 산장",
+        "es": "Cabaña de la aurora",
+        "de": "Polarlicht-Hütte",
+        "fi": "Revontulimökki"
+      },
+      "desc": {
+        "vi": "Căn phòng gỗ ấm áp, cửa sổ nhìn ra cực quang.",
+        "en": "A warm log cabin with a window onto the aurora.",
+        "zh": "温暖的原木小屋，窗外就是极光。",
+        "ja": "オーロラの見える窓のある、暖かな丸太小屋。",
+        "ko": "오로라가 보이는 창이 있는 따뜻한 통나무집.",
+        "es": "Una cálida cabaña de troncos con una ventana a la aurora.",
+        "de": "Eine warme Blockhütte mit Fenster zum Polarlicht.",
+        "fi": "Lämmin hirsimökki, jonka ikkunasta näkyvät revontulet."
+      },
+      "style": { "colorA": "#3A2A20", "colorB": "#2A1C14", "colorC": "#5BFFB0", "props": "sauna" }
+    },
+    {
+      "id": "skin_nguyet_nga_shrine",
+      "category": "navigatorSkin",
+      "target": "nguyet_nga",
+      "rarity": 2,
+      "price": { "currency": "gold", "amount": 1480 },
+      "sortOrder": 40,
+      "name": {
+        "vi": "Nguyệt Nga · Vu Nữ Hanayume",
+        "en": "Nguyet Nga · Hanayume Shrine Maiden",
+        "zh": "Nguyệt Nga · 花梦巫女",
+        "ja": "Nguyệt Nga・花夢の巫女",
+        "ko": "Nguyệt Nga · 하나유메 무녀",
+        "es": "Nguyệt Nga · Doncella del santuario de Hanayume",
+        "de": "Nguyệt Nga · Schreinmaid von Hanayume",
+        "fi": "Nguyệt Nga · Hanayumen pyhäkköneito"
+      },
+      "desc": {
+        "vi": "Áo trắng, váy son của vu nữ giữ đền đảo hoa.",
+        "en": "The white robe and vermilion skirt of a flower-isle shrine maiden.",
+        "zh": "花之岛神社巫女的白衣与朱裙。",
+        "ja": "花の島の社に仕える巫女の白衣と緋袴。",
+        "ko": "꽃섬 신사를 지키는 무녀의 흰 옷과 주홍 치마.",
+        "es": "La túnica blanca y la falda bermellón de una doncella del santuario de la isla de las flores.",
+        "de": "Das weiße Gewand und der zinnoberrote Rock einer Schreinmaid der Blumeninsel.",
+        "fi": "Kukkasaaren pyhäkköneidon valkoinen kaapu ja sinooperinpunainen hame."
+      },
+      "style": { "colorA": "#FFFFFF", "colorB": "#E8432E", "colorC": "#2A1240" }
+    },
+    {
+      "id": "skin_lac_hong_anh_dalmaru",
+      "category": "navigatorSkin",
+      "target": "lac_hong_anh",
+      "rarity": 2,
+      "price": { "currency": "gold", "amount": 1480 },
+      "sortOrder": 41,
+      "name": {
+        "vi": "Hồng Anh · Áo Hội Dalmaru",
+        "en": "Hong Anh · Dalmaru Festival Dress",
+        "zh": "Hồng Anh · 月岭节日盛装",
+        "ja": "Hồng Anh・ダルマルの晴れ着",
+        "ko": "Hồng Anh · 달마루 축제 옷",
+        "es": "Hồng Anh · Traje de fiesta de Dalmaru",
+        "de": "Hồng Anh · Festtracht aus Dalmaru",
+        "fi": "Hồng Anh · Dalmarun juhla-asu"
+      },
+      "desc": {
+        "vi": "Áo ngắn và váy dài rực rỡ của mùa gặt Dalmaru.",
+        "en": "The bright short jacket and long skirt of a Dalmaru harvest.",
+        "zh": "月岭丰收节鲜艳的短上衣与长裙。",
+        "ja": "ダルマルの収穫祭の、鮮やかな短い上衣と長いスカート。",
+        "ko": "달마루 수확 축제의 화사한 짧은 저고리와 긴 치마.",
+        "es": "La chaqueta corta y la falda larga de colores vivos de la cosecha de Dalmaru.",
+        "de": "Die leuchtende kurze Jacke und der lange Rock einer Ernte in Dalmaru.",
+        "fi": "Dalmarun sadonkorjuun kirkas lyhyt takki ja pitkä hame."
+      },
+      "style": { "colorA": "#FF5A7A", "colorB": "#2FA6D9", "colorC": "#FFF4D6" }
+    },
+    {
+      "id": "skin_thanh_van_winter",
+      "category": "navigatorSkin",
+      "target": "thanh_van",
+      "rarity": 3,
+      "price": { "currency": "gold", "amount": 1680 },
+      "sortOrder": 42,
+      "name": {
+        "vi": "Thanh Vân · Áo Lông Lumikaari",
+        "en": "Thanh Van · Lumikaari Winter Coat",
+        "zh": "Thanh Vân · 卢米卡里冬装",
+        "ja": "Thanh Vân・ルミカーリの冬衣",
+        "ko": "Thanh Vân · 루미카리 겨울 외투",
+        "es": "Thanh Vân · Abrigo de invierno de Lumikaari",
+        "de": "Thanh Vân · Wintermantel aus Lumikaari",
+        "fi": "Thanh Vân · Lumikaaren talvitakki"
+      },
+      "desc": {
+        "vi": "Áo choàng lông trắng thêu hoa văn băng giá.",
+        "en": "A white fur cloak embroidered with frost patterns.",
+        "zh": "绣着霜花纹样的白色毛皮斗篷。",
+        "ja": "霜の模様を刺繍した白い毛皮のマント。",
+        "ko": "서리 무늬를 수놓은 흰 털 망토.",
+        "es": "Una capa de piel blanca bordada con motivos de escarcha.",
+        "de": "Ein weißer Pelzumhang, bestickt mit Frostmustern.",
+        "fi": "Valkoinen turkisviitta, johon on kirjailtu huurrekuvioita."
+      },
+      "style": { "colorA": "#EAF4FF", "colorB": "#3FB8E0", "colorC": "#1E4466" }
+    },
+    {
+      "id": "kit_dieu_aurora",
+      "category": "vesselKit",
+      "target": "dieu_sao",
+      "rarity": 2,
+      "price": { "currency": "gold", "amount": 780 },
+      "sortOrder": 40,
+      "name": {
+        "vi": "Diều Cực Quang",
+        "en": "Aurora Kite",
+        "zh": "极光纸鸢",
+        "ja": "オーロラの凧",
+        "ko": "오로라 연",
+        "es": "Cometa aurora",
+        "de": "Polarlicht-Drachen",
+        "fi": "Revontulileija"
+      },
+      "desc": {
+        "vi": "Cánh diều nhuộm màu trời đêm phương bắc.",
+        "en": "Kite wings dyed in the colours of a northern night.",
+        "zh": "染上北国夜色的鸢翼。",
+        "ja": "北の夜の色に染めた凧の翼。",
+        "ko": "북쪽 밤하늘 빛깔로 물들인 연 날개.",
+        "es": "Alas de cometa teñidas con los colores de una noche del norte.",
+        "de": "Drachenflügel in den Farben einer nördlichen Nacht.",
+        "fi": "Leijan siivet pohjoisen yön väreihin värjättyinä."
+      },
+      "style": { "colorA": "#1E2F5A", "colorB": "#5BFFB0", "colorC": "#B57BFF", "ornament": "lanterns" }
+    },
+    {
+      "id": "kit_lan_brass",
+      "category": "vesselKit",
+      "target": "xe_lan",
+      "rarity": 3,
+      "price": { "currency": "gold", "amount": 880 },
+      "sortOrder": 41,
+      "name": {
+        "vi": "Xe Lân Đồng Thau",
+        "en": "Brass Clockwork Cart",
+        "zh": "黄铜机关车",
+        "ja": "真鍮のからくり車",
+        "ko": "황동 태엽 수레",
+        "es": "Carro mecánico de latón",
+        "de": "Messing-Uhrwerkwagen",
+        "fi": "Messinkinen kellokoneistovaunu"
+      },
+      "desc": {
+        "vi": "Bánh răng đồng thau từ một xưởng ở Nebelreich.",
+        "en": "Brass gears from a Nebelreich workshop.",
+        "zh": "来自雾境工坊的黄铜齿轮。",
+        "ja": "ネーベルライヒの工房から届いた真鍮の歯車。",
+        "ko": "네벨라이히 공방에서 온 황동 톱니바퀴.",
+        "es": "Engranajes de latón de un taller de Nebelreich.",
+        "de": "Messingzahnräder aus einer Werkstatt in Nebelreich.",
+        "fi": "Messinkirattaita nebelreichiläisestä pajasta."
+      },
+      "style": { "colorA": "#C9902F", "colorB": "#5A3A22", "colorC": "#FFE6B8", "ornament": "horns" }
+    }
+  ]
+}

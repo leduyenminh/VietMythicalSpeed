@@ -1,0 +1,2131 @@
+{
+  "description": "Cross-language gacha contract. Generated from the C# engine (VMS.Core.GachaEngine); verified by Unity EditMode tests and server/test/gacha.test.ts.",
+  "xoshiro128Seed12345": [
+    518667457,
+    440444462,
+    4232892992,
+    3757857622
+  ],
+  "config": {
+    "rates": {
+      "thien": 0.06,
+      "dia": 0.2
+    },
+    "softPityStart": 12,
+    "softPityStep": 0.12,
+    "hardPity": 20,
+    "tenPullMinRarity": 2,
+    "featuredShare": 0.5,
+    "guaranteeFeaturedAfterLoss": true,
+    "featuredDiaShare": 0.5,
+    "sparkCost": 30,
+    "costPerPull": 150,
+    "dupeFragments": {
+      "thien": 100,
+      "dia": 30,
+      "nhan": 10
+    },
+    "awakenFragmentCosts": [
+      50,
+      80,
+      120,
+      160,
+      200
+    ],
+    "awakenCoinCosts": [
+      2000,
+      4000,
+      8000,
+      12000,
+      20000
+    ],
+    "maxAwaken": 5
+  },
+  "navigators": [
+    {
+      "id": "thanh_van",
+      "rarity": 3,
+      "limited": false,
+      "name": null,
+      "title": null,
+      "creature": null,
+      "region": null,
+      "bio": null,
+      "glyph": null,
+      "color": null,
+      "accentColor": null,
+      "skill": null,
+      "passive": null,
+      "voice": null
+    },
+    {
+      "id": "lac_hong_anh",
+      "rarity": 3,
+      "limited": false,
+      "name": null,
+      "title": null,
+      "creature": null,
+      "region": null,
+      "bio": null,
+      "glyph": null,
+      "color": null,
+      "accentColor": null,
+      "skill": null,
+      "passive": null,
+      "voice": null
+    },
+    {
+      "id": "nguyet_nga",
+      "rarity": 3,
+      "limited": false,
+      "name": null,
+      "title": null,
+      "creature": null,
+      "region": null,
+      "bio": null,
+      "glyph": null,
+      "color": null,
+      "accentColor": null,
+      "skill": null,
+      "passive": null,
+      "voice": null
+    },
+    {
+      "id": "quy_lam",
+      "rarity": 3,
+      "limited": false,
+      "name": null,
+      "title": null,
+      "creature": null,
+      "region": null,
+      "bio": null,
+      "glyph": null,
+      "color": null,
+      "accentColor": null,
+      "skill": null,
+      "passive": null,
+      "voice": null
+    },
+    {
+      "id": "son_lam",
+      "rarity": 3,
+      "limited": true,
+      "name": null,
+      "title": null,
+      "creature": null,
+      "region": null,
+      "bio": null,
+      "glyph": null,
+      "color": null,
+      "accentColor": null,
+      "skill": null,
+      "passive": null,
+      "voice": null
+    },
+    {
+      "id": "thuy_ha",
+      "rarity": 3,
+      "limited": true,
+      "name": null,
+      "title": null,
+      "creature": null,
+      "region": null,
+      "bio": null,
+      "glyph": null,
+      "color": null,
+      "accentColor": null,
+      "skill": null,
+      "passive": null,
+      "voice": null
+    },
+    {
+      "id": "lan_nhi",
+      "rarity": 2,
+      "limited": false,
+      "name": null,
+      "title": null,
+      "creature": null,
+      "region": null,
+      "bio": null,
+      "glyph": null,
+      "color": null,
+      "accentColor": null,
+      "skill": null,
+      "passive": null,
+      "voice": null
+    },
+    {
+      "id": "nghe_bao",
+      "rarity": 2,
+      "limited": false,
+      "name": null,
+      "title": null,
+      "creature": null,
+      "region": null,
+      "bio": null,
+      "glyph": null,
+      "color": null,
+      "accentColor": null,
+      "skill": null,
+      "passive": null,
+      "voice": null
+    },
+    {
+      "id": "bach_hac",
+      "rarity": 2,
+      "limited": false,
+      "name": null,
+      "title": null,
+      "creature": null,
+      "region": null,
+      "bio": null,
+      "glyph": null,
+      "color": null,
+      "accentColor": null,
+      "skill": null,
+      "passive": null,
+      "voice": null
+    },
+    {
+      "id": "giong_thiet",
+      "rarity": 2,
+      "limited": false,
+      "name": null,
+      "title": null,
+      "creature": null,
+      "region": null,
+      "bio": null,
+      "glyph": null,
+      "color": null,
+      "accentColor": null,
+      "skill": null,
+      "passive": null,
+      "voice": null
+    },
+    {
+      "id": "lua_troi",
+      "rarity": 2,
+      "limited": false,
+      "name": null,
+      "title": null,
+      "creature": null,
+      "region": null,
+      "bio": null,
+      "glyph": null,
+      "color": null,
+      "accentColor": null,
+      "skill": null,
+      "passive": null,
+      "voice": null
+    },
+    {
+      "id": "ly_ngu",
+      "rarity": 2,
+      "limited": false,
+      "name": null,
+      "title": null,
+      "creature": null,
+      "region": null,
+      "bio": null,
+      "glyph": null,
+      "color": null,
+      "accentColor": null,
+      "skill": null,
+      "passive": null,
+      "voice": null
+    },
+    {
+      "id": "cuoi",
+      "rarity": 1,
+      "limited": false,
+      "name": null,
+      "title": null,
+      "creature": null,
+      "region": null,
+      "bio": null,
+      "glyph": null,
+      "color": null,
+      "accentColor": null,
+      "skill": null,
+      "passive": null,
+      "voice": null
+    },
+    {
+      "id": "vang_anh",
+      "rarity": 1,
+      "limited": false,
+      "name": null,
+      "title": null,
+      "creature": null,
+      "region": null,
+      "bio": null,
+      "glyph": null,
+      "color": null,
+      "accentColor": null,
+      "skill": null,
+      "passive": null,
+      "voice": null
+    },
+    {
+      "id": "bom",
+      "rarity": 1,
+      "limited": false,
+      "name": null,
+      "title": null,
+      "creature": null,
+      "region": null,
+      "bio": null,
+      "glyph": null,
+      "color": null,
+      "accentColor": null,
+      "skill": null,
+      "passive": null,
+      "voice": null
+    }
+  ],
+  "banners": [
+    {
+      "id": "standard",
+      "type": "standard",
+      "title": null,
+      "subtitle": null,
+      "featured": [],
+      "pityGroup": "standard",
+      "startUtc": "",
+      "endUtc": "",
+      "color": null,
+      "sortOrder": 0
+    },
+    {
+      "id": "limited_son_lam",
+      "type": "limited",
+      "title": null,
+      "subtitle": null,
+      "featured": [
+        "son_lam",
+        "lan_nhi",
+        "nghe_bao"
+      ],
+      "pityGroup": "limited",
+      "startUtc": "",
+      "endUtc": "",
+      "color": null,
+      "sortOrder": 0
+    },
+    {
+      "id": "limited_thuy_ha",
+      "type": "limited",
+      "title": null,
+      "subtitle": null,
+      "featured": [
+        "thuy_ha",
+        "bach_hac",
+        "ly_ngu"
+      ],
+      "pityGroup": "limited",
+      "startUtc": "",
+      "endUtc": "",
+      "color": null,
+      "sortOrder": 0
+    }
+  ],
+  "cases": [
+    {
+      "bannerId": "standard",
+      "seed": 1,
+      "pulls": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        10,
+        10,
+        10
+      ],
+      "expected": [
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bach_hac",
+          "rarity": 2,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "quy_lam",
+          "rarity": 3,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "ly_ngu",
+          "rarity": 2,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bach_hac",
+          "rarity": 2,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "giong_thiet",
+          "rarity": 2,
+          "featured": false
+        },
+        {
+          "navigatorId": "bach_hac",
+          "rarity": 2,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "thanh_van",
+          "rarity": 3,
+          "featured": false
+        },
+        {
+          "navigatorId": "lac_hong_anh",
+          "rarity": 3,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "quy_lam",
+          "rarity": 3,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "quy_lam",
+          "rarity": 3,
+          "featured": false
+        },
+        {
+          "navigatorId": "thanh_van",
+          "rarity": 3,
+          "featured": false
+        },
+        {
+          "navigatorId": "nghe_bao",
+          "rarity": 2,
+          "featured": false
+        },
+        {
+          "navigatorId": "ly_ngu",
+          "rarity": 2,
+          "featured": false
+        },
+        {
+          "navigatorId": "lan_nhi",
+          "rarity": 2,
+          "featured": false
+        },
+        {
+          "navigatorId": "nguyet_nga",
+          "rarity": 3,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "nghe_bao",
+          "rarity": 2,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "lua_troi",
+          "rarity": 2,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "quy_lam",
+          "rarity": 3,
+          "featured": false
+        }
+      ],
+      "finalState": {
+        "pity": [
+          {
+            "group": "standard",
+            "pullsSinceThien": 0,
+            "featuredGuaranteed": false
+          }
+        ],
+        "spark": []
+      }
+    },
+    {
+      "bannerId": "limited_son_lam",
+      "seed": 42,
+      "pulls": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "expected": [
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bach_hac",
+          "rarity": 2,
+          "featured": false
+        },
+        {
+          "navigatorId": "son_lam",
+          "rarity": 3,
+          "featured": true
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "nghe_bao",
+          "rarity": 2,
+          "featured": true
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "lan_nhi",
+          "rarity": 2,
+          "featured": true
+        },
+        {
+          "navigatorId": "lan_nhi",
+          "rarity": 2,
+          "featured": true
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "lan_nhi",
+          "rarity": 2,
+          "featured": true
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "lan_nhi",
+          "rarity": 2,
+          "featured": true
+        },
+        {
+          "navigatorId": "lac_hong_anh",
+          "rarity": 3,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "nghe_bao",
+          "rarity": 2,
+          "featured": true
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "giong_thiet",
+          "rarity": 2,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "ly_ngu",
+          "rarity": 2,
+          "featured": false
+        },
+        {
+          "navigatorId": "nghe_bao",
+          "rarity": 2,
+          "featured": true
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "lan_nhi",
+          "rarity": 2,
+          "featured": true
+        },
+        {
+          "navigatorId": "ly_ngu",
+          "rarity": 2,
+          "featured": false
+        },
+        {
+          "navigatorId": "son_lam",
+          "rarity": 3,
+          "featured": true
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "lan_nhi",
+          "rarity": 2,
+          "featured": true
+        },
+        {
+          "navigatorId": "son_lam",
+          "rarity": 3,
+          "featured": true
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "son_lam",
+          "rarity": 3,
+          "featured": true
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "lan_nhi",
+          "rarity": 2,
+          "featured": true
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "nghe_bao",
+          "rarity": 2,
+          "featured": true
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "ly_ngu",
+          "rarity": 2,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "lac_hong_anh",
+          "rarity": 3,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "nghe_bao",
+          "rarity": 2,
+          "featured": true
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "son_lam",
+          "rarity": 3,
+          "featured": true
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "thanh_van",
+          "rarity": 3,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "nghe_bao",
+          "rarity": 2,
+          "featured": true
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "lua_troi",
+          "rarity": 2,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "son_lam",
+          "rarity": 3,
+          "featured": true
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "ly_ngu",
+          "rarity": 2,
+          "featured": false
+        },
+        {
+          "navigatorId": "nghe_bao",
+          "rarity": 2,
+          "featured": true
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "son_lam",
+          "rarity": 3,
+          "featured": true
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        }
+      ],
+      "finalState": {
+        "pity": [
+          {
+            "group": "limited",
+            "pullsSinceThien": 1,
+            "featuredGuaranteed": false
+          }
+        ],
+        "spark": [
+          {
+            "bannerId": "limited_son_lam",
+            "points": 95
+          }
+        ]
+      }
+    },
+    {
+      "bannerId": "limited_thuy_ha",
+      "seed": 2026,
+      "pulls": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "expected": [
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "lua_troi",
+          "rarity": 2,
+          "featured": false
+        },
+        {
+          "navigatorId": "thuy_ha",
+          "rarity": 3,
+          "featured": true
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "ly_ngu",
+          "rarity": 2,
+          "featured": true
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bach_hac",
+          "rarity": 2,
+          "featured": true
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "thuy_ha",
+          "rarity": 3,
+          "featured": true
+        },
+        {
+          "navigatorId": "nghe_bao",
+          "rarity": 2,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "ly_ngu",
+          "rarity": 2,
+          "featured": true
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "giong_thiet",
+          "rarity": 2,
+          "featured": false
+        },
+        {
+          "navigatorId": "lan_nhi",
+          "rarity": 2,
+          "featured": false
+        },
+        {
+          "navigatorId": "nghe_bao",
+          "rarity": 2,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "giong_thiet",
+          "rarity": 2,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "thuy_ha",
+          "rarity": 3,
+          "featured": true
+        },
+        {
+          "navigatorId": "lua_troi",
+          "rarity": 2,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "ly_ngu",
+          "rarity": 2,
+          "featured": true
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "thuy_ha",
+          "rarity": 3,
+          "featured": true
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        }
+      ],
+      "finalState": {
+        "pity": [
+          {
+            "group": "limited",
+            "pullsSinceThien": 1,
+            "featuredGuaranteed": false
+          }
+        ],
+        "spark": [
+          {
+            "bannerId": "limited_thuy_ha",
+            "points": 60
+          }
+        ]
+      }
+    },
+    {
+      "bannerId": "standard",
+      "seed": 777,
+      "pulls": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "expected": [
+        {
+          "navigatorId": "lua_troi",
+          "rarity": 2,
+          "featured": false
+        },
+        {
+          "navigatorId": "lan_nhi",
+          "rarity": 2,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bach_hac",
+          "rarity": 2,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "lac_hong_anh",
+          "rarity": 3,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "nguyet_nga",
+          "rarity": 3,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "giong_thiet",
+          "rarity": 2,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "lan_nhi",
+          "rarity": 2,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "giong_thiet",
+          "rarity": 2,
+          "featured": false
+        },
+        {
+          "navigatorId": "quy_lam",
+          "rarity": 3,
+          "featured": false
+        },
+        {
+          "navigatorId": "nghe_bao",
+          "rarity": 2,
+          "featured": false
+        },
+        {
+          "navigatorId": "lua_troi",
+          "rarity": 2,
+          "featured": false
+        },
+        {
+          "navigatorId": "ly_ngu",
+          "rarity": 2,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "nghe_bao",
+          "rarity": 2,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "lua_troi",
+          "rarity": 2,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "giong_thiet",
+          "rarity": 2,
+          "featured": false
+        },
+        {
+          "navigatorId": "quy_lam",
+          "rarity": 3,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "quy_lam",
+          "rarity": 3,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        }
+      ],
+      "finalState": {
+        "pity": [
+          {
+            "group": "standard",
+            "pullsSinceThien": 1,
+            "featuredGuaranteed": false
+          }
+        ],
+        "spark": []
+      }
+    },
+    {
+      "bannerId": "limited_son_lam",
+      "seed": 4294967295,
+      "pulls": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "expected": [
+        {
+          "navigatorId": "nghe_bao",
+          "rarity": 2,
+          "featured": true
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "lua_troi",
+          "rarity": 2,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "lua_troi",
+          "rarity": 2,
+          "featured": false
+        },
+        {
+          "navigatorId": "son_lam",
+          "rarity": 3,
+          "featured": true
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "quy_lam",
+          "rarity": 3,
+          "featured": false
+        },
+        {
+          "navigatorId": "bach_hac",
+          "rarity": 2,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "lan_nhi",
+          "rarity": 2,
+          "featured": true
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bach_hac",
+          "rarity": 2,
+          "featured": false
+        },
+        {
+          "navigatorId": "son_lam",
+          "rarity": 3,
+          "featured": true
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "ly_ngu",
+          "rarity": 2,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "thanh_van",
+          "rarity": 3,
+          "featured": false
+        },
+        {
+          "navigatorId": "son_lam",
+          "rarity": 3,
+          "featured": true
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "son_lam",
+          "rarity": 3,
+          "featured": true
+        },
+        {
+          "navigatorId": "nghe_bao",
+          "rarity": 2,
+          "featured": true
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bach_hac",
+          "rarity": 2,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "bom",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "lan_nhi",
+          "rarity": 2,
+          "featured": true
+        },
+        {
+          "navigatorId": "vang_anh",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        },
+        {
+          "navigatorId": "cuoi",
+          "rarity": 1,
+          "featured": false
+        }
+      ],
+      "finalState": {
+        "pity": [
+          {
+            "group": "limited",
+            "pullsSinceThien": 11,
+            "featuredGuaranteed": false
+          }
+        ],
+        "spark": [
+          {
+            "bannerId": "limited_son_lam",
+            "points": 60
+          }
+        ]
+      }
+    }
+  ]
+}

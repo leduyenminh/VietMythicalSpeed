@@ -1,0 +1,19 @@
+{
+  "startingJade": 3000,
+  "startingCoins": 5000,
+  "startingTickets": 10,
+  "starterNavigator": "vang_anh",
+  "dailyLoginJade": 120,
+  "streakBonusEvery": 7,
+  "streakBonusTickets": 3,
+  "race": {
+    "coinsPerScore": 0.02,
+    "minCoins": 50,
+    "maxCoinsPerRace": 3000,
+    "dailyCoinCap": 30000,
+    "jadePerRace": 30,
+    "jadeRacesPerDay": 5,
+    "minDurationSec": 30
+  },
+  "bond": { "levelExp": [0, 100, 250, 450, 700, 1000, 1400, 1900, 2500, 3200], "baseExp": 15, "accuracyExp": 25 }
+}

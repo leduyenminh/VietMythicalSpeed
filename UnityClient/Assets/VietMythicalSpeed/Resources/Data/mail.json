@@ -1,0 +1,54 @@
+{
+  "templates": [
+    {
+      "id": "welcome",
+      "expiresDays": 30,
+      "title": {
+        "vi": "Chào mừng Sứ Giả!",
+        "en": "Welcome, Envoy!",
+        "zh": "欢迎你，速使！",
+        "ja": "ようこそ、速使！",
+        "ko": "환영해요, Tốc Sứ!",
+        "es": "¡Bienvenido, Tốc Sứ!",
+        "de": "Willkommen, Tốc Sứ!",
+        "fi": "Tervetuloa, Tốc Sứ!"
+      },
+      "body": {
+        "vi": "Chào mừng bạn đến xứ Văn Lạc! Các Hoa Tiêu gửi bạn chút quà để bắt đầu hành trình. Chúc bạn những chặng đua thật bốc lửa!",
+        "en": "Welcome to Van Lac! The Navigators sent a few gifts to start your journey. May your races burn bright!",
+        "zh": "欢迎来到 Vạn Lạc！Hoa Tiêu 们为你的旅程准备了一些礼物。愿你的每一场比赛都光芒万丈！",
+        "ja": "Vạn Lạc へようこそ！Hoa Tiêu たちから旅立ちの贈り物が届いています。あなたのレースが輝きますように！",
+        "ko": "Vạn Lạc에 온 걸 환영해요! Hoa Tiêu들이 여정의 시작을 위한 선물을 보냈어요. 당신의 레이스가 눈부시게 빛나길!",
+        "es": "¡Bienvenido a Vạn Lạc! Los Hoa Tiêu te envían unos regalos para empezar tu viaje. ¡Que tus carreras brillen con fuerza!",
+        "de": "Willkommen in Vạn Lạc! Die Hoa Tiêu schicken dir ein paar Geschenke für den Start deiner Reise. Mögen deine Rennen hell leuchten!",
+        "fi": "Tervetuloa Vạn Lạciin! Hoa Tiêut lähettivät sinulle muutaman lahjan matkasi alkuun. Loistakoot kisasi kirkkaina!"
+      },
+      "attachments": [{ "type": "jade", "amount": 300 }, { "type": "item", "itemId": "frame_welcome" }]
+    },
+    {
+      "id": "purchase_revoked",
+      "expiresDays": 30,
+      "title": {
+        "vi": "Giao dịch đã bị hoàn tiền",
+        "en": "A purchase was refunded",
+        "zh": "一笔购买已退款",
+        "ja": "購入が返金されました",
+        "ko": "구매가 환불되었습니다",
+        "es": "Se reembolsó una compra",
+        "de": "Ein Kauf wurde erstattet",
+        "fi": "Osto hyvitettiin"
+      },
+      "body": {
+        "vi": "Một giao dịch mua Nén Vàng đã được cửa hàng hoàn tiền, nên số Nén Vàng tương ứng đã được thu hồi. Nếu bạn đã tiêu số Nén Vàng đó, số dư sẽ âm cho đến khi được bù lại. Nếu có nhầm lẫn, hãy liên hệ bộ phận hỗ trợ.",
+        "en": "A Gold Ingot purchase was refunded by the store, so those ingots were removed from your account. If they were already spent, your balance stays below zero until new ingots cover it. If this looks wrong, please contact support.",
+        "zh": "商店已为一笔 Nén Vàng 购买办理退款，因此对应的 Nén Vàng 已从你的账号中扣除。如果它们已被花掉，你的余额会保持为负数，直到新的 Nén Vàng 补足。如有疑问，请联系客服。",
+        "ja": "Nén Vàng の購入がストアで返金されたため、その分の Nén Vàng をアカウントから差し引きました。すでに使っていた場合、新しい Nén Vàng で埋め合わされるまで残高はマイナスのままになります。お心当たりがない場合はサポートまでご連絡ください。",
+        "ko": "스토어에서 Nén Vàng 구매가 환불되어 해당 Nén Vàng을 계정에서 회수했습니다. 이미 사용했다면 새 Nén Vàng으로 채워질 때까지 잔액이 마이너스로 유지됩니다. 문제가 있다고 생각되면 고객 지원에 문의해 주세요.",
+        "es": "La tienda reembolsó una compra de Nén Vàng, así que esos Nén Vàng se han retirado de tu cuenta. Si ya los habías gastado, tu saldo quedará en negativo hasta que nuevos Nén Vàng lo cubran. Si crees que es un error, contacta con soporte.",
+        "de": "Ein Kauf von Nén Vàng wurde vom Store erstattet, daher wurden diese Nén Vàng von deinem Konto abgezogen. Falls du sie schon ausgegeben hast, bleibt dein Kontostand im Minus, bis neue Nén Vàng ihn ausgleichen. Wenn das nicht stimmt, wende dich bitte an den Support.",
+        "fi": "Kauppa hyvitti Nén Vàng -oston, joten kyseiset Nén Vàng poistettiin tililtäsi. Jos olit jo käyttänyt ne, saldosi pysyy miinuksella, kunnes uudet Nén Vàng kattavat sen. Jos tämä vaikuttaa virheeltä, ota yhteyttä tukeen."
+      },
+      "attachments": []
+    }
+  ]
+}

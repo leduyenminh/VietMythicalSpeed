@@ -1,0 +1,12 @@
+<!--
+  Managed code stripping (IL2CPP, level Medium) cannot see JsonUtility's reflection-based access, so the
+  serialisable data types are preserved explicitly.
+-->
+<linker>
+  <assembly fullname="VMS.Core" preserve="all" />
+  <assembly fullname="Assembly-CSharp">
+    <namespace fullname="VMS.Backend" preserve="all" />
+    <namespace fullname="VMS.Songs" preserve="all" />
+    <type fullname="VMS.BackendConfig" preserve="all" />
+  </assembly>
+</linker>

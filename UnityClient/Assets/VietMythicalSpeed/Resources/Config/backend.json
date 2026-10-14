@@ -1,0 +1,6 @@
+{
+  "mode": "offline",
+  "baseUrl": "http://10.0.2.2:8787",
+  "deepLinkScheme": "vietmythicalspeed",
+  "cloudSaveUrl": ""
+}

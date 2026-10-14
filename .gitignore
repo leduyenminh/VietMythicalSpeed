@@ -1,0 +1,32 @@
+# Unity – generated folders (never commit, and keep them out of cloud sync)
+UnityClient/[Ll]ibrary/
+UnityClient/[Tt]emp/
+UnityClient/[Oo]bj/
+UnityClient/[Bb]uild/
+UnityClient/[Bb]uilds/
+UnityClient/[Ll]ogs/
+UnityClient/[Uu]ser[Ss]ettings/
+UnityClient/MemoryCaptures/
+UnityClient/*.csproj
+UnityClient/*.sln
+UnityClient/*.slnx
+UnityClient/.vs/
+UnityClient/.idea/
+UnityClient/.vscode/
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# Server
+server/node_modules/
+server/data/
+server/.env
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

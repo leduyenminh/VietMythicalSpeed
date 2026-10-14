@@ -1,0 +1,124 @@
+{
+  "banners": [
+    {
+      "id": "standard",
+      "type": "standard",
+      "title": {
+        "vi": "Đền Hoa Tiêu",
+        "en": "Navigator Shrine",
+        "zh": "Hoa Tiêu 神殿",
+        "ja": "Hoa Tiêu の社",
+        "ko": "Hoa Tiêu의 사당",
+        "es": "Santuario de los Hoa Tiêu",
+        "de": "Hoa-Tiêu-Schrein",
+        "fi": "Hoa Tiêu -pyhäkkö"
+      },
+      "subtitle": {
+        "vi": "Xin xăm thường trực – mọi hoa tiêu không giới hạn.",
+        "en": "Permanent draw – every non-limited navigator.",
+        "zh": "常驻求签——所有非限定 Hoa Tiêu。",
+        "ja": "常設のおみくじ――限定以外のすべての Hoa Tiêu。",
+        "ko": "상시 뽑기――한정이 아닌 모든 Hoa Tiêu.",
+        "es": "Tirada permanente: todos los Hoa Tiêu no limitados.",
+        "de": "Dauerhafte Ziehung – alle nicht limitierten Hoa Tiêu.",
+        "fi": "Pysyvä nosto – kaikki rajoittamattomat Hoa Tiêut."
+      },
+      "featured": [],
+      "pityGroup": "standard",
+      "startUtc": "",
+      "endUtc": "",
+      "color": "#2E9BFF",
+      "sortOrder": 10
+    },
+    {
+      "id": "limited_son_lam",
+      "type": "limited",
+      "title": {
+        "vi": "Sơn Hà Tranh Hùng: Sơn Lâm",
+        "en": "Clash of Peaks and Rivers: Son Lam",
+        "zh": "山河争雄：Sơn Lâm",
+        "ja": "山河争覇：Sơn Lâm",
+        "ko": "산하쟁웅: Sơn Lâm",
+        "es": "Duelo de Cumbres y Ríos: Sơn Lâm",
+        "de": "Duell der Gipfel und Flüsse: Sơn Lâm",
+        "fi": "Huippujen ja jokien kaksintaistelu: Sơn Lâm"
+      },
+      "subtitle": {
+        "vi": "Tăng tỉ lệ Sơn Lâm ★3, Lân Nhi và Nghê Bảo ★2.",
+        "en": "Rate-up: Son Lam ★3, Lan Nhi and Nghe Bao ★2.",
+        "zh": "概率提升：Sơn Lâm ★3，Lân Nhi 与 Nghê Bảo ★2。",
+        "ja": "出現率アップ：Sơn Lâm ★3、Lân Nhi と Nghê Bảo ★2。",
+        "ko": "확률 업: Sơn Lâm ★3, Lân Nhi와 Nghê Bảo ★2.",
+        "es": "Probabilidad aumentada: Sơn Lâm ★3, Lân Nhi y Nghê Bảo ★2.",
+        "de": "Erhöhte Chance: Sơn Lâm ★3, Lân Nhi und Nghê Bảo ★2.",
+        "fi": "Korotettu todennäköisyys: Sơn Lâm ★3, Lân Nhi ja Nghê Bảo ★2."
+      },
+      "featured": ["son_lam", "lan_nhi", "nghe_bao"],
+      "pityGroup": "limited",
+      "startUtc": "2026-10-01T00:00:00Z",
+      "endUtc": "2027-03-31T00:00:00Z",
+      "color": "#5BB85B",
+      "sortOrder": 1
+    },
+    {
+      "id": "limited_thuy_ha",
+      "type": "limited",
+      "title": {
+        "vi": "Sơn Hà Tranh Hùng: Thủy Hà",
+        "en": "Clash of Peaks and Rivers: Thuy Ha",
+        "zh": "山河争雄：Thủy Hà",
+        "ja": "山河争覇：Thủy Hà",
+        "ko": "산하쟁웅: Thủy Hà",
+        "es": "Duelo de Cumbres y Ríos: Thủy Hà",
+        "de": "Duell der Gipfel und Flüsse: Thủy Hà",
+        "fi": "Huippujen ja jokien kaksintaistelu: Thủy Hà"
+      },
+      "subtitle": {
+        "vi": "Tăng tỉ lệ Thủy Hà ★3, Bạch Hạc Linh và Lý Ngư ★2.",
+        "en": "Rate-up: Thuy Ha ★3, Bach Hac Linh and Ly Ngu ★2.",
+        "zh": "概率提升：Thủy Hà ★3，Bạch Hạc Linh 与 Lý Ngư ★2。",
+        "ja": "出現率アップ：Thủy Hà ★3、Bạch Hạc Linh と Lý Ngư ★2。",
+        "ko": "확률 업: Thủy Hà ★3, Bạch Hạc Linh과 Lý Ngư ★2.",
+        "es": "Probabilidad aumentada: Thủy Hà ★3, Bạch Hạc Linh y Lý Ngư ★2.",
+        "de": "Erhöhte Chance: Thủy Hà ★3, Bạch Hạc Linh und Lý Ngư ★2.",
+        "fi": "Korotettu todennäköisyys: Thủy Hà ★3, Bạch Hạc Linh ja Lý Ngư ★2."
+      },
+      "featured": ["thuy_ha", "bach_hac", "ly_ngu"],
+      "pityGroup": "limited",
+      "startUtc": "2026-10-01T00:00:00Z",
+      "endUtc": "2027-03-31T00:00:00Z",
+      "color": "#3A7BFF",
+      "sortOrder": 2
+    },
+    {
+      "id": "limited_aava",
+      "type": "limited",
+      "title": {
+        "vi": "Ngũ Quan Khai Môn: Aava",
+        "en": "The Five Gates Open: Aava",
+        "zh": "五关开启：阿娃",
+        "ja": "五関開門：アーヴァ",
+        "ko": "오관 개문: 아바",
+        "es": "Se Abren las Cinco Puertas: Aava",
+        "de": "Die Fünf Tore öffnen sich: Aava",
+        "fi": "Viisi porttia aukeaa: Aava"
+      },
+      "subtitle": {
+        "vi": "Tăng tỉ lệ Aava ★3, Kurobane Tsuzumi và Liesel Silberklang ★2.",
+        "en": "Rate-up: Aava ★3, Kurobane Tsuzumi and Liesel Silberklang ★2.",
+        "zh": "概率提升：阿娃 ★3，黑羽鼓与莉泽尔·银音 ★2。",
+        "ja": "出現率アップ：アーヴァ ★3、黒羽ツヅミとリーゼル・ジルバークラング ★2。",
+        "ko": "확률 업: 아바 ★3, 쿠로바네 츠즈미와 리젤 질버클랑 ★2.",
+        "es": "Probabilidad aumentada: Aava ★3, Kurobane Tsuzumi y Liesel Silberklang ★2.",
+        "de": "Erhöhte Chance: Aava ★3, Kurobane Tsuzumi und Liesel Silberklang ★2.",
+        "fi": "Korotettu todennäköisyys: Aava ★3, Kurobane Tsuzumi ja Liesel Silberklang ★2."
+      },
+      "featured": ["aava", "tsuzumi", "liesel"],
+      "pityGroup": "limited",
+      "startUtc": "2026-10-13T00:00:00Z",
+      "endUtc": "2027-01-15T00:00:00Z",
+      "color": "#36C98E",
+      "sortOrder": 0
+    }
+  ]
+}

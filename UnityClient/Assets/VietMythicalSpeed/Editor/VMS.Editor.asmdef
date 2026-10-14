@@ -1,0 +1,26 @@
+{
+    "name": "VMS.Editor",
+    "rootNamespace": "VMS.EditorTools",
+    "references": [
+        "VMS.Core",
+        "Unity.RenderPipelines.Universal.Runtime",
+        "Unity.RenderPipelines.Core.Runtime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.render-pipelines.universal",
+            "expression": "",
+            "define": "VMS_URP_PACKAGE"
+        }
+    ],
+    "noEngineReferences": false
+}

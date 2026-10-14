@@ -1,0 +1,180 @@
+{
+  "claimGraceDays": 3,
+  "events": [
+    {
+      "id": "grand_opening",
+      "type": "login",
+      "startUtc": "2026-10-01T00:00:00Z",
+      "endUtc": "2027-01-01T00:00:00Z",
+      "color": "#E2463C",
+      "sortOrder": 10,
+      "title": {
+        "vi": "Lễ Khai Hội",
+        "en": "Grand Opening",
+        "zh": "盛大开幕",
+        "ja": "グランドオープン",
+        "ko": "그랜드 오픈",
+        "es": "Gran inauguración",
+        "de": "Große Eröffnung",
+        "fi": "Suuret avajaiset"
+      },
+      "desc": {
+        "vi": "Đăng nhập 7 ngày khác nhau trong thời gian lễ hội để nhận quà mỗi ngày.",
+        "en": "Log in on 7 different days during the festival for a gift each day.",
+        "zh": "活动期间累计登录 7 天，每天都能领一份礼物。",
+        "ja": "開催期間中に7日ログインすると、毎日プレゼントがもらえる。",
+        "ko": "축제 기간 동안 7일 로그인하면 매일 선물을 받을 수 있다.",
+        "es": "Conéctate 7 días distintos durante el festival y recibe un regalo cada día.",
+        "de": "Melde dich während des Festes an 7 verschiedenen Tagen an und erhalte jeden Tag ein Geschenk.",
+        "fi": "Kirjaudu juhlan aikana sisään 7 eri päivänä ja saat joka päivä lahjan."
+      },
+      "milestones": [
+        { "target": 1, "rewards": [{ "type": "jade", "amount": 120 }] },
+        { "target": 2, "rewards": [{ "type": "coins", "amount": 5000 }] },
+        { "target": 3, "rewards": [{ "type": "tickets", "amount": 2 }] },
+        { "target": 4, "rewards": [{ "type": "jade", "amount": 120 }] },
+        { "target": 5, "rewards": [{ "type": "item", "itemId": "emo_wink" }] },
+        { "target": 6, "rewards": [{ "type": "coins", "amount": 10000 }] },
+        { "target": 7, "rewards": [{ "type": "gold", "amount": 60 }, { "type": "tickets", "amount": 3 }] }
+      ]
+    },
+    {
+      "id": "spirit_road",
+      "type": "races",
+      "startUtc": "2026-10-01T00:00:00Z",
+      "endUtc": "2026-12-01T00:00:00Z",
+      "color": "#2E9BFF",
+      "sortOrder": 20,
+      "title": {
+        "vi": "Linh Lộ Đại Hội",
+        "en": "Spirit Road Festival",
+        "zh": "灵路大会",
+        "ja": "霊路大会",
+        "ko": "영혼의 길 대회",
+        "es": "Festival del Camino Espiritual",
+        "de": "Fest der Geisterstraße",
+        "fi": "Henkitien juhla"
+      },
+      "desc": {
+        "vi": "Hoàn thành các chặng đua (trừ chế độ Thiền) để mở quà.",
+        "en": "Finish races (any mode but Zen) to unlock rewards.",
+        "zh": "完成比赛（禅模式除外）解锁奖励。",
+        "ja": "レースを完走して（ゼンモード以外）報酬を解放しよう。",
+        "ko": "레이스를 완주해 (젠 모드 제외) 보상을 열어 보자.",
+        "es": "Completa carreras (en cualquier modo salvo Zen) para desbloquear recompensas.",
+        "de": "Beende Rennen (in jedem Modus außer Zen), um Belohnungen freizuschalten.",
+        "fi": "Suorita kisoja (missä tahansa tilassa paitsi Zen) avataksesi palkintoja."
+      },
+      "milestones": [
+        { "target": 3, "rewards": [{ "type": "coins", "amount": 3000 }] },
+        { "target": 10, "rewards": [{ "type": "jade", "amount": 300 }] },
+        { "target": 25, "rewards": [{ "type": "item", "itemId": "exhaust_firefly" }] },
+        { "target": 50, "rewards": [{ "type": "tickets", "amount": 5 }] }
+      ]
+    },
+    {
+      "id": "score_rush",
+      "type": "score",
+      "startUtc": "2026-10-10T00:00:00Z",
+      "endUtc": "2026-11-01T00:00:00Z",
+      "color": "#8E44AD",
+      "sortOrder": 30,
+      "title": {
+        "vi": "Thử Thách Điểm Số",
+        "en": "Score Rush",
+        "zh": "分数冲刺",
+        "ja": "スコアラッシュ",
+        "ko": "스코어 러시",
+        "es": "Fiebre de puntos",
+        "de": "Punkte-Rausch",
+        "fi": "Pisteryntäys"
+      },
+      "desc": {
+        "vi": "Cộng dồn điểm các chặng đua trong thời gian sự kiện.",
+        "en": "Add up your race scores during the event.",
+        "zh": "累计活动期间的比赛分数。",
+        "ja": "開催期間中のレースのスコアを合計しよう。",
+        "ko": "이벤트 기간 동안의 레이스 점수를 합산한다.",
+        "es": "Suma la puntuación de tus carreras durante el evento.",
+        "de": "Sammle während des Events die Punkte deiner Rennen.",
+        "fi": "Laske yhteen kisojesi pisteet tapahtuman aikana."
+      },
+      "milestones": [
+        { "target": 200000, "rewards": [{ "type": "jade", "amount": 150 }] },
+        { "target": 1000000, "rewards": [{ "type": "tickets", "amount": 2 }] },
+        { "target": 3000000, "rewards": [{ "type": "gold", "amount": 100 }] }
+      ]
+    },
+    {
+      "id": "tet_2027",
+      "type": "login",
+      "startUtc": "2027-01-30T00:00:00Z",
+      "endUtc": "2027-02-21T00:00:00Z",
+      "color": "#D4A017",
+      "sortOrder": 5,
+      "title": {
+        "vi": "Tết Đinh Mùi 2027",
+        "en": "Lunar New Year 2027",
+        "zh": "2027 农历新年",
+        "ja": "2027年 旧正月",
+        "ko": "2027 설날",
+        "es": "Año Nuevo Lunar 2027",
+        "de": "Mondneujahr 2027",
+        "fi": "Kuukalenterin uusivuosi 2027"
+      },
+      "desc": {
+        "vi": "Lì xì đầu năm: đăng nhập 7 ngày để nhận quà Tết.",
+        "en": "Lucky money: log in on 7 days for New Year gifts.",
+        "zh": "压岁钱：登录 7 天领取新年礼物。",
+        "ja": "お年玉：7日ログインで新年のプレゼント。",
+        "ko": "세뱃돈: 7일 로그인하고 새해 선물을 받자.",
+        "es": "Dinero de la suerte: conéctate 7 días para recibir regalos de Año Nuevo.",
+        "de": "Glücksgeld: Melde dich an 7 Tagen an und erhalte Neujahrsgeschenke.",
+        "fi": "Onnenrahaa: kirjaudu sisään 7 päivänä ja saat uudenvuoden lahjoja."
+      },
+      "milestones": [
+        { "target": 1, "rewards": [{ "type": "gold", "amount": 30 }] },
+        { "target": 2, "rewards": [{ "type": "jade", "amount": 200 }] },
+        { "target": 3, "rewards": [{ "type": "coins", "amount": 8800 }] },
+        { "target": 4, "rewards": [{ "type": "tickets", "amount": 2 }] },
+        { "target": 5, "rewards": [{ "type": "jade", "amount": 200 }] },
+        { "target": 6, "rewards": [{ "type": "coins", "amount": 8800 }] },
+        { "target": 7, "rewards": [{ "type": "tickets", "amount": 5 }, { "type": "gold", "amount": 88 }] }
+      ]
+    },
+    {
+      "id": "five_gates",
+      "type": "races",
+      "startUtc": "2026-10-13T00:00:00Z",
+      "endUtc": "2026-12-15T00:00:00Z",
+      "color": "#36C98E",
+      "sortOrder": 5,
+      "title": {
+        "vi": "Lễ Hội Ngũ Quan",
+        "en": "Five Gates Festival",
+        "zh": "五关庆典",
+        "ja": "五関祭",
+        "ko": "오관 축제",
+        "es": "Festival de las Cinco Puertas",
+        "de": "Fest der Fünf Tore",
+        "fi": "Viiden portin juhla"
+      },
+      "desc": {
+        "vi": "Ngũ Quan đã mở! Đua bất kỳ chặng nào (trừ chế độ Thiền) để nhận quà từ năm phương.",
+        "en": "The Five Gates are open! Finish races (any mode but Zen) for gifts from all five realms.",
+        "zh": "五关已开！完成比赛（禅模式除外），领取来自五方国度的礼物。",
+        "ja": "五関が開いた！レースを完走して（ゼンモード以外）、五つの国からの贈り物を受け取ろう。",
+        "ko": "오관이 열렸다! 레이스를 완주하고 (젠 모드 제외) 다섯 나라의 선물을 받아 보자.",
+        "es": "¡Las Cinco Puertas están abiertas! Completa carreras (en cualquier modo salvo Zen) y recibe regalos de los cinco reinos.",
+        "de": "Die Fünf Tore sind offen! Beende Rennen (in jedem Modus außer Zen) für Geschenke aus allen fünf Reichen.",
+        "fi": "Viisi porttia on auki! Suorita kisoja (missä tahansa tilassa paitsi Zen) ja saat lahjoja kaikista viidestä valtakunnasta."
+      },
+      "milestones": [
+        { "target": 5, "rewards": [{ "type": "jade", "amount": 150 }] },
+        { "target": 15, "rewards": [{ "type": "tickets", "amount": 3 }] },
+        { "target": 30, "rewards": [{ "type": "item", "itemId": "frame_five_gates" }] },
+        { "target": 60, "rewards": [{ "type": "gold", "amount": 100 }] }
+      ]
+    }
+  ]
+}
